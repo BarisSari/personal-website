@@ -35,11 +35,11 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
-.h1 {
+<style scoped>
+h1 {
   font-size: 3rem;
 }
-.h2 {
+h2 {
   font-style: italic;
   font-weight: lighter;
 }
