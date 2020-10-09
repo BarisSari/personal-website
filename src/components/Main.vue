@@ -22,12 +22,12 @@ export default {
   data() {
     return {
       publicPath: process.env.BASE_URL,
-      upwork: require('../assets/upwork.svg'),
-      github: require('../assets/github.svg'),
-      linkedin: require('../assets/linkedin.svg'),
-      stackoverflow: require('../assets/stackoverflow.svg'),
-      gmail: require('../assets/gmail.svg'),
-      cv: require('../assets/cv.svg'),
+      upwork: require('@/assets/upwork.svg'),
+      github: require('@/assets/github.svg'),
+      linkedin: require('@/assets/linkedin.svg'),
+      stackoverflow: require('@/assets/stackoverflow.svg'),
+      gmail: require('@/assets/gmail.svg'),
+      cv: require('@/assets/cv.svg'),
     };
   },
   methods: {},
