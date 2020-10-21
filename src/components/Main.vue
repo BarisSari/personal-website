@@ -1,6 +1,13 @@
 <template>
   <div id="app">
     <div class="center">
+      <v-avatar>
+        <img
+            src="@/assets/profile.jpg"
+            alt="John"
+            height="250"
+        >
+      </v-avatar>
       <h1>Barış Sarı</h1>
       <h2>Freelance Backend Developer/Data Scientist at Upwork.<br>I speak Python, ML/DL, SQL, Docker, JS.</h2>
       <a :href="`${publicPath}BarisSari-CV.pdf`" target="_blank"><img :src="cv" alt="cv" height="56.7"
@@ -42,5 +49,8 @@ h1 {
 h2 {
   font-style: italic;
   font-weight: lighter;
+}
+img {
+  border-radius: 50%;
 }
 </style>
