@@ -3,7 +3,7 @@
     <div class="center">
       <v-avatar>
         <img
-            src="@/assets/profile.jpg"
+            src="@/assets/profile.png"
             alt="John"
             height="250"
         >
