@@ -1,17 +1,9 @@
 const { join } = require('path')
 
 module.exports = {
-  chainWebpack: config => {
-    config.module
-        .rule('vue')
-        .use('vue-svg-inline-loader')
-        .loader('vue-svg-inline-loader') // in your project
-        // .loader(join('./src/main.js'))
-        // .options({ /* ... */ })
-  },
   siteName: 'barissari.com',
   siteDescription: 'Personal website of a freelance Python Developer, who loves travelling and movies a lot!',
-  siteUrl: 'localhost:8080',
+  siteUrl: 'barissari.com',
   templates: {
     ErasmusPost: '/blog/erasmus/:title',
     Post: '/blog/:title',
