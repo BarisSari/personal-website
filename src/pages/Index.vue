@@ -2,7 +2,6 @@
   <Layout :show-logo="false">
     <!-- Author intro -->
     <Author :show-title="true" />
-    <g-link to="/erasmus-blog/">Erasmus Blog</g-link>/R
   </Layout>
 </template>
 
