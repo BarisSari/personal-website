@@ -2,9 +2,9 @@
 title: Italy II - Cinque Terre, Como, Milano
 date: 2020-12-14
 published: true
-tags: ['Italy', 'Traveling', 'Trip', 'Erasmus']
-series: false
-cover_image: ./images/alexandr-podvalny-220262-unsplash.jpg
+tags: ['Italy', 'Traveling', 'Erasmus', 'Trip']
+series: true
+cover_image: ../images/cinque-terre-front.jpg
 canonical_url: false
 description: "The trip in March 2017."
 ---

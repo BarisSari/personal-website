@@ -1,10 +1,10 @@
 ---
 title: Iceland Trip
-date: 2020-12-13
+date: 2020-12-14
 published: true
-tags: ['Iceland', 'Traveling', 'Trip', 'Erasmus']
+tags: ['Iceland', 'Traveling', 'Erasmus', 'Trip']
 series: false
-cover_image: ./images/alexandr-podvalny-220262-unsplash.jpg
+cover_image: ../images/iceland-front.jpg
 canonical_url: false
 description: "The trip between Dec 02 and Dec 05, 2016."
 ---

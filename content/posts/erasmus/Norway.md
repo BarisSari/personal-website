@@ -2,9 +2,9 @@
 title: Stavanger-Pulpit Rock-Norway
 date: 2020-12-14
 published: true
-tags: ['Norway', 'Traveling', 'Trip', 'Erasmus']
+tags: ['Norway', 'Traveling', 'Erasmus', 'Trip']
 series: false
-cover_image: ./images/alexandr-podvalny-220262-unsplash.jpg
+cover_image: ../images/norway-front.jpg
 canonical_url: false
 description: "The trip in May 2017."
 ---

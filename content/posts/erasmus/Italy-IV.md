@@ -2,9 +2,9 @@
 title: Italy IV - Pisa, Sienna, Lucca
 date: 2020-12-14
 published: true
-tags: ['Italy', 'Traveling', 'Trip', 'Erasmus']
-series: false
-cover_image: ./images/alexandr-podvalny-220262-unsplash.jpg
+tags: ['Italy', 'Traveling', 'Erasmus', 'Trip']
+series: true
+cover_image: ../images/pisa-front.jpg
 canonical_url: false
 description: "The several trips in 2015-2016-2017."
 ---

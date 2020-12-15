@@ -2,7 +2,7 @@
 title: Iceland Trip
 date: 2020-12-13
 published: true
-tags: ['Iceland', 'Traveling', 'Trip', 'Erasmus']
+tags: ['Iceland', 'Traveling', 'Erasmus', 'Trip']
 series: false
 cover_image: ./images/alexandr-podvalny-220262-unsplash.jpg
 canonical_url: false

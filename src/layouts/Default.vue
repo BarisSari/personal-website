@@ -1,4 +1,3 @@
-<script src="../../../personal-website/vue.config.js"></script>
 <template>
   <div id="app">
 

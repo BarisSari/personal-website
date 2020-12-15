@@ -2,9 +2,9 @@
 title: Portugal
 date: 2020-12-14
 published: true
-tags: ['Portugal', 'Traveling', 'Trip', 'Erasmus']
+tags: ['Portugal', 'Traveling', 'Erasmus', 'Trip']
 series: false
-cover_image: ./images/alexandr-podvalny-220262-unsplash.jpg
+cover_image: ../images/portugal-front.jpg
 canonical_url: false
 description: "The trip in May 2017."
 ---
@@ -20,7 +20,7 @@ Now it was time for visiting the city. We walked from the bus terminal to the ci
 
 ![portugal-c5e1fe460aa1be8fa0d41fe9042c311](https://d1bvpoagx8hqbg.cloudfront.net/originals/portugal-c5e1fe460aa1be8fa0d41fe9042c311d.jpg)
 
-Source: https://static1.squarespace.com/static/52c1b397e4b0da7f332455a5/t/57da70ebd482e972e846d95d/1473933589053/?format=750w
+[Source](https://static1.squarespace.com/static/52c1b397e4b0da7f332455a5/t/57da70ebd482e972e846d95d/1473933589053/?format=750w)
 
 According to our guide, the **construction** of this building **lasted 20 years**. The **funny thing** is that after building was completed, they found that they **forgot to add to the station the waiting room, the toilet and even the ticket sales point**. On this story, our guide said the Portuguese people are very relaxed and unhurried people.
 

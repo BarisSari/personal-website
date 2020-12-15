@@ -2,11 +2,11 @@
 title: Italy I - Rome!
 date: 2020-12-14
 published: true
-tags: ['Italy', 'Traveling', 'Trip', 'Erasmus']
-series: false
-cover_image: ./images/alexandr-podvalny-220262-unsplash.jpg
+tags: ['Italy', 'Traveling', 'Erasmus', 'Trip']
+series: true
+cover_image: ../images/rome-front.jpg
 canonical_url: false
-description: "The several trips in 2015-2017."
+description: "The several trips in 2015 and 2017."
 ---
 
 Italy I: Rome!
@@ -92,8 +92,7 @@ I’d like to finish this writing after mentioning **Piazza Di Spagna.** It is f
 
 ![rome-5c9cf727a4bb8fb23bae72de40ae584a.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-5c9cf727a4bb8fb23bae72de40ae584a.jpg)
 
-[Source](https://www.telegraph.co.uk/content/dam/Travel/leadAssets/32/06/spanish_steps_3206492a-xlarge.gif</p>
-<p>)
+[Source](https://www.telegraph.co.uk/content/dam/Travel/leadAssets/32/06/spanish_steps_3206492a-xlarge.gif)
 
 Tips&Tricks:
 
