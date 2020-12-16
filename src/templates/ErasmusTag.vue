@@ -23,6 +23,7 @@ query ErasmusTag ($id: ID!) {
             date (format: "D. MMMM YYYY")
             timeToRead
             description
+            cover_image (width: 770, height: 380, blur: 10, quality: 90)
             content
           }
         }

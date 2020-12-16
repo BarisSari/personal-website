@@ -72,12 +72,3 @@ Here a few **tips and tricks** about Florence:
 *   There are many **hotels and hostels** near to the **Santa Maria Novella train station**. We stayed in **Hotel Margaret** and we were quite satisfied. It is a good location to stay.
 
 * * *
-
-Fotoğraf galerisi
------------------
-
-*    [](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iii-florence-96015fbe7da941ca93b164f845dde33d.jpg) [  ](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iii-florence-56c49b20e23b086bd5b1ea177fcf577a.jpg) [  ](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iii-florence-c63a0cae8b999ba550dbb313dc6b7016.jpg) [  ](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iii-florence-000a9fb4b654534be9d104daffedfd3a.jpg) [  ](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iii-florence-5d783143ae3ceae0686660fe82ed2b06.jpg) [](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iii-florence-4b294b50662632b23ebe8d52f110ed0a.jpg)
-*    [](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iii-florence-40a4835f1f36ed644cae4f3f3c7e3a41.jpg) [  ](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iii-florence-67fa332ac83ce13fd30138f3d811f38a.jpg) [  ](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iii-florence-f8cb7618d2cb6670210422664b2eb324.jpg) [  ](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iii-florence-5bf3da1b2c666d542cfce7d1ec3cc602.jpg) [  ](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iii-florence-bcfdf39bca82bf5ee7ccaf6a78090d06.jpg) [](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iii-florence-64e7af413ec15e13295bd7518510cb69.jpg)
-*    [](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iii-florence-206d6ee7b731e6c801ba445f80d5b675.jpg)
-
-* * *
