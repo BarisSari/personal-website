@@ -28,6 +28,12 @@ module.exports = {
       }
     },
     {
+      use: `gridsome-plugin-netlify-cms`,
+      options: {
+        publicPath: `/admin`
+      }
+    },
+    {
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
       options: {
