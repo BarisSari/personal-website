@@ -1,30 +1,36 @@
 <template>
     <div class="author">
        <g-link to="/"><img
-            src="@/assets/profile.png"
+            src="@/assets/profile.jpeg"
             alt="John"
-            height="250"
+            height="200"
+            width="200"
             class="profile"
         ></g-link>
 
       <h1>Barış Sarı</h1>
       <h2>Freelance Backend Developer/Data Scientist at Upwork.<br>I speak Python, ML/DL, SQL, Docker, JS.</h2>
-      <a :href="`${publicPath}BarisSari-CV.pdf`" target="_blank"><img :src="cv" alt="cv" height="56.7" width="56.7"/></a>
-      <a href="https://www.upwork.com/o/profiles/users/_~019ab5632c941ec465/"><img :src="upwork" alt="upwork" height="56.7" width="56.7"/></a>
-      <a href="mailto:bayrambariss@gmail.com"><img :src="gmail" alt="gmail" height="56.7" width="56.7"/></a>
-      <a href="https://stackoverflow.com/users/9686506/baris"><img :src="stackoverflow" alt="stackoverflow" height="56.7" width="56.7"/></a>
-      <a href="https://github.com/barissari"><img :src="github" alt="github"/></a>
-      <a href="https://www.linkedin.com/in/bayram-baris-sari/"><img :src="linkedin" alt="linkedin" height="56.7" width="56.7"/></a>
+      <div class="author__icons">
+      <a :href="`${publicPath}BarisSari-CV.pdf`" target="_blank"><img width="56.7" height="56.7" :src="cv" alt="cv" /></a>
+      <a href="https://www.upwork.com/o/profiles/users/_~019ab5632c941ec465/"><img width="56.7" height="56.7" :src="upwork" alt="upwork"/></a>
+      <a href="mailto:bayrambariss@gmail.com"><img width="56.7" height="56.7" :src="gmail" alt="gmail" /></a>
+      <a href="https://stackoverflow.com/users/9686506/baris"><img width="56.7" height="56.7" :src="stackoverflow" alt="stackoverflow" /></a>
+      <a href="https://github.com/barissari"><img width="56.7" height="56.7" :src="github" alt="github"/></a>
+      <a href="https://www.linkedin.com/in/bayram-baris-sari/"><img width="56.7" height="56.7" :src="linkedin" alt="linkedin" /></a>
+      </div>
       <hr>
       <div class="author__blogs">
         <h3>Blogs</h3>
         <h5>Erasmus Trips</h5>
   <!--      <p>Erasmus / Tech / Movies & Books</p>-->
-        <g-link to="/erasmus-blog/" class="blog"><img :src="travelling" alt="erasmus-blog"  height="56.7" width="56.7"/></g-link>
-<!--        <h5>Tech (Coming soon!)</h5>-->
-  <!--      <g-link to="/blog/" class="blog"><img :src="tech" alt="tech-blog"  height="56.7" width="56.7"/></g-link>-->
+        <div class="author__icons">
+          <g-link to="/erasmus-blog/" class="blog"><img width="56.7" height="56.7" :src="travelling" alt="erasmus-blog" /></g-link>
+        </div>
+
+        <!--        <h5>Tech (Coming soon!)</h5>-->
+  <!--      <g-link to="/blog/" class="blog"><img width="56.7" height="56.7" :src="tech" alt="tech-blog"  height="56.7" width="56.7"/></g-link>-->
 <!--        <h5>Movies & Series (Coming soon!)</h5>-->
-  <!--      <g-link to="/movies-blog/" class="blog"><img :src="movies" alt="movies-blog"  height="56.7" width="56.7"/></g-link>-->
+  <!--      <g-link to="/movies-blog/" class="blog"><img width="56.7" height="56.7" :src="movies" alt="movies-blog"  height="56.7" width="56.7"/></g-link>-->
       </div>
     </div>
 </template>
@@ -64,7 +70,12 @@ export default {
     //margin: 0 auto;
     //text-align: left;
   //}
+  &__icons img {
+    width: 56.7px;
+    height: 56.7px;
+  }
 }
+
 .author .profile {
   border-radius: 50%;
 }
