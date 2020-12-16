@@ -11,7 +11,7 @@
       <h1>Barış Sarı</h1>
       <h2>Freelance Backend Developer/Data Scientist at Upwork.<br>I speak Python, ML/DL, SQL, Docker, JS.</h2>
       <div class="author__icons">
-      <a :href="`${publicPath}BarisSari-CV.pdf`" target="_blank"><img width="56.7" height="56.7" :src="cv" alt="cv" /></a>
+      <a href="/BarisSari-CV.pdf" target="_blank"><img width="56.7" height="56.7" :src="cv" alt="cv" /></a>
       <a href="https://www.upwork.com/o/profiles/users/_~019ab5632c941ec465/"><img width="56.7" height="56.7" :src="upwork" alt="upwork"/></a>
       <a href="mailto:bayrambariss@gmail.com"><img width="56.7" height="56.7" :src="gmail" alt="gmail" /></a>
       <a href="https://stackoverflow.com/users/9686506/baris"><img width="56.7" height="56.7" :src="stackoverflow" alt="stackoverflow" /></a>
@@ -41,7 +41,6 @@ export default {
   props: {},
   data() {
     return {
-      publicPath: "",
       upwork: require('@/assets/icons/upwork.svg'),
       github: require('@/assets/icons/github.svg'),
       linkedin: require('@/assets/icons/linkedin.svg'),
