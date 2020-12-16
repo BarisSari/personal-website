@@ -1,22 +1,23 @@
 <template>
     <div class="author">
-       <g-link to="/"><img
+       <g-link to="/"><g-image
             src="@/assets/profile.jpeg"
             alt="John"
             height="200"
             width="200"
             class="profile"
-        ></g-link>
+            quality="100"
+        /></g-link>
 
       <h1>Barış Sarı</h1>
       <h2>Freelance Backend Developer/Data Scientist at Upwork.<br>I speak Python, ML/DL, SQL, Docker, JS.</h2>
       <div class="author__icons">
-      <a href="/BarisSari-CV.pdf" target="_blank"><img width="56.7" height="56.7" :src="cv" alt="cv" /></a>
-      <a href="https://www.upwork.com/o/profiles/users/_~019ab5632c941ec465/"><img width="56.7" height="56.7" :src="upwork" alt="upwork"/></a>
-      <a href="mailto:bayrambariss@gmail.com"><img width="56.7" height="56.7" :src="gmail" alt="gmail" /></a>
-      <a href="https://stackoverflow.com/users/9686506/baris"><img width="56.7" height="56.7" :src="stackoverflow" alt="stackoverflow" /></a>
-      <a href="https://github.com/barissari"><img width="56.7" height="56.7" :src="github" alt="github"/></a>
-      <a href="https://www.linkedin.com/in/bayram-baris-sari/"><img width="56.7" height="56.7" :src="linkedin" alt="linkedin" /></a>
+      <a href="/BarisSari-CV.pdf" target="_blank"><g-image width="56.7" height="56.7" :src="cv" alt="cv" /></a>
+      <a href="https://www.upwork.com/o/profiles/users/_~019ab5632c941ec465/"><g-image width="56.7" height="56.7" :src="upwork" alt="upwork"/></a>
+      <a href="mailto:bayrambariss@gmail.com"><g-image width="56.7" height="56.7" :src="gmail" alt="gmail" /></a>
+      <a href="https://stackoverflow.com/users/9686506/baris"><g-image width="56.7" height="56.7" :src="stackoverflow" alt="stackoverflow" /></a>
+      <a href="https://github.com/barissari"><g-image width="56.7" height="56.7" :src="github" alt="github"/></a>
+      <a href="https://www.linkedin.com/in/bayram-baris-sari/"><g-image width="56.7" height="56.7" :src="linkedin" alt="linkedin" /></a>
       </div>
       <hr>
       <div class="author__blogs">
@@ -24,7 +25,7 @@
         <h5>Erasmus Trips</h5>
   <!--      <p>Erasmus / Tech / Movies & Books</p>-->
         <div class="author__icons">
-          <g-link to="/erasmus-blog/" class="blog"><img width="56.7" height="56.7" :src="travelling" alt="erasmus-blog" /></g-link>
+          <g-link to="/erasmus-blog/" class="blog"><g-image width="56.7" height="56.7" :src="travelling" alt="erasmus-blog" /></g-link>
         </div>
 
         <!--        <h5>Tech (Coming soon!)</h5>-->
