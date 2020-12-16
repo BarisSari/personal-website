@@ -1,4 +1,7 @@
-# vue
+## Website Status
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e5753e08-85bf-4212-8484-4ecdf9776e4b/deploy-status)](https://app.netlify.com/sites/barissari/deploys)
+
+Check the website: http://barissari.com
 
 ## Project setup
 ```
