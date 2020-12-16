@@ -1,9 +1,9 @@
 <template>
-	<g-link class="logo" to="/">
+<!--	<g-link class="logo" to="/">-->
 	  <span class="logo__text">
-	    &larr; <g-link to="/erasmus-blog/">Return to Erasmus Blog</g-link>
+	    <g-link to="/erasmus-blog/">&larr; Return to Erasmus Blog</g-link>
 	  </span>
-	</g-link>
+<!--	</g-link>-->
 </template>
 
 <static-query>

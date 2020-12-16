@@ -1,5 +1,8 @@
 <template>
   <Layout :show-logo="false">
+    <h1 class="tag-title text-center space-bottom">
+      Welcome to Erasmus Travelling Blog!
+    </h1>
     <!-- List posts -->
     <div class="posts">
       <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
@@ -20,7 +23,7 @@ query {
         date (format: "D. MMMM YYYY")
         timeToRead
         description
-        cover_image (width: 770, height: 380, blur: 10)
+        cover_image (width: 770, height: 380, blur: 10, quality: 90)
         path
         tags {
           id
