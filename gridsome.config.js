@@ -1,14 +1,12 @@
-const { join } = require('path')
-
 module.exports = {
   siteName: 'barissari.com',
   siteDescription: 'Personal website of a freelance Python Developer, who loves travelling and movies a lot!',
   siteUrl: 'barissari.com',
   templates: {
     ErasmusPost: '/blog/erasmus/:title',
-    Post: '/blog/:title',
+    Post: '/blog/tech/:title',
     ErasmusTag: '/tag/erasmus/:id',
-    Tag: '/tag/:id'
+    Tag: '/tag/tech/:id'
   },
 
   plugins: [

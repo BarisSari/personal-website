@@ -12,26 +12,38 @@
       <h1>Barış Sarı</h1>
       <h2>Freelance Backend Developer/Data Scientist at Upwork.<br>I speak Python, ML/DL, SQL, Docker, JS.</h2>
       <div class="author__icons">
-      <a href="/BarisSari-CV.pdf" target="_blank"><g-image width="56.7" height="56.7" :src="cv" alt="cv" /></a>
-      <a href="https://www.upwork.com/o/profiles/users/_~019ab5632c941ec465/"><g-image width="56.7" height="56.7" :src="upwork" alt="upwork"/></a>
-      <a href="mailto:bayrambariss@gmail.com"><g-image width="56.7" height="56.7" :src="gmail" alt="gmail" /></a>
-      <a href="https://stackoverflow.com/users/9686506/baris"><g-image width="56.7" height="56.7" :src="stackoverflow" alt="stackoverflow" /></a>
-      <a href="https://github.com/barissari"><g-image width="56.7" height="56.7" :src="github" alt="github"/></a>
-      <a href="https://www.linkedin.com/in/bayram-baris-sari/"><g-image width="56.7" height="56.7" :src="linkedin" alt="linkedin" /></a>
+        <v-container class="grey lighten-5">
+          <v-row no-gutters>
+            <v-col
+                v-for="n in topIcons"
+                :key="n.key"
+                cols="2"
+                sm="2"
+            >
+              <a :href="n.href" target="_blank"><g-image width="56.7" height="56.7" :src="n.src" :alt="n.alt" /></a>
+            </v-col>
+          </v-row>
+        </v-container>
       </div>
       <hr>
       <div class="author__blogs">
-        <h3>Blogs</h3>
-        <h5>Erasmus Trips</h5>
-  <!--      <p>Erasmus / Tech / Movies & Books</p>-->
-        <div class="author__icons">
-          <g-link to="/erasmus-blog/" class="blog"><g-image width="56.7" height="56.7" :src="travelling" alt="erasmus-blog" /></g-link>
-        </div>
+        <v-container class="grey lighten-5">
+          <h3>Blogs</h3>
+          <v-row no-gutters>
+            <v-col
+                v-for="n in bottomData"
+                :key="n.key"
+                cols="12"
+                sm="4"
+            >
+              <h5>{{ n.header }}</h5>
+              <div class="author__icons">
+                <g-link :to="n.to" class="blog"><g-image width="56.7" height="56.7" :src="n.src" :alt="n.alt" /></g-link>
+              </div>
 
-        <!--        <h5>Tech (Coming soon!)</h5>-->
-  <!--      <g-link to="/blog/" class="blog"><img width="56.7" height="56.7" :src="tech" alt="tech-blog"  height="56.7" width="56.7"/></g-link>-->
-<!--        <h5>Movies & Series (Coming soon!)</h5>-->
-  <!--      <g-link to="/movies-blog/" class="blog"><img width="56.7" height="56.7" :src="movies" alt="movies-blog"  height="56.7" width="56.7"/></g-link>-->
+            </v-col>
+          </v-row>
+        </v-container>
       </div>
     </div>
 </template>
@@ -42,15 +54,67 @@ export default {
   props: {},
   data() {
     return {
-      upwork: require('@/assets/icons/upwork.svg'),
-      github: require('@/assets/icons/github.svg'),
-      linkedin: require('@/assets/icons/linkedin.svg'),
-      stackoverflow: require('@/assets/icons/stackoverflow.svg'),
-      gmail: require('@/assets/icons/gmail.svg'),
-      cv: require('@/assets/icons/cv.svg'),
-      travelling: require('@/assets/icons/travelling.svg'),
-      tech: require('@/assets/icons/tech.svg'),
-      movies: require('@/assets/icons/movies.svg'),
+      bottomData: [
+        {
+          key: 1,
+          header: "Erasmus Trips",
+          to: "/erasmus-blog/",
+          src: require('@/assets/icons/travelling.svg'),
+          alt: "eramus-blog",
+        },
+        {
+          key: 2,
+          header: "Technology",
+          to: "/tech-blog/",
+          src: require('@/assets/icons/tech.svg'),
+          alt: "tech-blog",
+        },
+        {
+          key: 3,
+          header: "Movies (Coming Soon!)",
+          to: "#",
+          src: require('@/assets/icons/movies.svg'),
+          alt: "movies-blog",
+        },
+      ],
+      topIcons: [
+        {
+          key: 1,
+          href: '/BarisSari-CV.pdf',
+          src: require('@/assets/icons/cv.svg'),
+          alt: 'cv',
+        },
+        {
+          key: 2,
+          href: 'https://www.upwork.com/o/profiles/users/_~019ab5632c941ec465/',
+          src: require('@/assets/icons/upwork.svg'),
+          alt: 'upwork',
+        },
+        {
+          key: 3,
+          href: 'mailto:bayrambariss@gmail.com',
+          src: require('@/assets/icons/gmail.svg'),
+          alt: 'gmail',
+        },
+        {
+          key: 4,
+          href: 'https://stackoverflow.com/users/9686506/baris',
+          src: require('@/assets/icons/stackoverflow.svg'),
+          alt: 'stackoverflow',
+        },
+        {
+          key: 5,
+          href: 'https://github.com/barissari',
+          src: require('@/assets/icons/github.svg'),
+          alt: 'github',
+        },
+        {
+          key: 6,
+          href: 'https://www.linkedin.com/in/bayram-baris-sari/',
+          src: require('@/assets/icons/linkedin.svg'),
+          alt: 'linkedin',
+        },
+      ]
     };
   },
   methods: {},

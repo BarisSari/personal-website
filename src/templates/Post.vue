@@ -1,14 +1,14 @@
 <template>
-  <Layout>
-    <div class="post__header">
-      <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image"/>
-    </div>
-
+  <Layout :showLogo="false" :showTech="true">
     <div class="post-title">
-      <h1 class="post-title__text">
-        {{ $page.post.title }}
-      </h1>
-      <PostMeta :post="$page.post"/>
+      <div class="post__header">
+        <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image"/>
+      </div>
+
+    <h1 class="post-title__text">
+      {{ $page.post.title }}
+    </h1>
+    <PostMeta :post="$page.post"/>
     </div>
 
     <div class="post content-box">
@@ -65,7 +65,7 @@ query Post ($id: ID!) {
     }
     description
     content
-    cover_image (width: 860, blur: 10)
+    cover_image (blur: 5, quality: 80)
   }
 }
 </page-query>
