@@ -74,22 +74,24 @@ export default {
     width: 56.7px;
     height: 56.7px;
   }
+
+  & h1 {
+    font-size: 2.5rem;
+  }
+
+  & h2 {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 300;
+  }
+
+  & a {
+    margin-right: 10px;
+  }
+
 }
 
 .author .profile {
   border-radius: 50%;
 }
-.author a {
-  margin-right: 10px;
-}
-.author h1 {
-  font-size: 2.5rem;
-}
-
-.author h2 {
-  font-size: 1.5rem;
-  font-style: italic;
-  font-weight: lighter;
-}
-
 </style>
