@@ -1,18 +1,8 @@
 <template>
-<!--	<g-link class="logo" to="/">-->
 	  <span class="logo__text">
-	    <g-link to="/erasmus-blog/">&larr; Return to Erasmus Blog</g-link>
+	    <g-link to="/tech-blog/">&larr; Return to Tech Blog</g-link>
 	  </span>
-<!--	</g-link>-->
 </template>
-
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
 
 <style lang="scss" scoped>
 .logo {
