@@ -71,8 +71,8 @@ export default {
         },
         {
           key: 3,
-          header: "Movies (Coming Soon!)",
-          to: "#",
+          header: "Movies (Not ready)",
+          to: "",
           src: require('@/assets/icons/movies.svg'),
           alt: "movies-blog",
         },
