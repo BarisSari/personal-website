@@ -1,6 +1,6 @@
 module.exports = {
   siteName: 'barissari.com',
-  siteDescription: 'Personal website of a freelance Python Developer, who loves travelling and movies a lot!',
+  siteDescription: 'Personal website of a freelance Software Developer, who loves travelling and movies a lot!',
   siteUrl: 'barissari.com',
   templates: {
     ErasmusPost: '/blog/erasmus/:title',

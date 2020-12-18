@@ -8,7 +8,7 @@
       <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
     </div>
     <!-- Author intro -->
-    <Author :show-title="true" />
+    <Author :showIcons="false" />
 
   </Layout>
 </template>

@@ -1,7 +1,7 @@
 ## Website Status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e5753e08-85bf-4212-8484-4ecdf9776e4b/deploy-status)](https://app.netlify.com/sites/barissari/deploys)
 
-Check the website: http://barissari.com
+Check the website: https://barissari.com
 
 ## Project setup
 ```
@@ -17,11 +17,3 @@ yarn serve
 ```
 yarn build
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

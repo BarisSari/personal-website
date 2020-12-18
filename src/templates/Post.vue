@@ -22,7 +22,7 @@
       <!-- Add comment widgets here -->
     </div>
 
-    <Author class="post-author"/>
+    <Author class="post-author" :showIcons="false" />
   </Layout>
 </template>
 

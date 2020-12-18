@@ -7,6 +7,7 @@
     <div class="posts">
       <PostCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node"/>
     </div>
+    <Author class="post-author" :showIcons="false" />
   </Layout>
 </template>
 

@@ -10,48 +10,62 @@
         /></g-link>
 
       <h1>Barış Sarı</h1>
-      <h2>Freelance Backend Developer/Data Scientist at Upwork.<br>I speak Python, ML/DL, SQL, Docker, JS.</h2>
-      <div class="author__icons">
-        <b-container class="grey lighten-5">
-          <b-row>
-            <b-col></b-col>
-            <b-col
-                v-for="n in topIcons"
-                :key="n.key"
-            >
-              <a :href="n.href" target="_blank"><g-image width="56.7" height="56.7" :src="n.src" :alt="n.alt" /></a>
-            </b-col>
-            <b-col ></b-col>
-          </b-row>
-        </b-container>
+      <div v-if="showIcons">
+        <h2>Freelance Backend Developer/Data Scientist at Upwork.<br>I speak Python, ML/DL, SQL, Docker, JS.</h2>
+        <div class="author__icons">
+          <b-container class="grey lighten-5">
+            <b-row>
+              <b-col cols="0" sm="2"></b-col>
+              <b-col
+                  v-for="n in topIcons"
+                  :key="n.key"
+                  cols="2"
+                  sm="auto"
+              >
+                <a :href="n.href" target="_blank"><g-image width="56.7" height="56.7" :src="n.src" :alt="n.alt" /></a>
+              </b-col>
+              <b-col cols="0" sm="2"></b-col>
+            </b-row>
+          </b-container>
+        </div>
+        <hr>
+        <div class="author__blogs">
+          <b-container class="grey lighten-5">
+            <h3>Blogs</h3>
+            <b-row>
+              <b-col
+                  v-for="n in bottomData"
+                  :key="n.key"
+                  cols="12"
+                  sm="4"
+              >
+                <h5>{{ n.header }}</h5>
+                <div class="author__icons">
+                  <g-link :to="n.to" class="blog"><g-image width="56.7" height="56.7" :src="n.src" :alt="n.alt" /></g-link>
+                </div>
+              </b-col>
+            </b-row>
+          </b-container>
+        </div>
       </div>
-      <hr>
-      <div class="author__blogs">
-        <b-container class="grey lighten-5">
-          <h3>Blogs</h3>
-          <b-row>
-            <b-col
-                v-for="n in bottomData"
-                :key="n.key"
-                cols="12"
-                sm="4"
-            >
-              <h5>{{ n.header }}</h5>
-              <div class="author__icons">
-                <g-link :to="n.to" class="blog"><g-image width="56.7" height="56.7" :src="n.src" :alt="n.alt" /></g-link>
-              </div>
-
-            </b-col>
-          </b-row>
-        </b-container>
-      </div>
+      <div v-else><h2 v-html="$static.metadata.siteDescription" /></div>
     </div>
 </template>
+
+<static-query>
+query {
+  metadata {
+    siteDescription
+  }
+}
+</static-query>
 
 <script>
 export default {
   name: 'Main',
-  props: {},
+  props: {
+    showIcons: { default: true},
+  },
   data() {
     return {
       bottomData: [
