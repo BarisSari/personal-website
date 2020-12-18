@@ -8,6 +8,8 @@ cover_image: ./images/tech/why_freelance_front.jpg
 canonical_url: false
 description: "This article tells you the journey and observations of a software developer with one-year experience as an on-site employee and 1+ years of experience in freelance."
 ---
+You can read this article on [Medium](https://barissari.medium.com/why-freelance-suits-me-more-e50c1d494911) or [Linkedin](https://www.linkedin.com/pulse/why-freelance-suits-me-more-baris-sari) as well.
+
 ### About Me
 
 #### My work history
@@ -16,7 +18,7 @@ I’m a computer engineer graduate who started his working life in January 2019 
 
 During my spare time, I was getting a bit bored because my university projects and exams were outweighing the workload I had in a full-time job! So, I decided to take on some side freelance projects. I had an inactive account on one of the most popular freelancer platforms. I updated my account and started to apply for small projects. I had accepted to two projects in one week, and that’s how my freelance journey started. After delivering these projects successfully, my profile got more reputation bit by bit and it has become simpler each day to find another project to work. Yet, I still had a full-time job. I had a limited time for freelance work. So, I kept the speed low until I left my full-time job in November 2019.
 
-I was planning to move to Belgium in the middle of January 2020. So, according to plan, I had 2.5 months to save some money, visit all friends & family, and complete procedures to move in. I didn’t want to stop working, and I said to myself: “Let’s try to get a freelance job which is nearly full-time”. I talked with my previous clients and applied for new jobs. Just after the day I had quit, I got accepted to freelance work. It made me feel great. I never thought this transition would be so smooth. Anyways, I had some troubles because of missing papers. Then, the pandemic has spread all around the world. I have decided to stay. So, here I am. I have been working as a freelancer since November 2019.
+I was planning to move to Belgium in the middle of January 2020. According to plan, I had 2.5 months to save some money, visit all friends & family, and complete procedures to move in. I didn’t want to stop working, and I said to myself: “Let’s try to get a freelance job which is nearly full-time”. I talked with my previous clients and applied for new jobs. Just after the day I had quit, I got accepted to freelance work. It made me feel great. I never thought this transition would be so smooth. While I was waiting for my residence permit (it took more than 2.5 months), the pandemic has spread all around the world. So, here I am. I have been working as a freelancer since November 2019.
 
 ![img](https://cdn-images-1.medium.com/max/1600/1*6xeh10Hs1MqpAzm2pQ8SmQ.png)My profile on the freelance platform
 
@@ -108,6 +110,8 @@ I hope this article helps some people who want to understand if they want to wor
 
 - Please keep in mind that remote work and freelance work are not the same. I didn’t want to dive into the explanation of employment types. And I hope you will understand this comparison correctly. I **compared on-site permanent employees with freelancers (independent contractors)**.
 
-Thanks a lot for reading until here! This is **my very first article** on Medium. I’m looking forward to hearing your suggestions and feedback.
+Thanks a lot for reading until here! You have read **my very first article**. I’m looking forward to hearing your suggestions and feedback.
 
 ![img](https://cdn-images-1.medium.com/max/1600/0*tRfjMcj8j_T6AQNl) Photo by [Courtney Hedger](https://unsplash.com/@cmhedger?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
+
+* * *

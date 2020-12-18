@@ -14,14 +14,14 @@
       <div class="author__icons">
         <b-container class="grey lighten-5">
           <b-row>
+            <b-col></b-col>
             <b-col
                 v-for="n in topIcons"
                 :key="n.key"
-                cols="2"
-                sm="2"
             >
               <a :href="n.href" target="_blank"><g-image width="56.7" height="56.7" :src="n.src" :alt="n.alt" /></a>
             </b-col>
+            <b-col ></b-col>
           </b-row>
         </b-container>
       </div>
@@ -128,12 +128,6 @@ export default {
 	text-align: center;
 	padding: calc(var(--space) / 2) 0;
 
-  //&__blogs {
-    //display: flex;
-    //max-width: 800px;
-    //margin: 0 auto;
-    //text-align: left;
-  //}
   &__icons img {
     width: 56.7px;
     height: 56.7px;
