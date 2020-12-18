@@ -12,25 +12,25 @@
       <h1>Barış Sarı</h1>
       <h2>Freelance Backend Developer/Data Scientist at Upwork.<br>I speak Python, ML/DL, SQL, Docker, JS.</h2>
       <div class="author__icons">
-        <v-container class="grey lighten-5">
-          <v-row no-gutters>
-            <v-col
+        <b-container class="grey lighten-5">
+          <b-row>
+            <b-col
                 v-for="n in topIcons"
                 :key="n.key"
                 cols="2"
                 sm="2"
             >
               <a :href="n.href" target="_blank"><g-image width="56.7" height="56.7" :src="n.src" :alt="n.alt" /></a>
-            </v-col>
-          </v-row>
-        </v-container>
+            </b-col>
+          </b-row>
+        </b-container>
       </div>
       <hr>
       <div class="author__blogs">
-        <v-container class="grey lighten-5">
+        <b-container class="grey lighten-5">
           <h3>Blogs</h3>
-          <v-row no-gutters>
-            <v-col
+          <b-row>
+            <b-col
                 v-for="n in bottomData"
                 :key="n.key"
                 cols="12"
@@ -41,9 +41,9 @@
                 <g-link :to="n.to" class="blog"><g-image width="56.7" height="56.7" :src="n.src" :alt="n.alt" /></g-link>
               </div>
 
-            </v-col>
-          </v-row>
-        </v-container>
+            </b-col>
+          </b-row>
+        </b-container>
       </div>
     </div>
 </template>
