@@ -1,7 +1,7 @@
 <template>
-  <Layout :show-logo="false" :showMain="true">
+  <Layout :showTech="false" :showLogo="false" :showMain="true">
     <h1 class="tag-title text-center space-bottom">
-      Welcome to Erasmus Travelling Blog!
+      Welcome to Tech Blog!
     </h1>
     <!-- List posts -->
     <div class="posts">
@@ -15,7 +15,7 @@
 
 <page-query>
 query {
-  posts: allErasmusPost(filter: { published: { eq: true }}) {
+  posts: allPost(filter: { published: { eq: true }}) {
     edges {
       node {
         id
@@ -46,7 +46,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'Baris Sari - Erasmus Blog'
+    title: 'Baris Sari - Tech Blog'
   }
 }
 </script>

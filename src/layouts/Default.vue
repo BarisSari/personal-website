@@ -3,7 +3,9 @@
 
     <header class="header">
       <div class="header__left">
-        <Logo v-if="showLogo" /> 
+        <ErasmusLeft v-if="showLogo" />
+        <TechLeft v-if="showTech" />
+        <MainLeft v-if="showMain" />
       </div>
       
       <div class="header__right">        
@@ -23,15 +25,21 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import ErasmusLeft from '~/components/ErasmusLeft.vue'
+import TechLeft from '~/components/TechLeft.vue'
+import MainLeft from '~/components/MainLeft.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
 
 export default {
   props: {
-    showLogo: { default: true }
+    showLogo: { default: true },
+    showMain: { default: false },
+    showTech: { default: false }
   },
   components: {
-    Logo,
+    ErasmusLeft,
+    TechLeft,
+    MainLeft,
     ToggleTheme
   }
 }
