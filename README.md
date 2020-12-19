@@ -4,13 +4,14 @@
 Check the website: https://barissari.com
 
 ## Project setup
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 ```
 yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+yarn develop
 ```
 
 ### Compiles and minifies for production

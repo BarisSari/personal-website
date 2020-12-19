@@ -80,8 +80,8 @@ query ErasmusPost ($id: ID!) {
 .post {
 
   &__header {
-    width: calc(100% + var(--space) * 2);
-    margin-left: calc(var(--space) * -1);
+    width: calc(100% + var(--padding) * 2);
+    margin-left: calc(var(--padding) * -1);
     margin-top: calc(var(--space) * -1);
     margin-bottom: calc(var(--space) / 2);
     overflow: hidden;

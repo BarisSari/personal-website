@@ -34,10 +34,7 @@ export default {
   position: relative;
 
   &__header {
-    margin-left: calc(var(--space) * -1);
-    margin-right: calc(var(--space) * -1);
-    margin-bottom: calc(var(--space) / 2);
-    margin-top: calc(var(--space) * -1);
+    margin: calc(var(--padding) * -1) calc(var(--padding) * -1) calc(var(--padding) / 2);
     overflow: hidden;
     border-radius: var(--radius) var(--radius) 0 0;
 

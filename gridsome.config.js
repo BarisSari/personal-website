@@ -26,9 +26,9 @@ module.exports = {
       }
     },
     {
-      use: `gridsome-plugin-netlify-cms`,
+      use: 'gridsome-plugin-netlify-cms',
       options: {
-        publicPath: `/admin`
+        publicPath: '/admin'
       }
     },
     {
@@ -49,7 +49,7 @@ module.exports = {
   ],
 
   transformers: {
-    //Add markdown support to all file-system sources
+    // Add markdown support to all file-system sources
     remark: {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
@@ -58,5 +58,5 @@ module.exports = {
         '@gridsome/remark-prismjs'
       ]
     }
-  },
+  }
 }

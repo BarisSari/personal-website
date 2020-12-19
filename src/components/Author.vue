@@ -140,7 +140,7 @@ export default {
 	margin: 0 auto;
 	max-width: 800px;
 	text-align: center;
-	padding: calc(var(--space) / 2) 0;
+	padding: 0;
 
   &__icons img {
     width: 56.7px;
@@ -155,6 +155,10 @@ export default {
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 300;
+  }
+
+  & h3 {
+    margin: 1.75rem 0 1rem;
   }
 
   & a {
