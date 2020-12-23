@@ -16,7 +16,8 @@
     "gridsome": "^0.7.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
     "netlify-cms": "^2.10.76",
-    "vue": "^2.6.12"
+    "vue": "^2.6.12",
+    "vue-gtag": "^1.10.0"
   },
   "devDependencies": {
     "node-sass": "^4.12.0",
