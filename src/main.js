@@ -11,7 +11,7 @@ import DefaultLayout from '~/layouts/Default.vue'
 export default function (Vue, { router, head, isClient }) {
   Vue.use(BootstrapVue)
   Vue.use(VueGtag, {
-    config: { id: process.env.TRACKING_ID }
+    config: { id: 'G-NW868L4FVL' }
   });
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
