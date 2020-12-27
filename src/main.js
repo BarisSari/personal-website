@@ -15,4 +15,9 @@ export default function (Vue, { router, head, isClient }) {
   });
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://github.githubassets.com/assets/gist-embed-fade154c2b3e75984195a048041ab52d.css',
+  })
 }
