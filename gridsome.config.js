@@ -61,7 +61,19 @@ module.exports = {
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
       plugins: [
-        '@gridsome/remark-prismjs'
+        ['@gridsome/remark-prismjs'],
+        ['gridsome-plugin-remark-container'],
+        ['@noxify/gridsome-plugin-remark-embed', {
+          'enabledProviders': [
+            'Youtube',
+            'Gist',
+            'Codepen',
+            'JSFiddle'
+          ],
+          'Gist' : {
+            secureConnection: true
+          }
+        }]
       ]
     }
   }
