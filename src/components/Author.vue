@@ -24,7 +24,7 @@
                 cols="3"
                 lg="auto"
             >
-              <a :href="n.href" target="_blank">
+              <a :href="n.href" target="_blank" rel="noopener noreferrer">
                 <g-image width="56.7" height="56.7" :src="n.src" :alt="n.alt"/>
               </a>
             </b-col>
