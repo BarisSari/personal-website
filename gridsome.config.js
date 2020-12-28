@@ -51,6 +51,50 @@ module.exports = {
       options: {
         id: 'G-NW868L4FVL',
       }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        config: {
+          '/': {
+            changefreq: 'weekly',
+            priority: 0.9,
+          },
+          '/blog/erasmus/*': {
+            changefreq: 'monthly',
+            priority: 0.5,
+          },
+          '/blog/tech/*': {
+            changefreq: 'monthly',
+            priority: 0.7,
+          },
+          '/tag/erasmus/*': {
+            changefreq: 'monthly',
+            priority: 0.5,
+          },
+          '/tag/tech/*': {
+            changefreq: 'monthly',
+            priority: 0.7,
+          }
+        }
+      }
+    },
+    {
+      use: "gridsome-plugin-manifest",
+      options: {
+        background_color: "#000000",
+        icon_path: "./src/assets/favicon.png",
+        name: "My Personal Website",
+        short_name: "barissari.com",
+        theme_color: "#FFFFFF",
+        lang: "en",
+      },
+    },
+    {
+      use: 'gridsome-plugin-robots-txt',
+      options: {
+        sitemap: 'https://barissari.com/sitemap.xml',
+      }
     }
   ],
 
@@ -70,7 +114,7 @@ module.exports = {
             'Codepen',
             'JSFiddle'
           ],
-          'Gist' : {
+          'Gist': {
             secureConnection: true
           }
         }]
