@@ -9,9 +9,11 @@ canonical_url: false
 description: "Apply sentence tokenization using regex, spaCy, nltk, and Python’s split. Use pandas’s explode to transform data into one sentence in each row."
 ---
 
+You can also read it on [Towards Data Science](https://towardsdatascience.com/tokenize-text-columns-into-sentences-in-pandas-2c08bc1ca790).
+
 ![Image for post](https://miro.medium.com/max/12000/0*EwPoATNxB_Y_31BE)*Photo by [Finn Mund](https://unsplash.com/@finnmund?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
 
-In this tutorial, I’m going to show you a few different options you may use for sentence tokenization. I’m going to use one of my favourite TV show’s data: [Seinfeld Chronicles](https://www.kaggle.com/thec03u5/seinfeld-chronicles?select=scripts.csv#) (Don’t worry, I won’t give you any spoilers :) We will be using the very first dialogues from S1E1). It’s publicly available on Kaggle platform. **scripts.csv** has `dialogue` column that has many sentences in most of the rows and we’re going to split it into sentences.
+In this tutorial, I’m going to show you a few different options you may use for sentence tokenization. I’m going to use one of my favourite TV show’s data: [Seinfeld Chronicles](https://www.kaggle.com/thec03u5/seinfeld-chronicles?select=scripts.csv) (Don’t worry, I won’t give you any spoilers :) We will be using the very first dialogues from S1E1). It’s publicly available on Kaggle platform. **scripts.csv** has `dialogue` column that has many sentences in most of the rows and we’re going to split it into sentences.
 
 The steps we will follow are:
 
