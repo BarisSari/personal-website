@@ -31,3 +31,12 @@ img {
 a {
 	text-decoration: underline;
 }
+
+img + em, .gist-embed + p > em {
+	font-size: var(--caption-font-size);
+	margin: 0 auto;
+}
+
+.gist-embed + p {
+	text-align: center;
+}

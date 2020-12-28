@@ -106,10 +106,8 @@ query Post ($id: ID!) {
     }
 
     img {
-      width: calc(100% + var(--space) * 2);
-      margin-left: calc(var(--space) * -1);
+      margin: 0 auto;
       display: block;
-      max-width: none;
     }
   }
 }
