@@ -19,7 +19,7 @@
     </div>
 
     <div class="post content-box">
-      <div class="post__content" v-html="$page.post.content"/>
+      <div class="post__content tech__content" v-html="$page.post.content"/>
       <div class="post__footer">
         <PostTags :post="$page.post"/>
       </div>
@@ -54,6 +54,13 @@ export default {
         }
       ]
     }
+  },
+  mounted () {
+    let images = document.getElementsByTagName("img");
+    for (var i = 0; i < images.length; i++) {
+      let p = images[i].closest("p");
+      if (p !== null){ p.classList.add("text-center"); }
+    }
   }
 }
 </script>
@@ -79,57 +86,16 @@ query Post ($id: ID!) {
 }
 </page-query>
 
-<style lang="scss" scoped>
-.post-title {
-  padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
-  text-align: center;
-}
+<style lang="scss">
 
-.post {
-
-  &__header {
-    width: calc(100% + var(--padding) * 2);
-    margin-left: calc(var(--padding) * -1);
-    margin-top: calc(var(--space) * -1);
-    margin-bottom: calc(var(--space) / 2);
-    overflow: hidden;
-    border-radius: var(--radius) var(--radius) 0 0;
-
-    img {
-      width: 100%;
-    }
-
-    &:empty {
-      display: none;
-    }
-  }
+.tech {
 
   &__content {
-    h2:first-child {
-      margin-top: 0;
-    }
-
-    p:first-of-type {
-      font-size: 1.2em;
-      color: var(--title-color);
-    }
-
     img {
+      width: auto;
       margin: 0 auto;
       display: block;
     }
   }
-}
-
-.post-comments {
-  padding: calc(var(--space) / 2);
-
-  &:empty {
-    display: none;
-  }
-}
-
-.post-author {
-  margin-top: calc(var(--space) / 2);
 }
 </style>

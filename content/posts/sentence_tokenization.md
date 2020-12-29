@@ -13,8 +13,6 @@ description: "Apply sentence tokenization using regex, spaCy, nltk, and Python�
 
 You can also read it on [Towards Data Science](https://towardsdatascience.com/tokenize-text-columns-into-sentences-in-pandas-2c08bc1ca790).
 
-![Image for post](https://miro.medium.com/max/12000/0*EwPoATNxB_Y_31BE)*Photo by [Finn Mund](https://unsplash.com/@finnmund?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)*
-
 In this tutorial, I’m going to show you a few different options you may use for sentence tokenization. I’m going to use one of my favourite TV show’s data: [Seinfeld Chronicles](https://www.kaggle.com/thec03u5/seinfeld-chronicles?select=scripts.csv) (Don’t worry, I won’t give you any spoilers :) We will be using the very first dialogues from S1E1). It’s publicly available on Kaggle platform. **scripts.csv** has `dialogue` column that has many sentences in most of the rows and we’re going to split it into sentences.
 
 The steps we will follow are:
@@ -27,9 +25,9 @@ The steps we will follow are:
 - Tokenize an example text using **spaCy**.
 - Tokenize an example text using **nltk**.
 
-\3. Tokenize whole data in `dialogue` column using spaCy.
+3. Tokenize whole data in `dialogue` column using spaCy.
 
-\4. Split list of sentences to a sentence in each row by replicating rows. Check the modified DataFrame and save to your disk.
+4. Split list of sentences to a sentence in each row by replicating rows. Check the modified DataFrame and save to your disk.
 
 **Note:** Many of the gists don’t show all the outcomes if you look only in the article. Please don’t forget to check them on GitHub.
 
@@ -61,6 +59,8 @@ This will be a naive method, which you should never use for sentence tokenizatio
 
 https://gist.github.com/BarisSari/bf9b74eb1d17d879f67cca065807eee7
 
+**
+
 Not so good, right? I see that `split()` is used in many articles for word tokenization. Which might be acceptable because it splits texts by taking care of extra spaces, etc. For sentence tokenization, it just doesn’t work. You might use `replace()`and then `split()` to replace all end-of-line characters with one character and split the text into sentences using that character. It would give a better result, but the performance of your code would decrease.
 
 Another problem is we’re losing the character we used for splitting. If we aggregated the transformed data, we wouldn’t have the original punctuations any more.
@@ -73,15 +73,21 @@ Let’s give it a try to one of the accepted answers on [Stackoverflow](https://
 
 https://gist.github.com/BarisSari/c5e531610dc00990e7e629957343247f
 
+**
+
 Let me explain the regex pattern: `(?<!\w\.\w.)(?<![A-Z][a-z]\.)(?<=\.|\?|!)\s` step by step:
 
 - `(?<!X)Y` is called [negative lookbehind](https://www.rexegg.com/regex-disambiguation.html#negative-lookbehind). It tries to **capture Y** (any whitespace character `\s` in our case) **where preceded characters of Y do not match with X.** For example, let’s say you have this regex: `(?<!TEST)MATCH` . If your text is “TESTMATCH”, it will not match, if it’s “RANDOM_MATCH” (preceded characters are not “TEST”), it will match.
 
-![img](https://cdn-images-1.medium.com/max/1600/1*3dghj0vn6x51NC5qvFOhYg.png)*As you may see, all “MATCH” values are matched but the first row because it has “TEST” as preceded characters*
+![img](https://cdn-images-1.medium.com/max/1600/1*3dghj0vn6x51NC5qvFOhYg.png)
+
+*As you may see, all “MATCH” values are matched but the first row because it has “TEST” as preceded characters*
 
 - `(?<=X)Y` is called [positive lookbehind](https://www.rexegg.com/regex-disambiguation.html#lookbehind). It tries to **capture Y** (any whitespace character `\s` in our case) **where preceded characters of Y match with X**. Let’s use the same example as above and check the outcomes:
 
-![img](https://cdn-images-1.medium.com/max/1600/1*0hhZsaiaHEF34TXAyYRcHQ.png)*This time only the first row is captured because the rest of the rows don’t have “TEST” as preceded characters*
+![img](https://cdn-images-1.medium.com/max/1600/1*0hhZsaiaHEF34TXAyYRcHQ.png)
+
+*This time only the first row is captured because the rest of the rows don’t have “TEST” as preceded characters*
 
 In our regex, we have three capturing groups: the first two are looking for negative lookbehind and the last one is looking for a positive lookbehind. Now, let’s look at the inside of these capturing groups to understand what kind of strings we’re looking for:
 
@@ -118,6 +124,8 @@ This approach takes a long time. However, this is a bit misleading because spaCy
 
 https://gist.github.com/BarisSari/1f067ecf56cf415bac36d0d28a5e1031
 
+**
+
 As you can see, there is a trade-off between the speed and the result. `sentencizer` struggled just as nltk and regex because it uses a rule-based strategy.
 
 The **advantage of** using **spaCy** is:
@@ -137,6 +145,8 @@ nltk is another NLP library which you may use for text processing. It is nativel
 
 https://gist.github.com/BarisSari/309ab657d38582f99e1c348f4921b6a9
 
+**
+
 **nltk tokenizer** gave almost the same result with regex. It struggled and **couldn’t split** many sentences.
 
 When we check the results carefully, we see that **spaCy with the dependency parse outperforms others** **in sentence tokenization**. It is handling the case which two sentences do not have whitespace character between them. It also handles if there are two sentences and there is only a space between them. Thus, it gave the best result.
@@ -149,11 +159,13 @@ We will create lambda functions and use Pandas DataFrame’s `apply` method. Bef
 
 https://gist.github.com/BarisSari/d0fa1294f469b4c2db1944329a5e0a8c
 
+**
+
 As you can see, **regex is blazingly fast**. It’s **10x faster than nltk** and **spaCy with sentencizer**! It’s **~1600x faster than spaCy with the dependency parse**. Yet, you might try to increase **spaCy’s** speed more. You may use `nlp.pipe` which helps to send column values in a batch instead of one-by-one. You might also modify your code to run spaCy transformation using multiprocessing. However, I’m not going to show it here. You can check the link in the further reading section.
 
 I’m going to use the first approach we have used in spaCy to transform whole data:
 
-```
+```python
 nlp = spacy.load("en_core_web_sm")
 df["Dialogue"] = df["Dialogue"].apply(lambda x: [sent.text for sent in nlp(x).sents])
 ```
@@ -164,11 +176,13 @@ We have transformed data, which have a list of sentences in each `Dialogue` colu
 
 https://gist.github.com/BarisSari/d15985c4d30f535b51f808e1bcce21b8
 
+**
+
 Okay, that’s it! In the first cell, we called `explode()` method with `ignore_index` parameter, it will create a new index for each row but it will keep the previous index values in another column named `Unnamed 0` . In the second cell, the new index and the previous index values are renamed to `Sentence ID` and `Dialogue ID` respectively. It is important to keep the track of your original data and allow yourself to transform backwardly. Because you may make amazing analysis in the sentence level, after you’re done you may want to see the results in the dialogue level. It might sound silly for this task but it might be useful in other text corpora. In our case, we can use `Dialogue ID` if we would like to return to original data because we’re 100% sure that it has unique IDs for each `dialogue`. A simple `group_by()` with correct aggregation parameters (taking first values for existing columns, and taking sum/mean etc. for the new columns that we add for analysis) would give use the original version.
 
 We have come up to the last point. Let’s save our file, and complete our tutorial:
 
-```
+```python
 df.to_csv("scripts_tokenized.csv")
 ```
 
@@ -183,6 +197,8 @@ If you think of tokenizing your text only, I would reformat the text a bit, and 
 Full working code in one gist:
 
 https://gist.github.com/BarisSari/1b9c73f8a433cdbb0da0d2d9fa376691
+
+**
 
 Thanks for reading up to the end!
 
