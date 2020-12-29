@@ -24,6 +24,8 @@ query {
         timeToRead
         description
         cover_image (width: 770, height: 380, blur: 10, quality: 90)
+        photographer
+        image_link
         path
         tags {
           id

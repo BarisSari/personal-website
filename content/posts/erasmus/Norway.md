@@ -5,6 +5,8 @@ published: true
 tags: ['Norway', 'Traveling', 'Erasmus', 'Trip']
 series: false
 cover_image: ../images/norway-front.jpg
+photographer: '<a href="https://unsplash.com/@deko_lt" target="_blank" rel="nofollow noopener noreferrer">Valdemaras D.</a>'
+image_link: '<a href="https://unsplash.com/photos/khbjgGAerPU" target="_blank" rel="nofollow noopener noreferrer">Unsplash</a>'
 canonical_url: false
 description: "The trip in May 2017."
 ---

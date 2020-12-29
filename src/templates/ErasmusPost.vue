@@ -3,6 +3,13 @@
     <div class="post-title">
       <div class="post__header">
         <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image"/>
+        <p v-if="$page.post.photographer !== undefined">Photo by
+          <em v-html="$page.post.photographer"></em>
+          on <em v-html="$page.post.image_link"></em>
+        </p>
+        <p v-else>
+          from <em v-html="$page.post.image_link"></em>
+        </p>
       </div>
 
 <!--    <div class="post-title">-->
@@ -67,11 +74,13 @@ query ErasmusPost ($id: ID!) {
     description
     content
     cover_image (blur: 5, quality: 80)
+    photographer
+    image_link
   }
 }
 </page-query>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .post-title {
   padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
   text-align: center;

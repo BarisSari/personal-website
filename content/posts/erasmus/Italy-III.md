@@ -5,6 +5,8 @@ published: true
 tags: ['Italy', 'Traveling', 'Erasmus', 'Trip']
 series: true
 cover_image: ../images/florence-front.jpg
+photographer: '<a href="https://unsplash.com/@bekoz" target="_blank" rel="nofollow noopener noreferrer">Moka</a>'
+image_link: '<a href="https://images.unsplash.com/photo-1569606859745-b568192459ff?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2604&q=80" target="_blank" rel="nofollow noopener noreferrer">Unsplash</a>'
 canonical_url: false
 description: "The several trips in 2015-2016-2017."
 ---

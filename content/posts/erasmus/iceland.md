@@ -5,6 +5,8 @@ published: true
 tags: ['Iceland', 'Traveling', 'Erasmus', 'Trip']
 series: false
 cover_image: ../images/iceland-front.jpg
+photographer: '<a href="https://unsplash.com/@tents_and_tread" target="_blank" rel="nofollow noopener noreferrer">Tomas Tucker</a>'
+image_link: '<a href="https://images.unsplash.com/photo-1472419551702-dc4862cad8f9?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80" target="_blank" rel="nofollow noopener noreferrer">Unsplash</a>'
 canonical_url: false
 description: "The trip between Dec 02 and Dec 05, 2016."
 ---

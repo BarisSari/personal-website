@@ -5,6 +5,8 @@ published: true
 tags: ['Italy', 'Traveling', 'Erasmus', 'Trip']
 series: true
 cover_image: ../images/pisa-front.jpg
+photographer: '<a href="https://unsplash.com/@alexrvasey" target="_blank" rel="nofollow noopener noreferrer">Alex Vasey</a>'
+image_link: '<a href="https://images.unsplash.com/photo-1541513410614-f91348bb4c4f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=4272&q=80" target="_blank" rel="nofollow noopener noreferrer">Unsplash</a>'
 canonical_url: false
 description: "The several trips in 2015-2016-2017."
 ---

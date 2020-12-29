@@ -5,6 +5,8 @@ published: true
 tags: ['Freelance', 'Work', 'Freelancing']
 series: false
 cover_image: ./images/tech/why_freelance_front.jpg
+photographer: '<a href="https://wallhaven.cc/user/MatrizenDesign" target="_blank" rel="nofollow noopener noreferrer">Matrizen Design</a>'
+image_link: '<a href="https://wallhaven.cc/w/j5lozq" target="_blank" rel="nofollow noopener noreferrer">Wallhaven.cc</a>'
 canonical_url: false
 description: "This article tells you the journey and observations of a software developer with one-year experience as an on-site employee and 1+ years of experience in freelance."
 ---

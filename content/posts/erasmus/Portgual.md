@@ -5,6 +5,8 @@ published: true
 tags: ['Portugal', 'Traveling', 'Erasmus', 'Trip']
 series: false
 cover_image: ../images/portugal-front.jpg
+photographer: '<a href="https://unsplash.com/@_everaldo" target="_blank" rel="nofollow noopener noreferrer">Everaldo Coelho</a>'
+image_link: '<a href="https://images.unsplash.com/photo-1513735492246-483525079686?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=3289&q=80" target="_blank" rel="nofollow noopener noreferrer">Unsplash</a>'
 canonical_url: false
 description: "The trip in May 2017."
 ---

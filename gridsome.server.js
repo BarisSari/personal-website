@@ -6,7 +6,37 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = function (api) {
-  api.loadSource(({ addCollection }) => {
+  api.loadSource(({ addSchemaResolvers }) => {
     // Use the Data store API here: https://gridsome.org/docs/data-store-api/
+    addSchemaResolvers({
+      ErasmusPost: {
+        photographer: {
+          type: 'String',
+          resolve(obj) {
+            return `${obj.photographer}`
+          }
+        },
+        image_link: {
+          type: 'String',
+          resolve(obj) {
+            return `${obj.image_link}`
+          }
+        }
+      },
+      Post: {
+        photographer: {
+          type: 'String',
+          resolve(obj) {
+            return `${obj.photographer}`
+          }
+        },
+        image_link: {
+          type: 'String',
+          resolve(obj) {
+            return `${obj.image_link}`
+          }
+        }
+      }
+    })
   })
 }

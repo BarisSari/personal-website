@@ -4,7 +4,9 @@ date: 2020-12-23
 published: true
 tags: ['Pandas', 'Tokenization', 'Python', 'Spacy']
 series: false
-cover_image: 
+cover_image: ./images/tech/sentence-tokenization-front.jpeg
+photographer: '<a href="https://unsplash.com/@finnmund?utm_source=medium&amp;utm_medium=referral" target="_blank" rel="nofollow noopener noreferrer">Finn Mund</a>'
+image_link: '<a href="https://unsplash.com/?utm_source=medium&amp;utm_medium=referral" target="_blank" rel="nofollow noopener noreferrer">Unsplash</a>'
 canonical_url: false
 description: "Apply sentence tokenization using regex, spaCy, nltk, and Python’s split. Use pandas’s explode to transform data into one sentence in each row."
 ---
