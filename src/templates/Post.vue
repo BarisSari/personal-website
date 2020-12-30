@@ -92,9 +92,9 @@ query Post ($id: ID!) {
 
   &__content {
     img {
-      width: auto;
-      margin: 0 auto;
-      display: block;
+      width: auto !important;
+      margin: 0 auto !important;
+      display: block !important;
     }
   }
 }

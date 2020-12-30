@@ -11,38 +11,35 @@ canonical_url: false
 description: "The trip in March 2017."
 ---
 
-Italy II : Cinque Terre, Como, Milano
-=====================================
-
 Ceren and I, we both made an interrail. There was a town with **full of tiny, colorful houses at mountainsides** that we both wondered and couldn’t see during interrail, **Cinque Terre**. So, we got our ticket to Italy when we found the first chance. Of course we planned our trip in the form of **Cinque Terre-Como-Milano** so that we would not only see Cinque Terre while we were there. We were there between **24-27 March**.
 
 The first night our plane landed in Florence but we did not go there to see the city, just for stay there. In the morning we directly went to Cinque Terre by train. From this train station we bought a **ticket**, that was valid **between the five villages and La Spezia**. With this ticket you can travel by train **as much as you want** during the day between the five villages. The price is **13 euros**. They also provide you a **wi-fi password** with this ticket that you can use at the train stations.
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-2114f49d77d47edb3be29b88f8eaec59.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-2114f49d77d47edb3be29b88f8eaec59.jpg "Ceren and me")
 
 **Cinque terre** is composed of five villages: **Riomaggiore, Manarola, Corniglia, Vernazza and Monterosso al Mare**. We were planning to stay in **La Spezia** in the evening, so first we went to **Riomaggiore** and left our bags. Because Riomaggiore is the closest village to La Spezia. There is a place where you can **leave your bag** right in front of the station. You need to pay **3 euros** per bag and it **closes** after a certain hour **in the evening**. After we left our bags there, we started to walking around.
 
 The beachfront is right next to the train station. So we went directly to there. The landscape created by all those **small and colorful houses** is really beautiful. It is a very cute place.
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-229afcd8fa3f9f3ac41a7e7ce96a675a.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-229afcd8fa3f9f3ac41a7e7ce96a675a.jpg "Riomaggiore")
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-a9f53c985256ef952b0c707d0a88cbea.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-a9f53c985256ef952b0c707d0a88cbea.jpg "Riomaggiore")
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-fc1249355a1ed3e656700a4a00bc1913.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-fc1249355a1ed3e656700a4a00bc1913.jpg "Riomaggiore")
 
 But to be honest, it's too small for living all the time. People generally use this place as a **summer house**. You can take advantage of **seafood** when you are hungry because there are many options in restaurant’s menus. It is very easy to find **pasta and pizza** too, of course. Also, if you want to buy something like wine or pasta and take it home, then the shops in this village are **cheaper** than the others.
 
 After sightseeing and taking lots of pictures, we returned to train station for going to next village and we went to the last village, the farest village to La Spezia, **Monterosso al Mare**. There is a **larger beach** in this village than the others. As soon as you arrive, you can find yourself at the beginning of the beach when you turn right after leaving the train station.
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-19fc611390e541170c6449139b9667a3.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-19fc611390e541170c6449139b9667a3.jpg "Monterosso al Mare")
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-058b5d9526fa48574cdd91c5d58415eb.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-058b5d9526fa48574cdd91c5d58415eb.jpg "Monterosso al Mare")
 
 We were a little disappointed in this part because **most of the buildings** we saw were **hotels**. The number of local people are less than tourits and the biggest reason for this is the beach. However, the **color of the sea** over there is really **beautiful**. The most famous structure in this village is **Neptune's sculpture**.
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-063c98c9b2568fbfb04ccef93d893813.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-063c98c9b2568fbfb04ccef93d893813.jpg "Neptune's sculpture")
 
-Source: [http://www.kanalben.com/articleimages/bc37c316f691e34134bf7bc7530d57d5.jpg](http://www.kanalben.com/articleimages/bc37c316f691e34134bf7bc7530d57d5.jpg)
+*[Source](http://www.kanalben.com/articleimages/bc37c316f691e34134bf7bc7530d57d5.jpg)*
 
 Here, after a little tour, we bought an **ice cream which was both cheap and tasty** and walked towards the tunnel.
 
@@ -54,31 +51,31 @@ There is a **church** and a **chapel** that you can see in this part. And of cou
 
 You can see the **map** of these **hiking paths** in the photo below and you can check **whether they are open** or **closed** from the link below.
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-2f4e4997cbcb2b79885923716a94225b.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-2f4e4997cbcb2b79885923716a94225b.jpg "Map")
 
-Source:  [https://www.incinqueterre.com/images/path\_map\_top.jpg](https://www.incinqueterre.com/images/path_map_top.jpg)
+*[Source](https://www.incinqueterre.com/images/path_map_top.jpg)*
 
 We prefer to **walk** the path **between Monterosso al Mare and** **Vernazza**. This is not a difficult hiking and it can be walked in about **2 hours.** I strongly recommend you to walk among the villages because it is worth the view and the nature.
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-add4f6b333aa625470d30aa1bf16a1a9.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-add4f6b333aa625470d30aa1bf16a1a9.jpg "Views from hiking road")
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-d486390b8c2921088cc7d00497c098fe.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-d486390b8c2921088cc7d00497c098fe.jpg "Views from hiking road")
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-aeec2ac3e684a0ca6f3b6d2b244be333.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-aeec2ac3e684a0ca6f3b6d2b244be333.jpg "Views from hiking road")
 
-When we almost reach Vernazza…
+When we almost reached Vernazza…
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-761154c922dbdb3a4eb29b8f11cd9cbd.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-761154c922dbdb3a4eb29b8f11cd9cbd.jpg "Views from hiking road")
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-8352ec831bcfc816db263d87ee8bc199.jpg)
-
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-d934406ef2d5f3e3d9366c9dbc514aeb.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-d934406ef2d5f3e3d9366c9dbc514aeb.jpg "Views from hiking road")
 
 Our only bad luck was that the **weather was overcast and a little rainy** that day and when we arrived to Vernazza, it started to rain. We went on because it was not very strong, but when we **arrived** at the **train station** to go to the other village, the **storm** came on. As the rain continued for a long time, we could not go to the other two villages and we had to return to La Spezia.
 
-After returning to **La Spezia**, we went directly to our hostel. But this city is also **very beautiful** and it must be visited. This is a city that has changed and developed and **not like other villages**. The road was very nice but we could not stop because it was late and we had to check-in to hostel.![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-30fd06e2c2bcb9b6aa72f7605452aa95.jpg)
+After returning to **La Spezia**, we went directly to our hostel. But this city is also **very beautiful** and it must be visited. This is a city that has changed and developed and **not like other villages**. The road was very nice but we could not stop because it was late and we had to check-in to hostel.
 
-Source: [https://t-ec.bstatic.com/images/hotel/max1024x768/871/87107656.jpg](https://t-ec.bstatic.com/images/hotel/max1024x768/871/87107656.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-30fd06e2c2bcb9b6aa72f7605452aa95.jpg "La Spezia Center")
+
+*[Source](https://t-ec.bstatic.com/images/hotel/max1024x768/871/87107656.jpg)*
 
 I also want to mention about the hostel we stayed at at this point because it was **one of the most beautiful places** I've ever stayed. We stayed at **My flat in Cinque Terre hostel** and the price was **17 euros** for one night. The hostel is **very clean** and the owners are **very interested and kind.** The **only downfall** is that it's a flat and there's no reception, so you have to **wait for the key** till the owners bring it to you when you arrive. But when you get inside, we’re sure that you will be satisfied,it’ll meet your expectations. You can **use the kitchen** as you like and there are everything which a normal flat has. The common area also has everything you need to make your meals such as pasta, oil and sauces. We wanted to try **Italian pasta and Italian tomato sauce** and we did it, beside that we drank our **wine we bought from the last village**. Wine was **12 euros** but we saw cheaper and the same one at first village. Next day, we saw the same wine with half price in La Spezia. So, you can consider to do shopping in La Spezia, not in the villages :)
 
@@ -88,7 +85,7 @@ Next morning, we went to the train station for going to **Como.** However, there
 
 The first thing that caught our attention when we arrived in Como was the **calmness of the city**. When we left the train station, we saw the **Como lake** on the left. If you have the time, you can walk around the lake, but remember that it is **big**. The lake is **lush** and you can see many **villas around**.
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-5eb280ba48b7a7a6b9627a2044c62f06.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-5eb280ba48b7a7a6b9627a2044c62f06.jpg "Como Lake")
 
 ![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-3442f5bc619591bd7d8331388565c9af.jpg)
 
@@ -96,13 +93,13 @@ There are boats that moves from the edge of the lake and it is possible to easil
 
 ![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-bcc46458edb13c89275a4ca2ea7621ce.jpg)
 
-Source: [http://gollerveturizm.weebly.com/uploads/2/5/2/9/25298283/9957779\_orig.jpg](http://gollerveturizm.weebly.com/uploads/2/5/2/9/25298283/9957779_orig.jpg)
+*[Source](http://gollerveturizm.weebly.com/uploads/2/5/2/9/25298283/9957779_orig.jpg)*
 
 After spending time around the lake, we walked towards the **city center**. At that moment, we saw something in the glass of a pastry that we wanted to try since we came to Italy. It is called **Panzerotto**. Panzerotto is actually **belongs to Milano**, and if you eat from **places near Milano's cathedral**, you have a good chance to **eat the best**.We bought it an ate it immediately and continue walk to city centre. It is very easy and enjoyable to visit all the streets in here because Como is so small. We literally passed through all streets. There is a **cathedral** at the city center and the structure is really nice. However, when we finished the old area we very surprised because we were in a whole new part. There is only one way between them.
 
 ![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-ef654cb14b8a4f3322e253d911ae56ab.jpg)
 
-Source: [http://photos.wikimapia.org/p/00/01/91/81/47\_big.jpg](http://photos.wikimapia.org/p/00/01/91/81/47_big.jpg)
+*[Source](http://photos.wikimapia.org/p/00/01/91/81/47_big.jpg)*
 
 We sat  a place which is right across from cathedral cause we were hungry. We tried **tiramisu, pasta with pesto sauce, coffee and souffle**. We were only didn’t like the suffle but it is the only thing doesn’t belong to the Italians J
 
@@ -112,25 +109,25 @@ After this feast we went to the train station to return to Milan and **stayed Mi
 
 When it comes to **places to see in Milan,** everyone thinks first that it is the **Duomo Cathedral** and **Gelleria Vittorio Emanuele II**, one of the oldest shopping centers in the world. The Duomo cathedral is one of the **best examples of gothic style** and a place to be seen. The shopping center and the cathedral are **side by side** so when you go to that area you can **see both of them.**
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-0a8c68f91cb20be9d33fedbcfd3cfe17.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-0a8c68f91cb20be9d33fedbcfd3cfe17.jpg "Duomo Cathedral")
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-d9eacbe29986f5ffee612021780fef1e.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-d9eacbe29986f5ffee612021780fef1e.jpg "Gelleria Vittorio Emanuele II")
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-73f22d07a081df4818a1a1b922a74f2d.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-73f22d07a081df4818a1a1b922a74f2d.jpg "Gelleria Vittorio Emanuele II")
 
 It is possible to find many brands in that area. Already, Milan is a place where **fashion** can be regarded as a **capital city.** Ceren admired every shoe she saw :)
 
 Another place you should see in Milan is **Sforzesco Castle.** There is a **very large courtyard** to walk around and there are **museums** inside. The only **bad thing** about the castle is the **lighting**. Just as the front side is beautifully lit up and the other sides are not very caring. We are always jealous of Budapest in this regard.
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-34d4aa6abd1a70c40b8a2c6f2908bb38.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-34d4aa6abd1a70c40b8a2c6f2908bb38.jpg "Sforzesco Castle")
 
-Source: [http://www.yoldasin.com/wp-content/uploads/2016/04/yoldasin-italya-milano-Sforzesco-kalesi-960x643.jpg](http://www.yoldasin.com/wp-content/uploads/2016/04/yoldasin-italya-milano-Sforzesco-kalesi-960x643.jpg)
+*[Source](http://www.yoldasin.com/wp-content/uploads/2016/04/yoldasin-italya-milano-Sforzesco-kalesi-960x643.jpg)*
 
 There is a **wide street** across from the castle, called **Via Dante.** Here again you can see many brands. There are also **many restaurants and cafes**. But the prices are **expensive** and the food is **not very tasty** as it is a tourist attraction. We do not know how it is possible in Italy, but we ate the **worst pizza** here.
 
-![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-a0f89fbc4fa3b230aa0dc0725e31e21a.jpg)
+![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-a0f89fbc4fa3b230aa0dc0725e31e21a.jpg "Via Dante")
 
-Source: [http://iaae2016.info/wp-content/uploads/2015/09/city-centre-705879\_1280.jpg](http://iaae2016.info/wp-content/uploads/2015/09/city-centre-705879_1280.jpg)
+*[Source](http://iaae2016.info/wp-content/uploads/2015/09/city-centre-705879_1280.jpg)*
 
 But we were very pleased that there was something going on. In Italy, **happy hours** are very common. In the evening you can **buy a drink** that you want in the place you go, during certain hours, and you can **eat the food** you want in the **open buffet**. We recommend that you try the apparatifs as they are very tasty.
 
@@ -138,7 +135,7 @@ I would like to talk a little bit about **art** because everything in Milan is a
 
 ![Italy II : Cinque Terre, Como, Milano](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-ii-cinque-terre-como-milano-b5b61bf31cb36aeba0c75fa2461cede3.jpg)
 
-Source: [http://oitheblog.com/wp-content/uploads/2016/03/SAM\_7328-1024x694.jpg](http://oitheblog.com/wp-content/uploads/2016/03/SAM_7328-1024x694.jpg)
+*[Source](http://oitheblog.com/wp-content/uploads/2016/03/SAM_7328-1024x694.jpg)*
 
 After all these tiresome trips we had to go to the **airport** now. We went to the Milan railway station for this because a lot of **buses** depart from **in front of the station** to go to the airport. The price is also **5 euros**.
 

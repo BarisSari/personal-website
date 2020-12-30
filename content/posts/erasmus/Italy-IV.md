@@ -11,9 +11,6 @@ canonical_url: false
 description: "The several trips in 2015-2016-2017."
 ---
 
-Italy IV: Pisa, Sienna, Lucca
-=============================
-
 After Florence, we went **Pisa** to see the famous Pisa tower. As a first impression Pisa looks very nice but it is really small and there is **not many things except the Pisa tower.**
 
 When we threw our first step into Pisa, this view welcomed us!
@@ -54,7 +51,7 @@ We walked through into the center and we saw a different structure than the bric
 
 ![italy-iv-pisa-sienna-lucca-56b7ca37bae1b](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iv-pisa-sienna-lucca-56b7ca37bae1b245b96a27a128905ea0.jpg)
 
-Source: http://www.scopriresiena.it/wp-content/uploads/2013/04/duomo-di-siena.jpg
+*[Source](http://www.scopriresiena.it/wp-content/uploads/2013/04/duomo-di-siena.jpg)*
 
 There are **various places** around the cathedral that **make pizza**. You can buy pizza from these shops and sit and **eat in front of the cathedral**. The atmosphere is really enjoyable for eating food or drinking something and most people are doing that.
 
@@ -78,7 +75,7 @@ After we got into the city, we went to the **Piazza dell'Anfiteatro** in the fir
 
 ![italy-iv-pisa-sienna-lucca-6086f6415e20b](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iv-pisa-sienna-lucca-6086f6415e20ba44bb5e4046c8ab54fb.jpg)
 
-Source: http://www.fayeandsteve.com/lucca/Piazza-San-Michelle-morning.jpg
+*[Source](http://www.fayeandsteve.com/lucca/Piazza-San-Michelle-morning.jpg)*
 
 One of the most beautiful buildings you can see in the city is the Chiesa di San Michele in Foro, **Basilica** **of San Michele in Foro.** This basilica is located on **Piazza San Michele**, San Michele square. Two of the most beautiful squares you can see in Lucca are Piazza San Michele **and Piazza Napoleone.** Cattedrale di San Martino, **San Martino Cathedral**, are also definitely worth seeing. Especially the **inside** of this cathedral is **more spectacular** than the basilica.
 
@@ -86,13 +83,13 @@ There was also another place we really liked, the **Palazzo Pfanner Museum**. In
 
 ![italy-iv-pisa-sienna-lucca-2edb98e7f94b3](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iv-pisa-sienna-lucca-2edb98e7f94b3e9073e4d29cb727f57d.jpg)
 
-Source: https://media-cdn.tripadvisor.com/media/photo-s/05/37/98/db/palazzo-pfanner.jpg
+*[Source](https://media-cdn.tripadvisor.com/media/photo-s/05/37/98/db/palazzo-pfanner.jpg)*
 
 Another building you need to see is the **Guinigi Tower**. You need to climb about **200 steps** to get top of the tower and when you reach the top, **oak trees** meet you there. Yes, there are **oak trees on top of the tower!** You can enjoy the beautiful view of Lucca while you are in the trees.
 
 ![italy-iv-pisa-sienna-lucca-9c4fc37dd7604](https://d1bvpoagx8hqbg.cloudfront.net/originals/italy-iv-pisa-sienna-lucca-9c4fc37dd76043ec0ecf0c3f7649cbe6.jpg)
 
-Source: https://images.trvl-media.com/media/content/shared/images/travelguides/destination/6047847/Guinigi-Tower-Torre-Guinigi-58406.jpg
+*[Source](https://images.trvl-media.com/media/content/shared/images/travelguides/destination/6047847/Guinigi-Tower-Torre-Guinigi-58406.jpg)*
 
 We mentioned that Lucca was surrounded by walls. We ended our city tour on these walls. The most beautiful feature of these **walls** is that their **tops are covered with grass**. You can easily walk on or along the walls, or relax and enjoy the grass. We had the pleasure of the walls after we drank wine. We were a little bit drunk after that wine actually because of the fatigue and weakness of the body that we had given not to eat too much food. In fact, our friend claimed that she is the president of Lucca. Anyway… I mean just enjoy that nature.
 

@@ -18,7 +18,7 @@ Like most people, **going to Iceland** was one of my biggest dreams. That's why,
 
 When we arrived in Iceland with my friend from Erasmus, our first job was to **hitchhike to Reykjavik**. Because we found a host there. Our first impression was amazing, because we met with 2 helpful people who took us in their car and gave us information about Iceland. We arrived to Reykjavik, we saw this **beautiful modern church** right after getting out from the car. It's called **Hallgrímskirkja**
 
-![iceland-4d6409c80244475890079d0464253411](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-4d6409c80244475890079d0464253411.jpg)
+![iceland-4d6409c80244475890079d0464253411](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-4d6409c80244475890079d0464253411.jpg "Hallgrímskirkja")
 
 We met 3 great people who were our host, one German and two Polish people. It was even interesting to meet them because they were just a few years older and they had decided to migrate to Iceland while they were my age. After listening to Iceland from their eyes, we began to understand more about how beautiful this country is because of the **boss-employee relationship with respect**, a **high level of prosperity** of the whole country, **respect for immigrants** etc.
 
@@ -30,15 +30,15 @@ On our second day, we woke up early and started hitchhiking south. Our reaching 
 
 We decided to rest somewhere because it was difficult to drive 2 hours in rainy and foggy weather. Me and Ceren were lucky because **Skogafoss** was close to us and we stopped in there**.** **We visited that** one of the spectacular waterfalls in Iceland while our driver was taking a nap.
 
-![iceland-971c8a8ea7dc2f13e4dc15c7d7ab7a0d](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-971c8a8ea7dc2f13e4dc15c7d7ab7a0d.jpg)
+![iceland-971c8a8ea7dc2f13e4dc15c7d7ab7a0d](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-971c8a8ea7dc2f13e4dc15c7d7ab7a0d.jpg "Skogafoss")
 
-![iceland-de8f328475ebf0fe8a61daaa66c035fb](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-de8f328475ebf0fe8a61daaa66c035fb.jpg)
+![iceland-de8f328475ebf0fe8a61daaa66c035fb](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-de8f328475ebf0fe8a61daaa66c035fb.jpg "Skogafoss")
 
 It’s not very big waterfall but it’s breathtaking. Be careful when approaching the waterfall or you will get wet. There was **a walking path to the top of the waterfall**, but it was closed. It could be because of the weather. However, remember to check when you go there. I'm sure it's more amazing to see what you're on top.
 
 After visiting Skogafoss and 3, 5 hours of driving, we were finally in Vik. We went to the **black sand beach** immediately because the sunset was near. As we walked along the beach, the weather began to worsen and we noticed that the rocks in the distance and the mountain on our right began to disappear because of the fog. When we did research later, we learned that we should be careful, that there were many disappearances. Anyway, we walked in Vik town after walking in black sand and collecting a bit.
 
-![iceland-7adebbb3efc35827abf3553c166ad622](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-7adebbb3efc35827abf3553c166ad622.jpg)
+![iceland-7adebbb3efc35827abf3553c166ad622](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-7adebbb3efc35827abf3553c166ad622.jpg "Vik, Black Sand Beach")
 
 We entered one big souvenir shop and checked the prices. We said we should buy something for ourselves because we spent less money and we bought **bracelets** **for 8-9 euros**. They are one of the cheapest things in souvenir shops. We saw one sweater and it was more than 300 euros..
 
@@ -46,33 +46,33 @@ We went to the main road to hitchhike to Reykjavik but the cars did not stop bec
 
 On our third day, we planned to make golden circle tour. It is called golden circle because it leads to a round drawing when you finish, as you can see from our map below.
 
-![iceland-dbd4fc1bdfb66b32cf8cf4101b4fbfb4](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-dbd4fc1bdfb66b32cf8cf4101b4fbfb4.jpg)
+![iceland-dbd4fc1bdfb66b32cf8cf4101b4fbfb4](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-dbd4fc1bdfb66b32cf8cf4101b4fbfb4.jpg  "Golden Circle Route")
 
 So we decided to make this tour with the car, not hitchhiking, because we thought it would be easier and we were a bit tired. We went to meet Sarvar, our friend whom we already agreed to make this tour together. But when we did, something funny happened. We both thought it was a car on the opposite side, but actually neither of us had a car. Everyone misunderstood each other. After a short surprise, we said let's hitchhike together and make this trip! One Icelandic oldman picked us up and he drove us to **Crater Kerio.** He was going to his summer house but don’t think that there’s sun, beach and hot weather. That means hot natural spring water! Anyway, we learned that there is **a lake in Iceland** which is **%100 drinkable**! In fact, almost all waters are drinkable in Iceland. When you're talking about this country, everything is different and sounds like impossible.
 
 When we arrived, we saw the crater was big and it's from thousands of years ago. Check this vibrant colors around the crater.
 
-![iceland-603d6f0591f2ccdd1b8b33321430d507](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-603d6f0591f2ccdd1b8b33321430d507.jpg)
+![iceland-603d6f0591f2ccdd1b8b33321430d507](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-603d6f0591f2ccdd1b8b33321430d507.jpg  "Crater Kerio")
 
 Our second stop was the geyser area but we had a little problem because there were not many cars on the way and we were three people. After waiting for a while, we met 3 amazing girls who were on weekend trip in Iceland and stuyding in London. We started to make the rest of the golden circle tour all together. We went to **Haukadalur and the Strokkur geyser.** We waited for eruptions and we saw those famous pictures alive!
 
-![iceland-2ea62521d96e2dcad87143e96d2dace6](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-2ea62521d96e2dcad87143e96d2dace6.jpg)
+![iceland-2ea62521d96e2dcad87143e96d2dace6](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-2ea62521d96e2dcad87143e96d2dace6.jpg  "Haukadalur and the Strokkur geyser")
 
-[Source](https://i.ytimg.com/vi/TIK4wEdMwQM/maxresdefault.jpg)
+*[Source](https://i.ytimg.com/vi/TIK4wEdMwQM/maxresdefault.jpg)*
 
-![iceland-6ef2b202a1251b3ce61290dcbc501ae5](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-6ef2b202a1251b3ce61290dcbc501ae5.jpg)
+![iceland-6ef2b202a1251b3ce61290dcbc501ae5](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-6ef2b202a1251b3ce61290dcbc501ae5.jpg "Haukadalur and the Strokkur geyser")
 
 There are a few of geysers but not all of them are active now. One of them, which is in the picture, erupts in **every 10 minutes**.
 
 Then, we went to **Gullfoss.** It was bigger than Skogafoss and we're shocked when we saw it because of how huge it is. It was windy and cold but we didn't care and we spent lots of time there. These were our group. We're 3 different groups at the beginning but hitchhiking crossed our paths!
 
-![iceland-4e0ebefb5a46f08d3f4b782135510c2a](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-4e0ebefb5a46f08d3f4b782135510c2a.jpg)
+![iceland-4e0ebefb5a46f08d3f4b782135510c2a](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-4e0ebefb5a46f08d3f4b782135510c2a.jpg "Gullfoss")
 
-![iceland-e2e8f0baf22b9498674b154e61ae3081](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-e2e8f0baf22b9498674b154e61ae3081.jpg)
+![iceland-e2e8f0baf22b9498674b154e61ae3081](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-e2e8f0baf22b9498674b154e61ae3081.jpg "Gullfoss")
 
 It was already a bit dark and we decided not to go **Thingvellir National Park.** We wanted to go to a lagoon to relax and **Secret Lagoon** was on our way. We left ourselves in the natural spring water and all our muscles relaxed. It is a very different experience wearing the swim shorts and go out while the weather is very cold outside. Another strange thing is, if you spend time in the water for a while, you don’t even feel cold when you get out from water. By the way, **entrance fee is 25 euros**. You can see our picture from that lagoon. Ceren and me.
 
-![iceland-9be42317e53defa99ca0c2a9c08be49d](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-9be42317e53defa99ca0c2a9c08be49d.jpg)
+![iceland-9be42317e53defa99ca0c2a9c08be49d](https://d1bvpoagx8hqbg.cloudfront.net/originals/iceland-9be42317e53defa99ca0c2a9c08be49d.jpg "Secret Lagoon")
 
 We returned to Reykjavik after 2 pleasant hours at Secret Lagoon. It was our last day unfortunately
 
