@@ -11,30 +11,27 @@ canonical_url: false
 description: "The several trips in 2015 and 2017."
 ---
 
-Italy I: Rome!
-==============
-
 There are a few cities which are more famous than other cities in Italy such as **Rome**, **Florence**, **Venice**, **Milan, Bologna, Napoli**. They also came to my mind when I was making Interrail Trip around Europe but because of lack of time, I had chance to visit only first three of them. I was really excited because I was going to the capital of **pasta**, **pizza, espresso** and **Renaissance** I needed to change 6-7 trains for going to my first stop, Rome, from Barcelona but it wasn’t a big problem if you consider my excitement. After traveling all day by train, I was exhausted but I was in Rome!
 
 I had made reservation for 3 nights to stay at **Plus Camping Roma** before I arrived to Rome. It wasn’t easy to find my way for the hostel because it wasn’t close to train station and was far away from city center. When I learned that I need to use metro and bus for going, I decided to buy tickets for **72 hours for public transportation** because it was more convenient than single tickets. I paid **18 euros** which was not cheap at all. I had next 3 whole days for visiting this beautiful city. Therefore, I went directly to the hostel and chose to sleep all night. I paid **57 euros for 3 nights** and stayed in a tent, which was comfortable at nights, although it was very hot in the morning.
 
 I woke up early for starting to visit as most places as possible. My plan was to go to Colosseum, Palatine Hill and Roman Forum but I saw that metro was closed and I needed to use a bus which didn’t come after waiting almost one hour. I got on one random bus and got off the bus at one stop where I saw many tourists got off. It was a wise decision because I was in front of **St. Peter’s Square**, which means I was in **Vatican City** just after walking 10-15 minutes!
 
-![rome-16ca3d578bb70823fe34a1afe0bba8bd.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-16ca3d578bb70823fe34a1afe0bba8bd.jpg)
+![rome-16ca3d578bb70823fe34a1afe0bba8bd.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-16ca3d578bb70823fe34a1afe0bba8bd.jpg "St. Peter’s Square")
 
 The biggest problem with the most tourist attractive places is that you have to wait in line for entrance. I waited 40-45 minutes in **Piazza San Pietro** for entering **St. Peter’s Basilica** but it is worth for sure! It was **one of the most gorgeous churches,** I have ever seen in my life. I was fascinated because of many reasons like its immensity, sculptures, figures, baldaken and every small details which **was designed by famous** **Renaissance architects such as Michelangelo, Raphael, Donato** **Bramante**.
 
-![rome-ac40b7b95771e7b1d4d689768eee40f8.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-ac40b7b95771e7b1d4d689768eee40f8.jpg)
+![rome-ac40b7b95771e7b1d4d689768eee40f8.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-ac40b7b95771e7b1d4d689768eee40f8.jpg "St. Peter’s Basilica")
 
-![rome-ad94473bdaeabc43ade28ff5221ee1e6.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-ad94473bdaeabc43ade28ff5221ee1e6.jpg)
+![rome-ad94473bdaeabc43ade28ff5221ee1e6.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-ad94473bdaeabc43ade28ff5221ee1e6.jpg "St. Peter’s Basilica")
 
-![rome-ec2f7b2b8f13aac174b3ececf8677a42.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-ec2f7b2b8f13aac174b3ececf8677a42.jpg)
+![rome-ec2f7b2b8f13aac174b3ececf8677a42.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-ec2f7b2b8f13aac174b3ececf8677a42.jpg "St. Peter’s Basilica")
 
-![rome-99851c5a36a1b869a747687e86560ee0.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-99851c5a36a1b869a747687e86560ee0.jpg)
+![rome-99851c5a36a1b869a747687e86560ee0.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-99851c5a36a1b869a747687e86560ee0.jpg "St. Peter’s Basilica")
 
 After 1 hour of shock, I left from Basilica and there was a **ticket sale for the Vatican Museum and the Sistine Chapel at the exit**. I was planning to buy tickets online in advance but I was luckily there and I said let’s buy here! I paid **small amount of extra** money **for skipping the queue** for entering the museum and bought the ticket.
 
-![rome-9c1840078de9201b3bf44d1a03fd3227.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-9c1840078de9201b3bf44d1a03fd3227.jpg)
+![rome-9c1840078de9201b3bf44d1a03fd3227.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-9c1840078de9201b3bf44d1a03fd3227.jpg "Entrance of Vatican Museum")
 
 Note: This is the entrance of the museum. Beautiful, isn't it?
 
@@ -42,25 +39,25 @@ I went to the entrance of **Vatican Museum** and my journey to Sistine Chapel be
 
 http://www.vatican.va/various/cappelle/sistina\_vr/index.html
 
-![rome-ca9a7d292a2be2a680bde300810aca77.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-ca9a7d292a2be2a680bde300810aca77.jpg)
+![rome-ca9a7d292a2be2a680bde300810aca77.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-ca9a7d292a2be2a680bde300810aca77.jpg "Vatican Museum")
 
 Before you enter this museum, there must be a warning that you will be captivated, shocked, even if you aren’t interested in something in the museum. After being full of Renaissance works, it was time to fill my stomach! I ate special pizza of Rome which doesn’t have tomato sauce and has onions, cheeses and potatoes. It might not be best pizza ever but it was different than others. Because of too hot weather, I needed to get some rest and I was lucky because there was a swimming pool in my hostel. I swam, enjoyed the sun and spent the rest of my day in the hostel.
 
 In the second day, I woke up early for following my plan of visiting **Colosseum, Palatine Hill and Roman Forum.** I paid **12 euros** for entrance. As far as I remember, it’s better to visit Colosseum first because it’s closer than forum. It’s **more than 2000 years old** and still stands. I cannot think of a better country than Italy when it comes to renovation and architecture. I spent around 1-1, 5 hour there.
 
-![rome-9e3197a3191989fdf95614545823a447.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-9e3197a3191989fdf95614545823a447.jpg)
+![rome-9e3197a3191989fdf95614545823a447.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-9e3197a3191989fdf95614545823a447.jpg "Colosseum")
 
-![rome-f7b3dcd04f4e6c8552e8cc0e9118b3d8.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-f7b3dcd04f4e6c8552e8cc0e9118b3d8.jpg)
+![rome-f7b3dcd04f4e6c8552e8cc0e9118b3d8.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-f7b3dcd04f4e6c8552e8cc0e9118b3d8.jpg "Colosseum")
 
-![rome-fc78e4dc15d70cae75fdbe3bbbe9af43.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-fc78e4dc15d70cae75fdbe3bbbe9af43.jpg)
+![rome-fc78e4dc15d70cae75fdbe3bbbe9af43.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-fc78e4dc15d70cae75fdbe3bbbe9af43.jpg "Inside of Colosseum")
 
-![rome-f3b3fc3207abcfe3fd1256ac8dab8bd7.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-f3b3fc3207abcfe3fd1256ac8dab8bd7.jpg)
+![rome-f3b3fc3207abcfe3fd1256ac8dab8bd7.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-f3b3fc3207abcfe3fd1256ac8dab8bd7.jpg "Inside of Colosseum")
 
 I went directly to **Palatine Hill and Roman Forum**, which is next to the exit of Colosseum.
 
-![rome-96de58acc0b1fda8bc2105e57d7b8c73.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-96de58acc0b1fda8bc2105e57d7b8c73.jpg)
+![rome-96de58acc0b1fda8bc2105e57d7b8c73.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-96de58acc0b1fda8bc2105e57d7b8c73.jpg "Palatine Hill and Roman Forum")
 
-![rome-8c1c6c9bd3f45339e0046b688d94e504.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-8c1c6c9bd3f45339e0046b688d94e504.jpg)
+![rome-8c1c6c9bd3f45339e0046b688d94e504.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-8c1c6c9bd3f45339e0046b688d94e504.jpg "Palatine Hill and Roman Forum")
 
 In ancient times, while **rulers** and people who have **high social ranks were living on the hill**, the **local people** lived **in the Roman Forum**. When nobles looked from the hill, they were seeing the forum and **Circus Maximus,** the place where all big events (races, festivals, public games etc. ) happened.
 
@@ -68,9 +65,9 @@ When you looked the pictures, it might look like historical ruin because of tumb
 
 You can see how Palatine Hill was in ancient times:
 
-![rome-c366fc7c1240fe6a7cfd4bc9397c293b.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-c366fc7c1240fe6a7cfd4bc9397c293b.jpg)
+![rome-c366fc7c1240fe6a7cfd4bc9397c293b.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-c366fc7c1240fe6a7cfd4bc9397c293b.jpg "Palatine Hill")
 
-[Source](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Palatin-legende.jpg/800px-Palatin-legende.jpg)
+*[Source](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Palatin-legende.jpg/800px-Palatin-legende.jpg)*
 
 I spent the rest of the day visiting the souvenir shops and eating more pasta and pizza. I ate one restaurant near the main train station and toppings of pizza were vegetables like pumpkin, eggplant, pepper and I don’t even have to tell you how delicious it was!
 
@@ -78,23 +75,23 @@ In my 3rd and last day, I planned to go to **Pantheon, Trevi Fountain, Piazza De
 
 **Pantheon** is a temple which **stands** since more than **18 centuries ago.** It’s one of best preserved ancient buildings in Italy, maybe in the world. It has dome which isn’t the usual architecture of the time. You can enter inside for free.
 
-![rome-c6b1e906bfa41fb05ec8d819e947b143.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-c6b1e906bfa41fb05ec8d819e947b143.jpg)
+![rome-c6b1e906bfa41fb05ec8d819e947b143.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-c6b1e906bfa41fb05ec8d819e947b143.jpg "Pantheon")
 
-![rome-926f68d5c9b47c2eb47f569e7dd8bcd5.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-926f68d5c9b47c2eb47f569e7dd8bcd5.jpg)
+![rome-926f68d5c9b47c2eb47f569e7dd8bcd5.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-926f68d5c9b47c2eb47f569e7dd8bcd5.jpg "Pantheon")
 
 Just a few minues far away from Pantheon, there is a **famous ice cream shop** which every human species should try it’s ice creams! It’s called **Giolitti** but I call it temple of ice cream There are lots of options to choose, even alcoholic ones, and you must pay around 5 euros for 3 toppings. It sounds expensive but it’s worth for sure!
 
 **Trevi Fountain** is one the most famous fountains in the world. Do not forget to throw coins for good luck, acceptance of wishes, find of your true love! We call it “Fountain of Love” in Turkish, so you might wish your future wife/husband, love.
 
-![rome-85b6571ff4e6396ec1962693143b6a9a.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-85b6571ff4e6396ec1962693143b6a9a.jpg)
+![rome-85b6571ff4e6396ec1962693143b6a9a.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-85b6571ff4e6396ec1962693143b6a9a.jpg "Trevi Fountain")
 
 I went to all of these squares after that, where I saw many sculptures in the fountains and many beautiful churches next to them. I recommend you to go to all of them and you can look at the activities on the square while relaxing for a while and you can fill your water as I do.
 
 I’d like to finish this writing after mentioning **Piazza Di Spagna.** It is famous with Spanish steps and mostly young people love sitting there and chatting, playing musics, having great time! There is also very famous fountain at the bottom of these steps: **Fontana della Barcaccia.** Don’t forget to take a look at it!
 
-![rome-5c9cf727a4bb8fb23bae72de40ae584a.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-5c9cf727a4bb8fb23bae72de40ae584a.jpg)
+![rome-5c9cf727a4bb8fb23bae72de40ae584a.jp](https://d1bvpoagx8hqbg.cloudfront.net/originals/rome-5c9cf727a4bb8fb23bae72de40ae584a.jpg "Fontana della Barcaccia")
 
-[Source](https://www.telegraph.co.uk/content/dam/Travel/leadAssets/32/06/spanish_steps_3206492a-xlarge.gif)
+*[Source](https://www.telegraph.co.uk/content/dam/Travel/leadAssets/32/06/spanish_steps_3206492a-xlarge.gif)*
 
 Tips&Tricks:
 
