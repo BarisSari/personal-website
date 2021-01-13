@@ -4,7 +4,7 @@ date: 2021-01-13
 published: true
 tags: ['Python', 'Github', 'pre-commit', 'code_styling']
 series: false
-cover_image: https://cdn-images-1.medium.com/max/2600/0*zUOYo_3eGaVTzTY_
+cover_image: ./images/tech/precommit_front.jpeg
 photographer: '<a href="https://unsplash.com/@ugmonk?utm_source=medium&utm_medium=referral" target="_blank" rel="nofollow noopener noreferrer">Jeff Sheldon</a>'
 image_link: '<a href="https://cdn-images-1.medium.com/max/2600/0*zUOYo_3eGaVTzTY_" target="_blank" rel="nofollow noopener noreferrer">Unsplash</a>'
 canonical_url: false
