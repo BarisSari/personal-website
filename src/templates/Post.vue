@@ -91,14 +91,14 @@ query Post ($id: ID!) {
   padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
   text-align: center;
 }
-.tech {
-
-  &__content {
-    img {
-      width: auto !important;
-      margin: 0 auto !important;
-      display: block !important;
-    }
-  }
-}
+//.tech {
+//
+//  &__content {
+//    img {
+//      width: auto !important;
+//      margin: 0 auto !important;
+//      display: block !important;
+//    }
+//  }
+//}
 </style>
