@@ -87,7 +87,10 @@ query Post ($id: ID!) {
 </page-query>
 
 <style lang="scss">
-
+.post-title {
+  padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
+  text-align: center;
+}
 .tech {
 
   &__content {
