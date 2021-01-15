@@ -1,7 +1,7 @@
 ---
 title: Why freelance suits me more?
 date: 2020-12-17
-published: true
+published: false
 tags: ['Freelance', 'Work', 'Freelancing']
 series: false
 cover_image: ./images/tech/why_freelance_front.jpg
