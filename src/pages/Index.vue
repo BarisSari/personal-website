@@ -6,14 +6,14 @@
 </template>
 
 <script>
-import Author from '~/components/Author.vue'
+import Author from '~/components/Author.vue';
 
 export default {
   components: {
     Author,
   },
   metaInfo: {
-    title: 'Baris Sari - Software Developer'
-  }
-}
+    title: 'Baris Sari - Software Developer',
+  },
+};
 </script>

@@ -1,7 +1,8 @@
 <template>
   <div class="post-card content-box" :class="{'post-card--has-poster' : post.poster}">
     <div class="post-card__header">
-      <g-image alt="Cover image" v-if="post.cover_image" class="post-card__image" :src="post.cover_image" />
+      <g-image alt="Cover image" v-if="post.cover_image" class="post-card__image"
+               :src="post.cover_image" />
     </div>
     <div class="post-card__content">
       <h2 class="post-card__title" v-html="post.title" />
@@ -16,16 +17,16 @@
 </template>
 
 <script>
-import PostMeta from '~/components/PostMeta'
-import PostTags from '~/components/PostTags'
+import PostMeta from '~/components/PostMeta.vue';
+import PostTags from '~/components/PostTags.vue';
 
 export default {
   components: {
     PostMeta,
-    PostTags
+    PostTags,
   },
   props: ['post'],
-}
+};
 </script>
 
 <style lang="scss">

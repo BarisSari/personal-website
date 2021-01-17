@@ -7,8 +7,8 @@
         <TechLeft v-if="showTech" />
         <MainLeft v-if="showMain" />
       </div>
-      
-      <div class="header__right">        
+
+      <div class="header__right">
         <ToggleTheme />
       </div>
     </header>
@@ -25,24 +25,24 @@
 </template>
 
 <script>
-import ErasmusLeft from '~/components/ErasmusLeft.vue'
-import TechLeft from '~/components/TechLeft.vue'
-import MainLeft from '~/components/MainLeft.vue'
-import ToggleTheme from '~/components/ToggleTheme.vue'
+import ErasmusLeft from '~/components/ErasmusLeft.vue';
+import TechLeft from '~/components/TechLeft.vue';
+import MainLeft from '~/components/MainLeft.vue';
+import ToggleTheme from '~/components/ToggleTheme.vue';
 
 export default {
   props: {
     showLogo: { default: true },
     showMain: { default: false },
-    showTech: { default: false }
+    showTech: { default: false },
   },
   components: {
     ErasmusLeft,
     TechLeft,
     MainLeft,
-    ToggleTheme
-  }
-}
+    ToggleTheme,
+  },
+};
 </script>
 
 <style lang="scss">

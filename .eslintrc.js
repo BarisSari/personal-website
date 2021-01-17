@@ -15,5 +15,12 @@ module.exports = {
     'vue',
   ],
   rules: {
+    'no-plusplus': 'off',
+    'func-names': 'off',
+    'import/no-unresolved': 'off',
+    "indent": [2],
+    "no-tabs": 0,
+    "global-require": 0,
+    "no-underscore-dangle": 0
   },
 };

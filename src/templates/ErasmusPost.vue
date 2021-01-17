@@ -35,28 +35,28 @@
 </template>
 
 <script>
-import PostMeta from '~/components/PostMeta'
-import PostTags from '~/components/PostTags'
-import Author from '~/components/Author.vue'
+import PostMeta from '~/components/PostMeta.vue';
+import PostTags from '~/components/PostTags.vue';
+import Author from '~/components/Author.vue';
 
 export default {
   components: {
     Author,
     PostMeta,
-    PostTags
+    PostTags,
   },
-  metaInfo () {
+  metaInfo() {
     return {
       title: this.$page.post.title,
       meta: [
         {
           name: 'description',
-          content: this.$page.post.description
-        }
-      ]
-    }
-  }
-}
+          content: this.$page.post.description,
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <page-query>

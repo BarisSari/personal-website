@@ -1,7 +1,7 @@
 <template>
-	  <span class="logo__text">
-	    <g-link to="/">&larr; Return to Homepage</g-link>
-	  </span>
+  <span class="logo__text">
+    <g-link to="/">&larr; Return to Homepage</g-link>
+  </span>
 </template>
 
 <style lang="scss" scoped>
