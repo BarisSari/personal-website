@@ -1,7 +1,7 @@
 <template>
-	  <span class="logo__text">
-	    <g-link to="/erasmus-blog/">&larr; Return to Erasmus Blog</g-link>
-	  </span>
+  <span class="logo__text">
+    <g-link to="/erasmus-blog/">&larr; Return to Erasmus Blog</g-link>
+  </span>
 </template>
 
 <style lang="scss" scoped>

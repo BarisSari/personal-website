@@ -34,15 +34,15 @@
 </template>
 
 <script>
-import PostMeta from '~/components/PostMeta'
-import PostTags from '~/components/PostTags'
-import Author from '~/components/Author.vue'
+import PostMeta from '~/components/PostMeta.vue';
+import PostTags from '~/components/PostTags.vue';
+import Author from '~/components/Author.vue';
 
 export default {
   components: {
     Author,
     PostMeta,
-    PostTags
+    PostTags,
   },
   metaInfo() {
     return {
@@ -50,19 +50,19 @@ export default {
       meta: [
         {
           name: 'description',
-          content: this.$page.post.description
-        }
-      ]
+          content: this.$page.post.description,
+        },
+      ],
+    };
+  },
+  mounted() {
+    const images = document.getElementsByTagName('img');
+    for (let i = 0; i < images.length; i++) {
+      const p = images[i].closest('p');
+      if (p !== null) { p.classList.add('text-center'); }
     }
   },
-  mounted () {
-    let images = document.getElementsByTagName("img");
-    for (var i = 0; i < images.length; i++) {
-      let p = images[i].closest("p");
-      if (p !== null){ p.classList.add("text-center"); }
-    }
-  }
-}
+};
 </script>
 
 <page-query>

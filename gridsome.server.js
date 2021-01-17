@@ -13,30 +13,30 @@ module.exports = function (api) {
         photographer: {
           type: 'String',
           resolve(obj) {
-            return `${obj.photographer}`
-          }
+            return `${obj.photographer}`;
+          },
         },
         image_link: {
           type: 'String',
           resolve(obj) {
-            return `${obj.image_link}`
-          }
-        }
+            return `${obj.image_link}`;
+          },
+        },
       },
       Post: {
         photographer: {
           type: 'String',
           resolve(obj) {
-            return `${obj.photographer}`
-          }
+            return `${obj.photographer}`;
+          },
         },
         image_link: {
           type: 'String',
           resolve(obj) {
-            return `${obj.image_link}`
-          }
-        }
-      }
-    })
-  })
-}
+            return `${obj.image_link}`;
+          },
+        },
+      },
+    });
+  });
+};

@@ -13,7 +13,8 @@
 
     <h1>Barış Sarı</h1>
     <div v-if="showIcons">
-      <h2>Freelance Backend Developer/Data Scientist at Upwork.<br>I speak Python, ML/DL, SQL, Docker, JS.</h2>
+      <h2>Freelance Backend Developer/Data Scientist at Upwork.
+        <br>I speak Python, ML/DL, SQL, Docker, JS.</h2>
       <div class="author__icons">
         <b-container class="grey lighten-5">
           <b-row>
@@ -72,7 +73,7 @@ export default {
   props: {
     showIcons: { default: true },
   },
-  data () {
+  data() {
     return {
       bottomData: [
         {
@@ -140,11 +141,11 @@ export default {
           src: require('@/assets/icons/stackoverflow.svg'),
           alt: 'stackoverflow',
         },
-      ]
-    }
+      ],
+    };
   },
   methods: {},
-}
+};
 </script>
 
 <style lang="scss">

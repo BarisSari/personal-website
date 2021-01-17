@@ -6,7 +6,7 @@ module.exports = {
     ErasmusPost: '/blog/erasmus/:title',
     Post: '/blog/tech/:title',
     ErasmusTag: '/tag/erasmus/:id',
-    Tag: '/tag/tech/:id'
+    Tag: '/tag/tech/:id',
   },
 
   plugins: [
@@ -20,16 +20,16 @@ module.exports = {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: 'Tag',
-            create: true
-          }
-        }
-      }
+            create: true,
+          },
+        },
+      },
     },
     {
       use: 'gridsome-plugin-netlify-cms',
       options: {
-        publicPath: '/admin'
-      }
+        publicPath: '/admin',
+      },
     },
     {
       // Create posts from markdown files
@@ -41,16 +41,16 @@ module.exports = {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: 'ErasmusTag',
-            create: true
-          }
-        }
-      }
+            create: true,
+          },
+        },
+      },
     },
     {
       use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'G-NW868L4FVL',
-      }
+      },
     },
     {
       use: '@gridsome/plugin-sitemap',
@@ -75,27 +75,27 @@ module.exports = {
           '/tag/tech/*': {
             changefreq: 'monthly',
             priority: 0.7,
-          }
-        }
-      }
+          },
+        },
+      },
     },
     {
-      use: "gridsome-plugin-manifest",
+      use: 'gridsome-plugin-manifest',
       options: {
-        background_color: "#000000",
-        icon_path: "./src/assets/favicon.png",
-        name: "My Personal Website",
-        short_name: "barissari.com",
-        theme_color: "#FFFFFF",
-        lang: "en",
+        background_color: '#000000',
+        icon_path: './src/assets/favicon.png',
+        name: 'My Personal Website',
+        short_name: 'barissari.com',
+        theme_color: '#FFFFFF',
+        lang: 'en',
       },
     },
     {
       use: 'gridsome-plugin-robots-txt',
       options: {
         sitemap: 'https://barissari.com/sitemap.xml',
-      }
-    }
+      },
+    },
   ],
 
   transformers: {
@@ -108,17 +108,17 @@ module.exports = {
         ['@gridsome/remark-prismjs'],
         ['gridsome-plugin-remark-container'],
         ['@noxify/gridsome-plugin-remark-embed', {
-          'enabledProviders': [
+          enabledProviders: [
             'Youtube',
             'Gist',
             'Codepen',
-            'JSFiddle'
+            'JSFiddle',
           ],
-          'Gist': {
-            secureConnection: true
-          }
-        }]
-      ]
-    }
-  }
-}
+          Gist: {
+            secureConnection: true,
+          },
+        }],
+      ],
+    },
+  },
+};

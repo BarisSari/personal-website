@@ -5,7 +5,8 @@
     </h1>
 
     <div class="posts">
-      <PostCard v-for="edge in $page.erasmusTag.belongsTo.edges" :key="edge.node.id" :post="edge.node"/>
+      <PostCard v-for="edge in $page.erasmusTag.belongsTo.edges" :key="edge.node.id"
+                :post="edge.node"/>
     </div>
     <Author class="post-author" :showIcons="false" />
   </Layout>
@@ -35,21 +36,20 @@ query ErasmusTag ($id: ID!) {
 </page-query>
 
 <script>
-import Author from '~/components/Author.vue'
-import PostCard from '~/components/PostCard.vue'
+import Author from '~/components/Author.vue';
+import PostCard from '~/components/PostCard.vue';
 
 export default {
   components: {
     Author,
-    PostCard
+    PostCard,
   },
   metaInfo: {
-    title: 'Trip Tags'
-  }
-}
+    title: 'Trip Tags',
+  },
+};
 </script>
 
 <style lang="scss">
 
 </style>
-
