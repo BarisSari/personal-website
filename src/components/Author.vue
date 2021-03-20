@@ -13,23 +13,22 @@
 
     <h1>Barış Sarı</h1>
     <div v-if="showIcons">
-      <h2>Freelance Backend Developer/Data Scientist at Upwork.
+      <h2>Backend Engineer at <g-link to="https://feather-insurance.com">Feather</g-link>
         <br>I speak Python, ML/DL, SQL, Docker, JS.</h2>
       <div class="author__icons">
         <b-container class="grey lighten-5">
           <b-row>
-            <b-col cols="0" lg="1"></b-col>
+            <b-col cols="0"></b-col>
             <b-col
                 v-for="n in topIcons"
                 :key="n.key"
-                cols="3"
-                lg="auto"
+                cols="2"
             >
               <a :href="n.href" target="_blank" rel="noopener noreferrer">
                 <g-image width="56.7" height="56.7" :src="n.src" :alt="n.alt"/>
               </a>
             </b-col>
-            <b-col cols="0" lg="1"></b-col>
+            <b-col cols="0"></b-col>
           </b-row>
         </b-container>
       </div>
@@ -105,12 +104,12 @@ export default {
           src: require('@/assets/icons/cv.svg'),
           alt: 'cv',
         },
-        {
-          key: 2,
-          href: 'https://www.upwork.com/o/profiles/users/_~019ab5632c941ec465/',
-          src: require('@/assets/icons/upwork.svg'),
-          alt: 'upwork',
-        },
+        // {
+        //   key: 2,
+        //   href: 'https://www.upwork.com/o/profiles/users/_~019ab5632c941ec465/',
+        //   src: require('@/assets/icons/upwork.svg'),
+        //   alt: 'upwork',
+        // },
         {
           key: 3,
           href: 'mailto:bayrambariss@gmail.com',
