@@ -91,10 +91,10 @@ export default {
         },
         {
           key: 3,
-          header: 'Movies (Not ready)',
-          to: '',
+          header: 'Movies',
+          to: '/movie-blog/',
           src: require('@/assets/icons/movies.svg'),
-          alt: 'movies-blog',
+          alt: 'movie-blog',
         },
       ],
       topIcons: [

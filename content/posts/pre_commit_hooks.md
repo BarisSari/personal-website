@@ -38,7 +38,7 @@ You might check these links for understanding Git hooks deeply: [1](https://towa
 
 ![img](https://cdn-images-1.medium.com/max/1600/0*8GhhkibIkW39372M)Photo by [lan deng](https://unsplash.com/@landall?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
-I have created a new repository for this article. You might check it [here](https://github.com/BarisSari/medium-pre-commit-article). Before adding any configuration, please take a look at the [module and ](https://github.com/BarisSari/medium-pre-commit-article/commit/b1e22d6c72bb7780e69893292c9d1e8e0dda2742)`src`[ directory ](https://github.com/BarisSari/medium-pre-commit-article/commit/b1e22d6c72bb7780e69893292c9d1e8e0dda2742)with two packages. They all have styling errors if you look at [PEP 8](https://www.python.org/dev/peps/pep-0008/) ([E302, E303, and more](https://pep8.readthedocs.io/en/release-1.7.x/intro.html#error-codes)):
+I have created a new repository for this article. You might check it [here](https://github.com/BarisSari/medium-pre-commit-article). Before adding any configuration, please take a look at the [module and ](https://github.com/BarisSari/medium-pre-commit-article/commit/b1e22d6c72bb7780e69893292c9d1e8e0dda2742) `src` [ directory ](https://github.com/BarisSari/medium-pre-commit-article/commit/b1e22d6c72bb7780e69893292c9d1e8e0dda2742)with two packages. They all have styling errors if you look at [PEP 8](https://www.python.org/dev/peps/pep-0008/) ([E302, E303, and more](https://pep8.readthedocs.io/en/release-1.7.x/intro.html#error-codes)):
 
 https://gist.github.com/BarisSari/5c516fd5875c6f25810daddfb03206e0
 
@@ -158,7 +158,7 @@ It worked this time. Pre-commit hook skipped **black**, **isort** and **flake8**
 I had committed files with errors before I installed the pre-commit hook. What I want is running pre-commit hook and fixing these errors. We can use `pre-commit`’s run command:
 
 ```
-$ pre-commit run -a 
+$ pre-commit run -a
 ```
 
 It will run pre-commit hook for all files (that’s what `-a` stands for). If you use the same files, you will need to run this command three times to:

@@ -4,7 +4,9 @@ module.exports = {
   siteUrl: 'barissari.com',
   templates: {
     ErasmusPost: '/blog/erasmus/:title',
+    MoviePost: '/blog/movie/:title',
     Post: '/blog/tech/:title',
+    MovieTag: '/tag/movie/:id',
     ErasmusTag: '/tag/erasmus/:id',
     Tag: '/tag/tech/:id',
   },
@@ -41,6 +43,21 @@ module.exports = {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: 'ErasmusTag',
+            create: true,
+          },
+        },
+      },
+    },
+    {
+      // Create posts from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'MoviePost',
+        path: 'content/posts/movie/*.md',
+        refs: {
+          // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
+          tags: {
+            typeName: 'MovieTag',
             create: true,
           },
         },
