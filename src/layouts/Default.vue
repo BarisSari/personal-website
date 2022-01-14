@@ -5,6 +5,7 @@
       <div class="header__left">
         <ErasmusLeft v-if="showLogo" />
         <TechLeft v-if="showTech" />
+        <MovieLeft v-if="showMovie" />
         <MainLeft v-if="showMain" />
       </div>
 
@@ -26,6 +27,7 @@
 
 <script>
 import ErasmusLeft from '~/components/ErasmusLeft.vue';
+import MovieLeft from '~/components/MovieLeft.vue';
 import TechLeft from '~/components/TechLeft.vue';
 import MainLeft from '~/components/MainLeft.vue';
 import ToggleTheme from '~/components/ToggleTheme.vue';
@@ -35,9 +37,11 @@ export default {
     showLogo: { default: true },
     showMain: { default: false },
     showTech: { default: false },
+    showMovie: { default: false },
   },
   components: {
     ErasmusLeft,
+    MovieLeft,
     TechLeft,
     MainLeft,
     ToggleTheme,

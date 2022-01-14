@@ -37,6 +37,20 @@ module.exports = function (api) {
           },
         },
       },
+      MoviePost: {
+        photographer: {
+          type: 'String',
+          resolve(obj) {
+            return `${obj.photographer}`;
+          },
+        },
+        image_link: {
+          type: 'String',
+          resolve(obj) {
+            return `${obj.image_link}`;
+          },
+        },
+      },
     });
   });
 };
