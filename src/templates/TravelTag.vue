@@ -1,11 +1,11 @@
 <template>
   <Layout>
     <h1 class="tag-title text-center space-bottom">
-      # {{ $page.erasmusTag.title }}
+      # {{ $page.travelTag.title }}
     </h1>
 
     <div class="posts">
-      <PostCard v-for="edge in $page.erasmusTag.belongsTo.edges" :key="edge.node.id"
+      <PostCard v-for="edge in $page.travelTag.belongsTo.edges" :key="edge.node.id"
                 :post="edge.node"/>
     </div>
     <Author class="post-author" :showIcons="false" />
@@ -13,13 +13,13 @@
 </template>
 
 <page-query>
-query ErasmusTag ($id: ID!) {
-  erasmusTag (id: $id) {
+query TravelTag ($id: ID!) {
+  travelTag (id: $id) {
     title
     belongsTo {
       edges {
         node {
-          ...on ErasmusPost {
+          ...on TravelPost {
             title
             path
             date (format: "D. MMMM YYYY")
