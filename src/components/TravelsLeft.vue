@@ -1,6 +1,6 @@
 <template>
   <span class="logo__text">
-    <g-link to="/erasmus-blog/">&larr; Return to Erasmus Blog</g-link>
+    <g-link to="/travels-blog/">&larr; Return to Travels Blog</g-link>
   </span>
 </template>
 

@@ -3,9 +3,9 @@ module.exports = {
   siteDescription: 'Personal website of a freelance Software Developer, who loves travelling and movies a lot!',
   siteUrl: 'barissari.com',
   templates: {
-    ErasmusPost: '/blog/erasmus/:title',
+    TravelPost: '/blog/travels/:title',
     Post: '/blog/tech/:title',
-    ErasmusTag: '/tag/erasmus/:id',
+    TravelTag: '/tag/travels/:id',
     Tag: '/tag/tech/:id',
   },
 
@@ -35,12 +35,12 @@ module.exports = {
       // Create posts from markdown files
       use: '@gridsome/source-filesystem',
       options: {
-        typeName: 'ErasmusPost',
-        path: 'content/posts/erasmus/*.md',
+        typeName: 'TravelPost',
+        path: 'content/posts/travels/*.md',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
-            typeName: 'ErasmusTag',
+            typeName: 'TravelTag',
             create: true,
           },
         },
@@ -60,7 +60,7 @@ module.exports = {
             changefreq: 'weekly',
             priority: 0.9,
           },
-          '/blog/erasmus/*': {
+          '/blog/travels/*': {
             changefreq: 'monthly',
             priority: 0.5,
           },
@@ -68,7 +68,7 @@ module.exports = {
             changefreq: 'monthly',
             priority: 0.7,
           },
-          '/tag/erasmus/*': {
+          '/tag/travels/*': {
             changefreq: 'monthly',
             priority: 0.5,
           },

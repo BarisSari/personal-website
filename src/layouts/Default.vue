@@ -3,7 +3,7 @@
 
     <header class="header">
       <div class="header__left">
-        <ErasmusLeft v-if="showLogo" />
+        <TravelsLeft v-if="showLogo" />
         <TechLeft v-if="showTech" />
         <MainLeft v-if="showMain" />
       </div>
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import ErasmusLeft from '~/components/ErasmusLeft.vue';
+import TravelsLeft from '~/components/TravelsLeft.vue';
 import TechLeft from '~/components/TechLeft.vue';
 import MainLeft from '~/components/MainLeft.vue';
 import ToggleTheme from '~/components/ToggleTheme.vue';
@@ -37,7 +37,7 @@ export default {
     showTech: { default: false },
   },
   components: {
-    ErasmusLeft,
+    TravelsLeft,
     TechLeft,
     MainLeft,
     ToggleTheme,

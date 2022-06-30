@@ -77,10 +77,10 @@ export default {
       bottomData: [
         {
           key: 1,
-          header: 'Erasmus Trips',
-          to: '/erasmus-blog/',
+          header: 'Travels',
+          to: '/travels-blog/',
           src: require('@/assets/icons/travelling.svg'),
-          alt: 'eramus-blog',
+          alt: 'travels-blog',
         },
         {
           key: 2,

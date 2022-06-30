@@ -7,8 +7,8 @@ public_folder: "/images"
 
 collections:
   - name: "posts"
-    label: "ErasmusPosts"
-    folder: "content/posts/erasmus"
+    label: "TravelPosts"
+    folder: "content/posts/travels"
     create: true
     slug: "{{slug}}"
     fields:

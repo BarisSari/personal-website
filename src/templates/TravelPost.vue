@@ -60,8 +60,8 @@ export default {
 </script>
 
 <page-query>
-query ErasmusPost ($id: ID!) {
-  post: erasmusPost (id: $id) {
+query TravelPost ($id: ID!) {
+  post: travelPost (id: $id) {
     title
     path
     date (format: "D. MMMM YYYY")

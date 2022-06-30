@@ -9,7 +9,7 @@ module.exports = function (api) {
   api.loadSource(({ addSchemaResolvers }) => {
     // Use the Data store API here: https://gridsome.org/docs/data-store-api/
     addSchemaResolvers({
-      ErasmusPost: {
+      TravelPost: {
         photographer: {
           type: 'String',
           resolve(obj) {
