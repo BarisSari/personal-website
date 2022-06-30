@@ -28,7 +28,7 @@ My main purpose for this trip was to attend Metallica's concert on June 19th. [F
 
 ![](https://cdn-images-1.medium.com/max/1600/1*DgOmhlrf3l00-O64q-XkAw.jpeg)
 
-I should admit that waiting under the sun, ~35 degrees, from 1 pm till 9 pm was a bit exhausting. It was pretty fun and worth though! And it was my first pogo dance which was a bit extreme, haha. Metallic is old now, end of their 50s, but it doesn't mean that they lost their energy. It's still there, and they said they have been giving concerts for 41 years!
+I should admit that waiting under the sun, ~35 degrees, from 1 pm till 9 pm was a bit exhausting. It was pretty fun and worth though! And it was my first pogo dance which was a bit extreme, haha. Metallica is old now, end of their 50s, but it doesn't mean that they lost their energy. It's still there, and they said they have been giving concerts for 41 years!
 
 ![](https://cdn-images-1.medium.com/max/1600/1*SEl12dFgijHIWoRNN2LW6Q.jpeg)
 
@@ -42,7 +42,7 @@ Instead of taking an audioguide (audioguides become overwhelming for me when I d
 
 ![](https://cdn-images-1.medium.com/max/1600/1*xsA8J3RnHtEOICZR_FVDfA.jpeg)
 
-1. 'Ufizzi' means  _offices_ in Italian, and it was constructed to be an office for Medici. The architect was  **Giorgio Vasari.** He designed this U-shape museum and also the Vasari corridor. But that's not all, you can also see his a few paintings in the gallery. I liked the  [**Portrait of Duke Alessandro de' Medici**](https://www.uffizi.it/en/artworks/vasari-alessandro-portrait)  most.
+1. 'Ufizzi' means  _offices_ in Italian, and it was constructed to be an office for Medici. The architect was  **Giorgio Vasari.** He designed this U-shape museum and also the Vasari corridor. But that's not all, you can also see a few paintings of him in the gallery. I liked the  [**Portrait of Duke Alessandro de' Medici**](https://www.uffizi.it/en/artworks/vasari-alessandro-portrait)  most.
 2. It has artworks, mainly between the 13th and 20th centuries. It means that it includes pre- and post- Renaissance. And for Renaissance, let me name a few of the greatest artists:  **Michelangelo, Raphael, Leonardo Da Vinci, and Botticelli.**
 3. Before Renaissance, the paintings were two-dimensional. They didn't have depth. Faces and other details were not realistic at all. An example is as follows:
 
@@ -113,7 +113,7 @@ In this masterpiece, the angel's wings, landscape/tree/flower details, the folds
 
 You can understand mathematical perfection better when you see his unfinished  [Adoration of the Magi](https://www.uffizi.it/en/artworks/leonardo-adoration-of-the-magi). There is a pyramid at the center (from Mary's head to the painting's bottom) and a circle (whole fans are in half circle).
 
-9.  **Raphael.** When he came to Florence, he was inspired by two great artists: Michelangelo and Leonardo da Vinci. That's why it's possible to see their marks in his artworks. I liked his  [this painting](https://www.uffizi.it/en/artworks/raphael-st-john)  most.
+9.  **Raphael.** When he came to Florence, he was inspired by two great artists: Michelangelo and Leonardo da Vinci. That's why it's possible to see their marks in his artworks. I liked  [this painting](https://www.uffizi.it/en/artworks/raphael-st-john) of him  most.
 
 Michelangelo, Raphael, and Leonardo lived in Florence at the same time. It's hard to imagine how fruitful and artful those times were for Florentines. The funny thing is that Michelangelo didn't get along well with Raphael and Leonardo. He blamed the former for plagiarism.
 
@@ -153,13 +153,18 @@ In the previous post, I mentioned about one famous sandwich place:  _Panini Tosc
 
 Friendly, tiny pizza place: [_I'PIZZACCHIERE_](https://g.page/IPizzacchiere?share)_._ Their honeymoon pizza was very delicious. You can stop here while you're going to the Piazzale Michelangelo.
 
+![](https://cdn-images-1.medium.com/max/1600/1*GdiRuI2iYD3cI4a2a9C0cQ.jpeg)
+
 Okayish pasta place:  [_Trattoria 4 Leoni_](https://g.page/Trattoria-4Leoni?share). I've tried pear ricotta Fiocchi, and it was unique and tasty. But my brother-in-law ordered pasta with tomato-basil sauce, which was just okay.
 
 Ice cream:  _Venchi._ It's a franchise, and you can find it in almost every corner.
 
-Cocktail:  [_Narciso Bar_](https://goo.gl/maps/MjDL39UPcxbGXpaB6). Our hotel had a rooftop restaurant and bar, serving classic + special cocktails there. You can enjoy your drink while enjoying this view:
+Breakfast/coffee: [_Caffe Rosano_](https://goo.gl/maps/YvZk7f7juMMsTwmJ6). Their specialty is tiramisu pancake. They also have a very warm heart:
 
-Breakfast/coffee: [_Caffe Rosano_](https://goo.gl/maps/YvZk7f7juMMsTwmJ6). Their specialty is tiramisu pancake.
+![](https://cdn-images-1.medium.com/max/1600/1*lViQGoPMDW297pl7kH-ZnA.png)
+
+
+Cocktail:  [_Narciso Bar_](https://goo.gl/maps/MjDL39UPcxbGXpaB6). Our hotel had a rooftop restaurant and bar, serving classic + special cocktails there. You can enjoy your drink while enjoying this view:
 
 ![](https://cdn-images-1.medium.com/max/1600/1*UwrkFk8qY_nw_vcQ0PpT3w.jpeg)
 
@@ -173,7 +178,9 @@ Florence offers many more things than I have written in the two blog posts. I th
 
 There was one thing different for me this time: I compared Florence and Italy with mostly German cities, especially Berlin, not with other European cities or Turkey. I actually always had Berlin in mind when I liked or disliked something about Florence. Honestly, it looked a bit disorganized regarding transportation systems, with lots of ragged buildings. Also, the English speakers were fewer than I was there last time.
 
-**Final note:**  If you plan to visit it in the summer, don't forget to stay hydrated!
+**Final note:**   If you plan to visit it in the summer, don’t forget to stay hydrated! Do you want to see how hot it was? My phone gave this warning for the first time:
+
+![](https://cdn-images-1.medium.com/max/1600/1*-WlC2YYkhHglqJo3aBdbEA.jpeg)
 
 ### References
 
