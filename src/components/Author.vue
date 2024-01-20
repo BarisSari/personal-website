@@ -41,7 +41,7 @@
                 v-for="n in bottomData"
                 :key="n.key"
                 cols="12"
-                sm="4"
+                sm="6"
             >
               <h5>{{ n.header }}</h5>
               <div class="author__icons">
@@ -88,13 +88,6 @@ export default {
           to: '/tech-blog/',
           src: require('@/assets/icons/tech.svg'),
           alt: 'tech-blog',
-        },
-        {
-          key: 3,
-          header: 'Movies (Not ready)',
-          to: '',
-          src: require('@/assets/icons/movies.svg'),
-          alt: 'movies-blog',
         },
       ],
       topIcons: [
