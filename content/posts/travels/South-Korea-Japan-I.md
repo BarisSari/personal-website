@@ -6,7 +6,7 @@ tags: ['South Korea', 'Japan', 'Traveling', 'Trip', 'Asia']
 series: true
 cover_image: ../images/japan-front-i.jpg
 photographer: '<a href="https://unsplash.com/@barissari" target="_blank" rel="nofollow noopener noreferrer">me :)</a>'
-image_link: '<a href="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80" target="_blank" rel="nofollow noopener noreferrer">Unsplash</a>'
+image_link: '<a href="https://unsplash.com/photos/I-Ocj_dBEAo" target="_blank" rel="nofollow noopener noreferrer">Unsplash</a>'
 canonical_url: false
 description: "East Asia Tour, March 14–31, 2024."
 ---
