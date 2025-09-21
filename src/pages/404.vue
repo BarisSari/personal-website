@@ -3,12 +3,19 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center">
-          <h1 class="not-found__title">404</h1>
-          <h2 class="not-found__subtitle">Page Not Found</h2>
+          <h1 class="not-found__title">
+            404
+          </h1>
+          <h2 class="not-found__subtitle">
+            Page Not Found
+          </h2>
           <p class="not-found__description">
             The page you're looking for doesn't exist or has been moved.
           </p>
-          <router-link to="/" class="btn btn-primary">
+          <router-link
+            to="/"
+            class="btn btn-primary"
+          >
             Go Home
           </router-link>
         </div>
@@ -32,7 +39,7 @@
   &__title {
     font-size: 6rem;
     font-weight: 700;
-    color: #007bff;
+    color: var(--link-color);
     margin-bottom: 1rem;
   }
 

@@ -1,8 +1,4 @@
 import type { RouteRecordRaw } from 'vue-router'
-import matter from 'gray-matter'
-import { glob } from 'glob'
-import fs from 'fs'
-import path from 'path'
 
 export interface MarkdownPost {
   title: string
@@ -12,56 +8,126 @@ export interface MarkdownPost {
   type: 'tech' | 'travels'
   content: string
   slug: string
+  frontmatter?: any
 }
 
-export function getAllPosts(): MarkdownPost[] {
+// Load markdown files using import.meta.glob with raw content
+const markdownModules = import.meta.glob('/content/posts/**/*.md', { as: 'raw', eager: true })
+
+// Simple frontmatter parser (since gray-matter is causing issues)
+function parseFrontmatter(content: string) {
+  const frontmatterRegex = /^---\s*\n([\s\S]*?)\n---\s*\n([\s\S]*)$/
+  const match = content.match(frontmatterRegex)
+  
+  if (!match) {
+    return { data: {}, content }
+  }
+  
+  const frontmatter = match[1]
+  const markdownContent = match[2]
+  
+  // Simple YAML-like parsing for basic frontmatter
+  const data: any = {}
+  const lines = frontmatter.split('\n')
+  
+  for (const line of lines) {
+    const colonIndex = line.indexOf(':')
+    if (colonIndex > 0) {
+      const key = line.substring(0, colonIndex).trim()
+      let value = line.substring(colonIndex + 1).trim()
+      
+      // Remove quotes if present
+      if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+        value = value.slice(1, -1)
+      }
+      
+      // Handle arrays (tags)
+      if (key === 'tags' && value.startsWith('[') && value.endsWith(']')) {
+        const arrayContent = value.slice(1, -1)
+        data[key] = arrayContent.split(',').map(item => item.trim().replace(/['"]/g, ''))
+      } 
+      // Handle booleans
+      else if (value === 'true') {
+        data[key] = true
+      } else if (value === 'false') {
+        data[key] = false
+      } else {
+        data[key] = value
+      }
+    }
+  }
+  
+  return { data, content: markdownContent }
+}
+
+function loadMarkdownPosts(): MarkdownPost[] {
   const posts: MarkdownPost[] = []
   
-  // Get tech posts
-  const techFiles = glob.sync('content/posts/*.md')
-  techFiles.forEach(file => {
-    const content = fs.readFileSync(file, 'utf-8')
-    const { data, content: markdownContent } = matter(content)
-    const slug = path.basename(file, '.md')
-    
-    posts.push({
-      title: data.title || slug,
-      date: data.date || new Date().toISOString(),
-      description: data.description,
-      tags: data.tags || [],
-      type: 'tech',
-      content: markdownContent,
-      slug
-    })
-  })
-
-  // Get travel posts
-  const travelFiles = glob.sync('content/posts/travels/*.md')
-  travelFiles.forEach(file => {
-    const content = fs.readFileSync(file, 'utf-8')
-    const { data, content: markdownContent } = matter(content)
-    const slug = path.basename(file, '.md')
-    
-    posts.push({
-      title: data.title || slug,
-      date: data.date || new Date().toISOString(),
-      description: data.description,
-      tags: data.tags || [],
-      type: 'travels',
-      content: markdownContent,
-      slug
-    })
-  })
-
+  try {
+    for (const path in markdownModules) {
+      try {
+        const content = markdownModules[path] as string
+        const { data, content: markdownContent } = parseFrontmatter(content)
+        
+        // Determine type based on path
+        const type = path.includes('/travels/') ? 'travels' : 'tech'
+        
+        // Create slug from filename
+        const slug = path
+          .split('/')
+          .pop()
+          ?.replace('.md', '')
+          ?.toLowerCase()
+          ?.replace(/\s+/g, '-') || ''
+        
+        console.log(`Generated slug for ${path}: "${slug}"`)
+        
+        // Skip unpublished posts
+        if (data.published === false) {
+          console.log(`Skipping unpublished post: ${path}`)
+          continue
+        }
+        
+        posts.push({
+          title: data.title,
+          date: data.date || new Date().toISOString().split('T')[0],
+          description: data.description,
+          tags: Array.isArray(data.tags) ? data.tags : [],
+          type,
+          content: markdownContent,
+          slug,
+          frontmatter: data
+        })
+      } catch (error) {
+        console.error(`Error processing markdown file ${path}:`, error)
+        // Continue with other files
+      }
+    }
+  } catch (error) {
+    console.error('Error loading markdown posts:', error)
+    return []
+  }
+  
   return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 }
 
+export function getAllPosts(): MarkdownPost[] {
+  return loadMarkdownPosts()
+}
+
 export function getPostsByType(type: 'tech' | 'travels'): MarkdownPost[] {
-  return getAllPosts().filter(post => post.type === type)
+  const posts = getAllPosts()
+  return posts.filter(post => post.type === type)
 }
 
 export function getPostBySlug(slug: string, type: 'tech' | 'travels'): MarkdownPost | undefined {
-  return getAllPosts().find(post => post.slug === slug && post.type === type)
+  const posts = getAllPosts()
+  console.log(`Looking for ${type} post with slug: "${slug}"`)
+  console.log(`Total posts loaded:`, posts.length)
+  console.log(`Available ${type} posts:`, posts.filter(p => p.type === type).map(p => ({ slug: p.slug, title: p.title })))
+  const found = posts.find(post => post.slug === slug && post.type === type)
+  console.log(`Found post:`, found ? found.title : 'Not found')
+  return found
 }
 
 export function getAllTags(): string[] {
@@ -76,26 +142,15 @@ export function getAllTags(): string[] {
 }
 
 export function getPostsByTag(tag: string): MarkdownPost[] {
-  return getAllPosts().filter(post => post.tags.includes(tag))
+  const posts = getAllPosts()
+  return posts.filter(post => 
+    post.tags.some(postTag => postTag.toLowerCase() === tag.toLowerCase())
+  )
 }
 
 export function createMarkdownRoutes(): RouteRecordRaw[] {
-  const posts = getAllPosts()
-  const routes: RouteRecordRaw[] = []
-  
-  // Create dynamic routes for each post
-  posts.forEach(post => {
-    const routePath = post.type === 'tech' 
-      ? `/blog/tech/${post.slug}`
-      : `/blog/travels/${post.slug}`
-    
-    routes.push({
-      path: routePath,
-      name: `${post.type}Post-${post.slug}`,
-      component: () => import(`../templates/${post.type === 'tech' ? 'Post' : 'TravelPost'}.vue`),
-      props: { post }
-    })
-  })
-  
-  return routes
+  // No longer needed - routes are defined statically in routes.ts
+  // This function is kept for compatibility but returns empty array
+  console.log('Markdown routes are now handled statically in routes.ts')
+  return []
 }

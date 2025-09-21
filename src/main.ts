@@ -4,10 +4,9 @@ import App from './App.vue'
 import routes from './routes'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-vue-3/dist/bootstrap-vue-3.css'
-import './assets/style/index.scss'
 
-// Google Analytics
-import { createGtag } from 'vue-gtag'
+// Google Analytics - temporarily disabled
+// import VueGtag from 'vue-gtag'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -17,9 +16,8 @@ const router = createRouter({
 const app = createApp(App)
 
 app.use(router)
-app.use(createGtag, {
-  config: { id: 'G-NW868L4FVL' }
-})
+// app.use(VueGtag, {
+//   config: { id: 'G-NW868L4FVL' }
+// })
 
 app.mount('#app')
-

@@ -1,8 +1,9 @@
 <template>
   <div class="main-left">
-    <router-link to="/" class="main-left__link">
-      <h2>Baris Sari</h2>
-    </router-link>
+    <router-link
+      to="/"
+      class="main-left__link"
+    />
   </div>
 </template>
 
@@ -14,18 +15,19 @@
 .main-left {
   &__link {
     text-decoration: none;
-    color: inherit;
+    color: var(--title-color);
 
     &:hover {
       text-decoration: none;
-      color: inherit;
+      color: var(--link-color);
     }
   }
 
   h2 {
     margin: 0;
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
   }
 }
 </style>

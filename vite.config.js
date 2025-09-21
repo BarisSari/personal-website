@@ -1,18 +1,24 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import { resolve } from 'path'
-import WindiCSS from 'vite-plugin-windicss'
 
 export default defineConfig({
   plugins: [
-    vue(),
-    WindiCSS()
+    vue()
   ],
+  define: {
+    __VUE_OPTIONS_API__: true,
+    __VUE_PROD_DEVTOOLS__: false
+  },
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src'),
-      '~': resolve(__dirname, 'src')
+      '@': resolve(process.cwd(), 'src'),
+      '~': resolve(process.cwd(), 'src')
     }
+  },
+  assetsInclude: ['*.md', 'content/**/*.md'],
+  optimizeDeps: {
+    include: ['gray-matter']
   },
   build: {
     outDir: 'dist',
@@ -29,7 +35,11 @@ export default defineConfig({
   },
   server: {
     port: 3000,
-    open: true
-  }
+    open: true,
+    fs: {
+      allow: ['..', './content']
+    }
+  },
+  publicDir: 'public',
+  assetsInclude: ['*.md', 'content/**/*.md', 'content/**/*.jpg', 'content/**/*.jpeg', 'content/**/*.png']
 })
-

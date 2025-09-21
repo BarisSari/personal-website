@@ -1,4 +1,4 @@
-@import 'variables.scss';
+@use '_variables' as *;
 
 // Reset and base styles
 * {
@@ -8,14 +8,14 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: var(--base-font-size);
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: var(--font-family);
-  line-height: var(--line-height-base);
-  color: var(--text-color);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--body-color);
   background-color: var(--bg-color);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 0.5rem;
+  color: var(--title-color);
 }
 
 h1 { font-size: 2.5rem; }
@@ -36,15 +37,15 @@ h6 { font-size: 1rem; }
 
 p {
   margin-bottom: 1rem;
+  color: var(--body-color);
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--link-color);
   text-decoration: none;
   transition: color 0.2s ease;
 
   &:hover {
-    color: #0056b3;
     text-decoration: underline;
   }
 }
@@ -53,13 +54,14 @@ a {
 code {
   font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
   font-size: 0.9em;
-  background-color: #f8f9fa;
+  background-color: var(--bg-code);
   padding: 0.2rem 0.4rem;
   border-radius: 4px;
+  color: var(--body-color);
 }
 
 pre {
-  background-color: #f8f9fa;
+  background-color: var(--bg-code);
   padding: 1rem;
   border-radius: 8px;
   overflow-x: auto;
@@ -73,11 +75,11 @@ pre {
 
 // Blockquotes
 blockquote {
-  border-left: 4px solid var(--primary-color);
+  border-left: 4px solid var(--link-color);
   padding-left: 1rem;
   margin: 1.5rem 0;
   font-style: italic;
-  color: #666;
+  color: var(--body-color);
 }
 
 // Images
@@ -94,6 +96,7 @@ ul, ol {
 
 li {
   margin-bottom: 0.25rem;
+  color: var(--body-color);
 }
 
 // Tables
@@ -111,20 +114,18 @@ th, td {
 
 th {
   font-weight: 600;
-  background-color: #f8f9fa;
+  background-color: var(--bg-code);
+  color: var(--title-color);
 }
 
-// Forms
-input, textarea, select {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+td {
+  color: var(--body-color);
 }
 
 // Responsive design
 @media (max-width: 768px) {
   html {
-    font-size: 14px;
+    font-size: var(--caption-font-size);
   }
 
   h1 { font-size: 2rem; }
