@@ -1,52 +1,41 @@
 <template>
-  <Layout :show-logo="false" :showMain="true">
-    <h1 class="tag-title text-center space-bottom">
-      Welcome to Travelling Blog!
-    </h1>
-    <!-- List posts -->
-    <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
+  <div class="travels-blog">
+    <div class="container">
+      <h1>Travels Blog</h1>
+      <div class="row">
+        <div
+          v-for="post in travelPosts"
+          :key="post.slug"
+          class="col-12 col-md-6 col-lg-4 mb-4"
+        >
+          <PostCard :post="post" type="travels" />
+        </div>
+      </div>
     </div>
-    <!-- Author intro -->
-    <Author :showIcons="false" />
-
-  </Layout>
+  </div>
 </template>
 
-<page-query>
-query {
-  posts: allTravelPost(filter: { published: { eq: true }}) {
-    edges {
-      node {
-        id
-        title
-        date (format: "D. MMMM YYYY")
-        timeToRead
-        description
-        cover_image (width: 770, height: 380, blur: 10, quality: 90)
-        path
-        tags {
-          id
-          title
-          path
-        }
-      }
-    }
+<script setup lang="ts">
+import { ref, onMounted } from 'vue'
+import { getPostsByType, type MarkdownPost } from '../utils/markdown'
+import PostCard from '../components/PostCard.vue'
+
+const travelPosts = ref<MarkdownPost[]>([])
+
+onMounted(() => {
+  travelPosts.value = getPostsByType('travels')
+})
+</script>
+
+<style lang="scss" scoped>
+.travels-blog {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
   }
 }
-</page-query>
-
-<script>
-import Author from '~/components/Author.vue';
-import PostCard from '~/components/PostCard.vue';
-
-export default {
-  components: {
-    Author,
-    PostCard,
-  },
-  metaInfo: {
-    title: 'Baris Sari - Travels Blog',
-  },
-};
-</script>
+</style>

@@ -1,25 +1,31 @@
 <template>
-  <span class="logo__text">
-    <g-link to="/">&larr; Return to Homepage</g-link>
-  </span>
+  <div class="main-left">
+    <router-link to="/" class="main-left__link">
+      <h2>Baris Sari</h2>
+    </router-link>
+  </div>
 </template>
 
-<style lang="scss" scoped>
-.logo {
-	text-decoration: none;
-  color: var(--body-color)!important;
-  font-size: .9em;
+<script setup lang="ts">
+// No additional logic needed
+</script>
 
-	&__image {
-		vertical-align: middle;
-		border-radius: 99px;
-		height: 40px;
-		width: 40px;
-		margin-right: .5em;
-	}
-}
-a {
-  color: inherit;
-  text-decoration: inherit;
+<style lang="scss" scoped>
+.main-left {
+  &__link {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 }
 </style>
