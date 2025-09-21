@@ -8,9 +8,15 @@
           :key="post.slug"
           class="post-wrapper"
         >
-          <PostCard :post="post" :type="type" />
+          <PostCard
+            :post="post"
+            :type="type"
+          />
         </div>
-        <div v-if="taggedPosts.length === 0" class="no-posts">
+        <div
+          v-if="taggedPosts.length === 0"
+          class="no-posts"
+        >
           <p>No {{ type }} posts found with this tag.</p>
         </div>
       </div>

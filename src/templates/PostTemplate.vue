@@ -1,8 +1,19 @@
 <template>
   <!-- Cover Image - At the very top of the page -->
-  <div v-if="coverImage" :class="`${type}-post__cover`">
-    <img :src="coverImage" :alt="post?.title || 'Post image'" :class="`${type}-post__cover-image`" />
-    <div v-if="photoCredit" :class="`${type}-post__photo-credit`" v-html="photoCredit"></div>
+  <div
+    v-if="coverImage"
+    :class="`${type}-post__cover`"
+  >
+    <img
+      :src="coverImage"
+      :alt="post?.title || 'Post image'"
+      :class="`${type}-post__cover-image`"
+    >
+    <div
+      v-if="photoCredit"
+      :class="`${type}-post__photo-credit`"
+      v-html="photoCredit"
+    />
   </div>
   
   <!-- Main Content -->
@@ -11,21 +22,36 @@
       <div class="row">
         <div class="col-12">
           <div :class="`${type}-post__header`">
-            <h1 :class="`${type}-post__title`">{{ post?.title || 'Untitled' }}</h1>
+            <h1 :class="`${type}-post__title`">
+              {{ post?.title || 'Untitled' }}
+            </h1>
             <div :class="`${type}-post__meta`">
               <span :class="`${type}-post__date`">{{ post?.date ? formatDate(post.date) : '' }}</span>
-              <div :class="`${type}-post__tags`" v-if="post?.tags?.length">
-                <span v-for="tag in post.tags" :key="tag" :class="`${type}-post__tag`">
+              <div
+                v-if="post?.tags?.length"
+                :class="`${type}-post__tags`"
+              >
+                <span
+                  v-for="tag in post.tags"
+                  :key="tag"
+                  :class="`${type}-post__tag`"
+                >
                   {{ tag }}
                 </span>
               </div>
             </div>
           </div>
           
-          <div :class="`${type}-post__content`" v-html="renderedContent"></div>
+          <div
+            :class="`${type}-post__content`"
+            v-html="renderedContent"
+          />
           
           <div :class="`${type}-post__footer`">
-            <router-link :to="`/${type}-blog`" class="btn btn-outline-primary">
+            <router-link
+              :to="`/${type}-blog`"
+              class="btn btn-outline-primary"
+            >
               ← Back to {{ type === 'tech' ? 'Tech' : 'Travels' }} Blog
             </router-link>
           </div>

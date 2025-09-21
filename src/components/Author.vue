@@ -7,14 +7,19 @@
         height="200"
         width="200"
         class="profile"
-      />
+      >
     </router-link>
 
     <h1>Barış Sarı</h1>
     <div v-if="showIcons">
       <h2>
         Senior Backend Engineer at 
-        <a href="https://feather-insurance.com" target="_blank" rel="noopener noreferrer" class="feather-link">Feather</a>
+        <a
+          href="https://feather-insurance.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="feather-link"
+        >Feather</a>
         <br>I speak Python, TS/JS, ML/DL, SQL, Docker.
       </h2>
       <div class="author__icons">
@@ -25,14 +30,23 @@
               :key="icon.key"
               class="col-2"
             >
-              <a :href="icon.href" target="_blank" rel="noopener noreferrer">
-                <img width="56.7" height="56.7" :src="icon.src" :alt="icon.alt" />
+              <a
+                :href="icon.href"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="56.7"
+                  height="56.7"
+                  :src="icon.src"
+                  :alt="icon.alt"
+                >
               </a>
             </div>
           </div>
         </div>
       </div>
-      <hr class="blog-separator" />
+      <hr class="blog-separator">
       <div class="author__blogs">
         <div class="container">
           <h3>Blogs</h3>
@@ -44,8 +58,16 @@
             >
               <h5>{{ blog.header }}</h5>
               <div class="author__icons">
-                <router-link :to="blog.to" class="blog">
-                  <img width="56.7" height="56.7" :src="blog.src" :alt="blog.alt" />
+                <router-link
+                  :to="blog.to"
+                  class="blog"
+                >
+                  <img
+                    width="56.7"
+                    height="56.7"
+                    :src="blog.src"
+                    :alt="blog.alt"
+                  >
                 </router-link>
               </div>
             </div>

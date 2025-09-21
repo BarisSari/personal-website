@@ -8,7 +8,7 @@ export interface MarkdownPost {
   type: 'tech' | 'travels'
   content: string
   slug: string
-  frontmatter?: any
+  frontmatter?: Record<string, unknown>
 }
 
 // Load markdown files using import.meta.glob with raw content
@@ -27,7 +27,7 @@ function parseFrontmatter(content: string) {
   const markdownContent = match[2]
   
   // Simple YAML-like parsing for basic frontmatter
-  const data: any = {}
+  const data: Record<string, unknown> = {}
   const lines = frontmatter.split('\n')
   
   for (const line of lines) {

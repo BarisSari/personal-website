@@ -16,7 +16,7 @@ export default defineConfig({
       '~': resolve(process.cwd(), 'src')
     }
   },
-  assetsInclude: ['*.md', 'content/**/*.md'],
+  assetsInclude: ['*.md', 'content/**/*.md', 'content/**/*.jpg', 'content/**/*.jpeg', 'content/**/*.png'],
   optimizeDeps: {
     include: ['gray-matter']
   },
@@ -40,6 +40,5 @@ export default defineConfig({
       allow: ['..', './content']
     }
   },
-  publicDir: 'public',
-  assetsInclude: ['*.md', 'content/**/*.md', 'content/**/*.jpg', 'content/**/*.jpeg', 'content/**/*.png']
+  publicDir: 'public'
 })

@@ -1,24 +1,46 @@
 <template>
   <div class="post-card content-box">
-    <router-link :to="postLink" class="post-card__link">
+    <router-link
+      :to="postLink"
+      class="post-card__link"
+    >
       <div class="post-card__header">
-        <div class="post-card__image" v-if="postImage">
-          <img :src="postImage" :alt="post.title" @error="handleImageError" @load="handleImageLoad" />
+        <div
+          v-if="postImage"
+          class="post-card__image"
+        >
+          <img
+            :src="postImage"
+            :alt="post.title"
+            @error="handleImageError"
+            @load="handleImageLoad"
+          >
         </div>
-        <div v-else class="post-card__no-image">
+        <div
+          v-else
+          class="post-card__no-image"
+        >
           No image available
         </div>
       </div>
       <div class="post-card__content">
-        <h2 class="post-card__title">{{ post.title }}</h2>
-        <p class="post-card__description" v-if="post.description">
+        <h2 class="post-card__title">
+          {{ post.title }}
+        </h2>
+        <p
+          v-if="post.description"
+          class="post-card__description"
+        >
           {{ post.description }}
         </p>
         <div class="post-meta post-card__meta">
           Posted {{ formatDate(post.date) }}.
           <strong>{{ post.readTime || '5' }} min read.</strong>
         </div>
-        <div class="post-tags post-card__tags" v-if="post.tags.length">
+        <div
+          v-if="post.tags.length"
+          class="post-tags post-card__tags"
+        >
           <router-link
             v-for="tag in post.tags"
             :key="tag"

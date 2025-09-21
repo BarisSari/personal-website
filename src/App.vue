@@ -1,23 +1,47 @@
 <template>
-  <div id="app" :data-theme="theme">
+  <div
+    id="app"
+    :data-theme="theme"
+  >
     <header class="header">
       <div class="header__left">
-        <router-link v-if="isInTechPost" to="/tech-blog" class="return-btn">
+        <router-link
+          v-if="isInTechPost"
+          to="/tech-blog"
+          class="return-btn"
+        >
           ← Back to Tech Blog
         </router-link>
-        <router-link v-else-if="isInTravelPost" to="/travels-blog" class="return-btn">
+        <router-link
+          v-else-if="isInTravelPost"
+          to="/travels-blog"
+          class="return-btn"
+        >
           ← Back to Travels Blog
         </router-link>
-        <router-link v-else-if="!showMain" to="/" class="return-btn">
+        <router-link
+          v-else-if="!showMain"
+          to="/"
+          class="return-btn"
+        >
           ← Back to Homepage
         </router-link>
-        <NavigationLeft v-if="showLogo" type="travels" />
-        <NavigationLeft v-if="showTech" type="tech" />
+        <NavigationLeft
+          v-if="showLogo"
+          type="travels"
+        />
+        <NavigationLeft
+          v-if="showTech"
+          type="tech"
+        />
         <MainLeft v-if="showMain" />
       </div>
 
       <div class="header__right">
-        <ToggleTheme :is-dark="isDark" @toggle-theme="toggleTheme" />
+        <ToggleTheme
+          :is-dark="isDark"
+          @toggle-theme="toggleTheme"
+        />
       </div>
     </header>
 
