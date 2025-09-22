@@ -106,7 +106,7 @@ import mediumIcon from '@/assets/icons/medium.svg'
 import githubIcon from '@/assets/icons/github.svg'
 import linkedinIcon from '@/assets/icons/linkedin.svg'
 import stackoverflowIcon from '@/assets/icons/stackoverflow.svg'
-import travellingIcon from '@/assets/icons/landscape.png'
+import travelingIcon from '@/assets/icons/landscape.png'
 import techIcon from '@/assets/icons/robotic-hand.png'
 import moviesIcon from '@/assets/icons/movies.svg'
 import profileImage from '@/assets/profile.jpeg'
@@ -138,7 +138,7 @@ const bottomData: BlogData[] = [
     key: 1,
     header: 'Travels',
     to: '/travels-blog/',
-    src: travellingIcon,
+    src: travelingIcon,
     alt: 'travels-blog'
   },
   {
