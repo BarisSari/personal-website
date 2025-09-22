@@ -1,19 +1,21 @@
 <template>
-  <Layout :show-logo="false">
-    <!-- Author intro -->
-    <Author :show-title="true" />
-  </Layout>
+  <div class="index-page">
+    <Author :show-icons="true" />
+  </div>
 </template>
 
-<script>
-import Author from '~/components/Author.vue';
+<script setup lang="ts">
+import { onMounted } from 'vue'
+import Author from '../components/Author.vue'
 
-export default {
-  components: {
-    Author,
-  },
-  metaInfo: {
-    title: 'Baris Sari - Software Developer',
-  },
-};
+onMounted(() => {
+  document.title = 'Baris Sari - Software Developer'
+})
 </script>
+
+<style lang="scss" scoped>
+.index-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+</style>

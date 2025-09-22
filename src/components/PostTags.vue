@@ -1,15 +1,24 @@
 <template>
   <div class="post-tags">
-    <g-link class="post-tags__link" v-for="tag in post.tags" :key="tag.id" :to="tag.path">
+    <g-link
+      v-for="tag in post.tags"
+      :key="tag.id"
+      class="post-tags__link"
+      :to="tag.path"
+    >
       <span>#</span> {{ tag.title }}
     </g-link>
   </div>
 </template>
 
-<script>
-export default {
-  props: ['post'],
-};
+<script setup lang="ts">
+import type { MarkdownPost } from '../utils/markdown'
+
+interface Props {
+  post: MarkdownPost
+}
+
+defineProps<Props>()
 </script>
 
 <style lang="scss">

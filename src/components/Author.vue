@@ -1,146 +1,203 @@
 <template>
   <div class="author">
-    <g-link to="/">
-      <g-image
-          src="@/assets/profile.jpeg"
-          alt="me"
-          height="200"
-          width="200"
-          class="profile"
-          quality="100"
-      />
-    </g-link>
+    <router-link to="/">
+      <img
+        :src="profileImage"
+        alt="me"
+        height="200"
+        width="200"
+        class="profile"
+      >
+    </router-link>
 
     <h1>Barış Sarı</h1>
     <div v-if="showIcons">
-      <h2>Backend Engineer at <g-link to="https://feather-insurance.com">Feather</g-link>
-        <br>I speak Python, ML/DL, SQL, Docker, JS.</h2>
+      <h2>
+        Senior Backend Engineer at 
+        <a
+          href="https://feather-insurance.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="feather-link"
+        >Feather</a>
+        <br>I speak Python, TS/JS, ML/DL, SQL, Docker.
+      </h2>
       <div class="author__icons">
-        <b-container class="grey lighten-5">
-          <b-row>
-            <b-col cols="0"></b-col>
-            <b-col
-                v-for="n in topIcons"
-                :key="n.key"
-                cols="2"
+        <div class="container">
+          <div class="row social-icons-row">
+            <div
+              v-for="icon in topIcons"
+              :key="icon.key"
+              class="col-2"
             >
-              <a :href="n.href" target="_blank" rel="noopener noreferrer">
-                <g-image width="56.7" height="56.7" :src="n.src" :alt="n.alt"/>
+              <a
+                :href="icon.href"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  width="56.7"
+                  height="56.7"
+                  :src="icon.src"
+                  :alt="icon.alt"
+                >
               </a>
-            </b-col>
-            <b-col cols="0"></b-col>
-          </b-row>
-        </b-container>
+            </div>
+          </div>
+        </div>
       </div>
-      <hr>
+      <hr class="blog-separator">
       <div class="author__blogs">
-        <b-container class="grey lighten-5">
+        <div class="container">
           <h3>Blogs</h3>
-          <b-row>
-            <b-col
-                v-for="n in bottomData"
-                :key="n.key"
-                cols="12"
-                sm="6"
+          <div class="row">
+            <div
+              v-for="blog in bottomData"
+              :key="blog.key"
+              class="col-12 col-md-4"
             >
-              <h5>{{ n.header }}</h5>
+              <h5>{{ blog.header }}</h5>
               <div class="author__icons">
-                <g-link :to="n.to" class="blog">
-                  <g-image width="56.7" height="56.7" :src="n.src" :alt="n.alt"/>
-                </g-link>
+                <router-link
+                  v-if="blog.to"
+                  :to="blog.to"
+                  class="blog"
+                >
+                  <img
+                    width="56.7"
+                    height="56.7"
+                    :src="blog.src"
+                    :alt="blog.alt"
+                  >
+                </router-link>
+                <a
+                  v-else-if="blog.href"
+                  :href="blog.href"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="blog"
+                >
+                  <img
+                    width="56.7"
+                    height="56.7"
+                    :src="blog.src"
+                    :alt="blog.alt"
+                  >
+                </a>
               </div>
-            </b-col>
-          </b-row>
-        </b-container>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div v-else><h2 v-html="$static.metadata.siteDescription"/></div>
+    <div v-else>
+      <!-- eslint-disable-next-line vue/no-v-html -->
+      <h2 v-html="siteDescription" />
+    </div>
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteDescription
-  }
-}
-</static-query>
+<script setup lang="ts">
 
-<script>
-export default {
-  name: 'Main',
-  props: {
-    showIcons: { default: true },
+// Import SVG icons and profile image as Vite assets
+import cvIcon from '@/assets/icons/cv.svg'
+import gmailIcon from '@/assets/icons/gmail.svg'
+import mediumIcon from '@/assets/icons/medium.svg'
+import githubIcon from '@/assets/icons/github.svg'
+import linkedinIcon from '@/assets/icons/linkedin.svg'
+import stackoverflowIcon from '@/assets/icons/stackoverflow.svg'
+import travelingIcon from '@/assets/icons/landscape.png'
+import techIcon from '@/assets/icons/robotic-hand.png'
+import moviesIcon from '@/assets/icons/movies.svg'
+import profileImage from '@/assets/profile.jpeg'
+
+interface IconData {
+  key: number
+  href: string
+  src: string
+  alt: string
+}
+
+interface BlogData {
+  key: number
+  header: string
+  to?: string
+  href?: string
+  src: string
+  alt: string
+}
+
+defineProps<{
+  showIcons?: boolean
+}>()
+
+const siteDescription = 'Personal website of a Software Developer, who loves travelling and movies a lot!'
+
+const bottomData: BlogData[] = [
+  {
+    key: 1,
+    header: 'Travels',
+    to: '/travels-blog/',
+    src: travelingIcon,
+    alt: 'travels-blog'
   },
-  data() {
-    return {
-      bottomData: [
-        {
-          key: 1,
-          header: 'Travels',
-          to: '/travels-blog/',
-          src: require('@/assets/icons/travelling.svg'),
-          alt: 'travels-blog',
-        },
-        {
-          key: 2,
-          header: 'Technology',
-          to: '/tech-blog/',
-          src: require('@/assets/icons/tech.svg'),
-          alt: 'tech-blog',
-        },
-      ],
-      topIcons: [
-        {
-          key: 1,
-          href: '/BarisSari-CV.pdf',
-          src: require('@/assets/icons/cv.svg'),
-          alt: 'cv',
-        },
-        // {
-        //   key: 2,
-        //   href: 'https://www.upwork.com/o/profiles/users/_~019ab5632c941ec465/',
-        //   src: require('@/assets/icons/upwork.svg'),
-        //   alt: 'upwork',
-        // },
-        {
-          key: 3,
-          href: 'mailto:bayrambariss@gmail.com',
-          src: require('@/assets/icons/gmail.svg'),
-          alt: 'gmail',
-        },
-        {
-          key: 4,
-          href: 'https://barissari.medium.com/',
-          src: require('@/assets/icons/medium.svg'),
-          alt: 'medium',
-        },
-        {
-          key: 5,
-          href: 'https://github.com/barissari',
-          src: require('@/assets/icons/github.svg'),
-          alt: 'github',
-        },
-        {
-          key: 6,
-          href: 'https://www.linkedin.com/in/bayram-baris-sari/',
-          src: require('@/assets/icons/linkedin.svg'),
-          alt: 'linkedin',
-        },
-        {
-          key: 7,
-          href: 'https://stackoverflow.com/users/9686506/baris',
-          src: require('@/assets/icons/stackoverflow.svg'),
-          alt: 'stackoverflow',
-        },
-      ],
-    };
+  {
+    key: 2,
+    header: 'Technology',
+    to: '/tech-blog/',
+    src: techIcon,
+    alt: 'tech-blog'
   },
-  methods: {},
-};
+  {
+    key: 3,
+    header: 'Movies (insta)',
+    href: 'https://www.instagram.com/cinephileberlin',
+    src: moviesIcon,
+    alt: 'movies-instagram'
+  }
+]
+
+const topIcons: IconData[] = [
+  {
+    key: 1,
+    href: '/static/BarisSari-CV.pdf',
+    src: cvIcon,
+    alt: 'cv'
+  },
+  {
+    key: 3,
+    href: 'mailto:bayrambariss@gmail.com',
+    src: gmailIcon,
+    alt: 'gmail'
+  },
+  {
+    key: 4,
+    href: 'https://barissari.medium.com/',
+    src: mediumIcon,
+    alt: 'medium'
+  },
+  {
+    key: 5,
+    href: 'https://github.com/barissari',
+    src: githubIcon,
+    alt: 'github'
+  },
+  {
+    key: 6,
+    href: 'https://www.linkedin.com/in/bayram-baris-sari/',
+    src: linkedinIcon,
+    alt: 'linkedin'
+  },
+  {
+    key: 7,
+    href: 'https://stackoverflow.com/users/9686506/baris',
+    src: stackoverflowIcon,
+    alt: 'stackoverflow'
+  }
+]
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .author {
   margin: 0 auto;
   max-width: 800px;
@@ -150,33 +207,110 @@ export default {
   &__icons img {
     width: 56.7px;
     height: 56.7px;
+    transition: transform 0.2s ease;
+    
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 
   & h1 {
     font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--title-color);
+    letter-spacing: -0.02em;
+    margin-top: 1rem;
+    text-align: center;
   }
 
   & h2 {
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 300;
+    margin: 2rem 0 2rem;
+    color: var(--body-color);
   }
 
   & h3 {
     margin: 1.75rem 0 1rem;
+    color: var(--title-color);
+  }
+
+  & h5 {
+    color: var(--title-color);
+    margin-bottom: 1rem;
   }
 
   & a {
     margin-right: 10px;
   }
 
+  .feather-link {
+    color: var(--body-color);
+    text-decoration: underline;
+    font-weight: bold;
+    transition: opacity 0.2s ease;
+    
+    &:hover {
+      opacity: 0.7;
+    }
+  }
 }
 
 .author .profile {
   border-radius: 50%;
+  transition: transform 0.2s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
-// Make  things smaller for mobile
+// Utility classes
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.5rem;
+}
+
+.social-icons-row {
+  justify-content: center;
+  align-items: center;
+}
+
+.col-0 { flex: 0 0 0%; max-width: 0%; }
+.col-2 { flex: 0 0 16.666667%; max-width: 16.666667%; }
+.col-12 { flex: 0 0 100%; max-width: 100%; }
+
+@media (min-width: 576px) {
+  .col-sm-6 { flex: 0 0 50%; max-width: 50%; }
+}
+
+@media (min-width: 768px) {
+  .col-md-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+}
+
+.col-0, .col-2, .col-12, .col-sm-6, .col-md-4 {
+  padding: 0 0.5rem;
+}
+
+.grey { background-color: var(--bg-code); }
+.lighten-5 { background-color: var(--bg-code); }
+
+.blog-separator {
+  margin: 2rem 0;
+  border: none;
+  border-top: 2px solid var(--border-color);
+  width: 100%;
+}
+
+// Make things smaller for mobile
 @media screen and (max-width: 650px) {
   .author {
     & h1 {

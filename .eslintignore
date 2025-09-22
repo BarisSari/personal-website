@@ -1,0 +1,12 @@
+dist/
+node_modules/
+*.min.js
+*.min.css
+coverage/
+.nyc_output/
+.cache/
+.temp/
+.tmp/
+*.test.ts
+*.test.js
+testErrorHandling.ts
