@@ -157,7 +157,7 @@ const renderedContent = computed(() => {
   // Fix Medium CDN URLs to use the redirected format
   let fixedRendered = rendered.replace(
     /https:\/\/cdn-images-1\.medium\.com\/max\/\d+\//g,
-    'https://cdn-images-1.medium.com/v2/resize:fit:12480/'
+    'https://cdn-images-1.medium.com/v2/resize:fit:1600/'
   )
   
   // Process GitHub Gist URLs
