@@ -40,5 +40,13 @@ export default defineConfig({
       allow: ['..', './content']
     }
   },
-  publicDir: 'public'
+  publicDir: 'public',
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern-compiler', // Use modern Sass API
+        silenceDeprecations: ['legacy-js-api'] // Silence the deprecation warnings
+      }
+    }
+  }
 })

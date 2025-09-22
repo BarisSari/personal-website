@@ -54,6 +54,7 @@
     </footer>
     
     <ErrorNotification />
+    <BackToTop />
   </div>
 </template>
 
@@ -64,6 +65,7 @@ import NavigationLeft from './components/NavigationLeft.vue'
 import MainLeft from './components/MainLeft.vue'
 import ToggleTheme from './components/ToggleTheme.vue'
 import ErrorNotification from './components/ErrorNotification.vue'
+import BackToTop from './components/BackToTop.vue'
 import { ErrorHandler } from './utils/errorHandler'
 
 const route = useRoute()

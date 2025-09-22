@@ -54,11 +54,12 @@
             <div
               v-for="blog in bottomData"
               :key="blog.key"
-              class="col-12 col-sm-6"
+              class="col-12 col-md-4"
             >
               <h5>{{ blog.header }}</h5>
               <div class="author__icons">
                 <router-link
+                  v-if="blog.to"
                   :to="blog.to"
                   class="blog"
                 >
@@ -69,6 +70,20 @@
                     :alt="blog.alt"
                   >
                 </router-link>
+                <a
+                  v-else-if="blog.href"
+                  :href="blog.href"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="blog"
+                >
+                  <img
+                    width="56.7"
+                    height="56.7"
+                    :src="blog.src"
+                    :alt="blog.alt"
+                  >
+                </a>
               </div>
             </div>
           </div>
@@ -91,8 +106,9 @@ import mediumIcon from '@/assets/icons/medium.svg'
 import githubIcon from '@/assets/icons/github.svg'
 import linkedinIcon from '@/assets/icons/linkedin.svg'
 import stackoverflowIcon from '@/assets/icons/stackoverflow.svg'
-import travellingIcon from '@/assets/icons/travelling.svg'
-import techIcon from '@/assets/icons/tech.svg'
+import travellingIcon from '@/assets/icons/landscape.png'
+import techIcon from '@/assets/icons/robotic-hand.png'
+import moviesIcon from '@/assets/icons/movies.svg'
 import profileImage from '@/assets/profile.jpeg'
 
 interface IconData {
@@ -105,7 +121,8 @@ interface IconData {
 interface BlogData {
   key: number
   header: string
-  to: string
+  to?: string
+  href?: string
   src: string
   alt: string
 }
@@ -130,6 +147,13 @@ const bottomData: BlogData[] = [
     to: '/tech-blog/',
     src: techIcon,
     alt: 'tech-blog'
+  },
+  {
+    key: 3,
+    header: 'Movies (insta)',
+    href: 'https://www.instagram.com/cinephileberlin',
+    src: moviesIcon,
+    alt: 'movies-instagram'
   }
 ]
 
@@ -268,7 +292,11 @@ const topIcons: IconData[] = [
   .col-sm-6 { flex: 0 0 50%; max-width: 50%; }
 }
 
-.col-0, .col-2, .col-12, .col-sm-6 {
+@media (min-width: 768px) {
+  .col-md-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+}
+
+.col-0, .col-2, .col-12, .col-sm-6, .col-md-4 {
   padding: 0 0.5rem;
 }
 

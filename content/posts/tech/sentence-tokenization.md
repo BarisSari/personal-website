@@ -204,12 +204,12 @@ Thanks for reading up to the end!
 
 ### Further Reading
 
-1. Multiprocessing on spaCy: https://prrao87.github.io/blog/spacy/nlp/performance/2020/05/02/spacy-multiprocess.html#Option-1:-Sequentially-process-DataFrame-column
+1. [Multiprocessing on spaCy](https://prrao87.github.io/blog/spacy/nlp/performance/2020/05/02/spacy-multiprocess.html#Option-1:-Sequentially-process-DataFrame-column)
 
 ### Resources
 
-1. Sentence Segmentation — SpaCy: https://spacy.io/usage/linguistic-features#sbd-component
-2. Punk sentence tokenizer: https://www.nltk.org/_modules/nltk/tokenize/punkt.html
-3. Regex sentence tokenizer: https://stackoverflow.com/a/25736082/9686506
-4. Regex cheatsheet: [https://www.rexegg.com/regex-disambiguation.html](https://www.rexegg.com/regex-disambiguation.html#negative-lookbehind)
-5. Pandas explode(): [https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.explode.html](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.explode.html?highlight=explode#pandas.DataFrame.explode)
+1. [Sentence Segmentation — SpaCy](https://spacy.io/usage/linguistic-features#sbd-component)
+2. [Punk sentence tokenizer](https://www.nltk.org/_modules/nltk/tokenize/punkt.html)
+3. [Regex sentence tokenizer](https://stackoverflow.com/a/25736082/9686506)
+4. [Regex cheatsheet](https://www.rexegg.com/regex-disambiguation.html#negative-lookbehind)
+5. [Pandas explode()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.explode.html)
