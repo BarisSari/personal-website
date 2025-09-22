@@ -51,19 +51,10 @@
                 </div>
               </div>
             
-              <div
-                :class="`${type}-post__content`"
-                v-html="renderedContent"
-              />
-            
-              <div :class="`${type}-post__footer`">
-                <router-link
-                  :to="`/${type}-blog`"
-                  class="btn btn-outline-primary"
-                >
-                  ← Back to {{ type === 'tech' ? 'Tech' : 'Travels' }} Blog
-                </router-link>
-              </div>
+            <div
+              :class="`${type}-post__content`"
+              v-html="renderedContent"
+            />
             </div>
           </div>
         </div>
@@ -187,7 +178,7 @@ const formatDate = (dateString: string) => {
 
 onMounted(() => {
   // Scroll to top when post loads
-  window.scrollTo({ top: 0, behavior: 'smooth' })
+  window.scrollTo({ top: 40, behavior: 'smooth' })
   
   // Add error handling for images
   const images = document.querySelectorAll('img')
@@ -226,7 +217,7 @@ const retry = () => {
 <style lang="scss" scoped>
 .tech-post,
 .travels-post {
-  max-width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 1rem;
 
@@ -266,17 +257,26 @@ const retry = () => {
   }
 
   &__content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--bg-content-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
     line-height: 1.8;
     font-size: 1.1rem;
+    text-align: left;
 
     :deep(h1), :deep(h2), :deep(h3), :deep(h4), :deep(h5), :deep(h6) {
       margin: 2rem 0 1rem 0;
       font-weight: 600;
       color: var(--title-color);
+      text-align: center;
     }
 
     :deep(p) {
       margin-bottom: 1.5rem;
+      text-align: left;
     }
 
     :deep(img) {
@@ -341,10 +341,6 @@ const retry = () => {
     }
   }
 
-  &__footer {
-    margin-top: 3rem;
-    text-align: center;
-  }
 }
 
 // Tech-specific styles
