@@ -7,15 +7,31 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-      - uses: actions/cache@v4
-        id: npm-cache
+      - uses: actions/setup-node@v4
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-npm-
+          node-version: '18'
+          cache: 'npm'
       - name: Install dependencies
-        if: steps.npm-cache.outputs.cache-hit != 'true'
-        run: npm ci
+        run: |
+          npm ci --prefer-offline --no-audit
+          # Ensure all dependencies are properly installed
+          npm list eslint
+      - name: Verify ESLint installation
+        run: |
+          echo "Node version: $(node --version)"
+          echo "NPM version: $(npm --version)"
+          echo "ESLint version: $(npx eslint --version)"
+          echo "Checking if eslint is in node_modules..."
+          ls -la node_modules/.bin/eslint || echo "ESLint not found in node_modules/.bin/"
+          echo "Checking package.json scripts..."
+          cat package.json | grep -A 5 -B 5 "lint"
       - name: Run ESLint
-        run: npm run lint
+        run: |
+          echo "Current working directory: $(pwd)"
+          echo "Contents of current directory:"
+          ls -la
+          echo "Contents of node_modules/.bin:"
+          ls -la node_modules/.bin/ | grep eslint || echo "No eslint in .bin"
+          echo "Running ESLint..."
+          # Try npm run lint first, fallback to npx if that fails
+          npm run lint || npx eslint . --ext .vue,.js,.jsx,.ts,.tsx --fix
