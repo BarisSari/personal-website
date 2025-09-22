@@ -28,7 +28,14 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--title-color);
 }
 
-h1 { font-size: 2.5rem; }
+h1 { 
+  font-size: 2.5rem; 
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 1rem 0 1.5rem 0;
+  color: var(--title-color);
+  letter-spacing: -0.02em;
+}
 h2 { font-size: 2rem; }
 h3 { font-size: 1.75rem; }
 h4 { font-size: 1.5rem; }
@@ -128,7 +135,10 @@ td {
     font-size: var(--caption-font-size);
   }
 
-  h1 { font-size: 2rem; }
+  h1 { 
+    font-size: 2rem; 
+    margin: 0.5rem 0 1rem 0;
+  }
   h2 { font-size: 1.75rem; }
   h3 { font-size: 1.5rem; }
   h4 { font-size: 1.25rem; }

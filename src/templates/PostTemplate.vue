@@ -62,7 +62,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted } from 'vue'
+import { computed, onMounted, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { getPostBySlug, type MarkdownPost } from '../utils/markdown'
 import { processGistUrls } from '../utils/gist'
@@ -151,6 +151,14 @@ const formatDate = (dateString: string) => {
   })
 }
 
+// Watch for post changes and update document title
+watch(post, (newPost) => {
+  if (newPost && newPost.title) {
+    const blogType = props.type === 'tech' ? 'Tech' : 'Travels'
+    document.title = `${newPost.title} - ${blogType} Blog | Baris Sari`
+  }
+}, { immediate: true })
+
 onMounted(() => {
   // Scroll to top when post loads
   window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -196,10 +204,12 @@ onMounted(() => {
 
   &__title {
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 800;
     margin-bottom: 1rem;
     line-height: 1.2;
     color: var(--title-color);
+    letter-spacing: -0.02em;
+    text-align: center;
   }
 
   &__meta {

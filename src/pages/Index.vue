@@ -9,7 +9,7 @@ import { onMounted } from 'vue'
 import Author from '../components/Author.vue'
 
 onMounted(() => {
-  // Component mounted
+  document.title = 'Baris Sari - Software Developer'
 })
 </script>
 

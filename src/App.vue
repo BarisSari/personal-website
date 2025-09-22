@@ -237,9 +237,10 @@ html {
 .main {
   flex: 1;
   margin: 0 auto;
-  padding: 1.5vw 15px 0;
+  padding: 1.5vw 15px 2rem;
   max-width: var(--content-width);
   width: 100%;
+  min-height: calc(100vh - var(--header-height) - 100px);
 }
 
 .footer {
@@ -250,9 +251,18 @@ html {
   text-align: center;
   font-size: 0.8em;
   margin-top: auto;
+  background-color: var(--bg-color);
+  border-top: 1px solid var(--border-color);
+  position: relative;
+  z-index: 1;
 
   > span {
     margin: 0 0.35em;
+  }
+
+  &__copyright {
+    color: var(--body-color);
+    opacity: 0.8;
   }
 
   a {

@@ -2,7 +2,7 @@
   <div class="author">
     <router-link to="/">
       <img
-        src="/src/assets/profile.jpeg"
+        :src="profileImage"
         alt="me"
         height="200"
         width="200"
@@ -82,7 +82,17 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+
+// Import SVG icons and profile image as Vite assets
+import cvIcon from '@/assets/icons/cv.svg'
+import gmailIcon from '@/assets/icons/gmail.svg'
+import mediumIcon from '@/assets/icons/medium.svg'
+import githubIcon from '@/assets/icons/github.svg'
+import linkedinIcon from '@/assets/icons/linkedin.svg'
+import stackoverflowIcon from '@/assets/icons/stackoverflow.svg'
+import travellingIcon from '@/assets/icons/travelling.svg'
+import techIcon from '@/assets/icons/tech.svg'
+import profileImage from '@/assets/profile.jpeg'
 
 interface IconData {
   key: number
@@ -110,14 +120,14 @@ const bottomData: BlogData[] = [
     key: 1,
     header: 'Travels',
     to: '/travels-blog/',
-    src: '/src/assets/icons/travelling.svg',
+    src: travellingIcon,
     alt: 'travels-blog'
   },
   {
     key: 2,
     header: 'Technology',
     to: '/tech-blog/',
-    src: '/src/assets/icons/tech.svg',
+    src: techIcon,
     alt: 'tech-blog'
   }
 ]
@@ -126,37 +136,37 @@ const topIcons: IconData[] = [
   {
     key: 1,
     href: '/static/BarisSari-CV.pdf',
-    src: '/src/assets/icons/cv.svg',
+    src: cvIcon,
     alt: 'cv'
   },
   {
     key: 3,
     href: 'mailto:bayrambariss@gmail.com',
-    src: '/src/assets/icons/gmail.svg',
+    src: gmailIcon,
     alt: 'gmail'
   },
   {
     key: 4,
     href: 'https://barissari.medium.com/',
-    src: '/src/assets/icons/medium.svg',
+    src: mediumIcon,
     alt: 'medium'
   },
   {
     key: 5,
     href: 'https://github.com/barissari',
-    src: '/src/assets/icons/github.svg',
+    src: githubIcon,
     alt: 'github'
   },
   {
     key: 6,
     href: 'https://www.linkedin.com/in/bayram-baris-sari/',
-    src: '/src/assets/icons/linkedin.svg',
+    src: linkedinIcon,
     alt: 'linkedin'
   },
   {
     key: 7,
     href: 'https://stackoverflow.com/users/9686506/baris',
-    src: '/src/assets/icons/stackoverflow.svg',
+    src: stackoverflowIcon,
     alt: 'stackoverflow'
   }
 ]
@@ -185,6 +195,7 @@ const topIcons: IconData[] = [
     color: var(--title-color);
     letter-spacing: -0.02em;
     margin-top: 1rem;
+    text-align: center;
   }
 
   & h2 {
@@ -197,6 +208,12 @@ const topIcons: IconData[] = [
 
   & h3 {
     margin: 1.75rem 0 1rem;
+    color: var(--title-color);
+  }
+
+  & h5 {
+    color: var(--title-color);
+    margin-bottom: 1rem;
   }
 
   & a {

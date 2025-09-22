@@ -25,7 +25,11 @@
 </template>
 
 <script setup lang="ts">
-// No additional logic needed
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  document.title = '404 - Page Not Found | Baris Sari'
+})
 </script>
 
 <style lang="scss" scoped>
@@ -37,10 +41,11 @@
   padding: 2rem 1rem;
 
   &__title {
-    font-size: 6rem;
-    font-weight: 700;
+    font-size: 4rem;
+    font-weight: 800;
     color: var(--link-color);
     margin-bottom: 1rem;
+    letter-spacing: -0.02em;
   }
 
   &__subtitle {
@@ -56,6 +61,18 @@
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .not-found {
+    &__title {
+      font-size: 3rem;
+    }
+    
+    &__subtitle {
+      font-size: 1.5rem;
+    }
   }
 }
 </style>

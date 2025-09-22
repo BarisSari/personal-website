@@ -13,6 +13,13 @@ const router = createRouter({
   routes
 })
 
+// Add router guard for dynamic titles
+router.beforeEach((to, from, next) => {
+  // Set default title
+  document.title = 'Baris Sari - Software Developer'
+  next()
+})
+
 const app = createApp(App)
 
 app.use(router)

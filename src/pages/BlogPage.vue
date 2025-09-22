@@ -25,7 +25,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, watch } from 'vue'
 import { getPostsByType, type MarkdownPost } from '../utils/markdown'
 import PostCard from '../components/PostCard.vue'
 
@@ -36,6 +36,12 @@ interface Props {
 const props = defineProps<Props>()
 
 const posts = ref<MarkdownPost[]>([])
+
+// Watch for type changes and update document title
+watch(() => props.type, (newType) => {
+  const blogType = newType === 'tech' ? 'Technology' : 'Traveling'
+  document.title = `${blogType} Blog | Baris Sari`
+}, { immediate: true })
 
 onMounted(() => {
   posts.value = getPostsByType(props.type)
@@ -52,9 +58,12 @@ onMounted(() => {
   padding: 2rem 1rem;
 
   h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--title-color);
+    letter-spacing: -0.02em;
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--title-color);
   }
 }
 

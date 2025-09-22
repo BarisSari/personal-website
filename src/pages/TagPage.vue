@@ -25,7 +25,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
 import { getPostsByTag, type MarkdownPost } from '../utils/markdown'
 import PostCard from '../components/PostCard.vue'
@@ -42,6 +42,12 @@ const tagName = computed(() => route.params.id as string)
 const taggedPosts = computed(() => {
   return getPostsByTag(tagName.value).filter(post => post.type === props.type)
 })
+
+// Watch for changes and update document title
+watch([tagName, () => props.type], ([newTagName, newType]) => {
+  const blogType = newType === 'tech' ? 'Technology' : 'Travel'
+  document.title = `${blogType} posts tagged with "${newTagName}" | Baris Sari`
+}, { immediate: true })
 </script>
 
 <style lang="scss" scoped>
@@ -52,6 +58,10 @@ const taggedPosts = computed(() => {
   padding: 2rem 1rem;
 
   h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--title-color);
+    letter-spacing: -0.02em;
     text-align: center;
     margin-bottom: 2rem;
   }
