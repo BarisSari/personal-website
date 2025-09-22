@@ -160,7 +160,7 @@ const bottomData: BlogData[] = [
 const topIcons: IconData[] = [
   {
     key: 1,
-    href: '/static/BarisSari-CV.pdf',
+    href: '/BarisSari-CV.pdf',
     src: cvIcon,
     alt: 'cv'
   },
