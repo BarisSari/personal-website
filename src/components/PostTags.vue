@@ -11,10 +11,14 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: ['post'],
-};
+<script setup lang="ts">
+import type { MarkdownPost } from '../utils/markdown'
+
+interface Props {
+  post: MarkdownPost
+}
+
+defineProps<Props>()
 </script>
 
 <style lang="scss">

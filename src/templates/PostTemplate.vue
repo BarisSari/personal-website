@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <!-- Error Fallback -->
   <PostErrorFallback
@@ -23,46 +24,46 @@
         :class="`${type}-post__photo-credit`"
         v-html="photoCredit"
       />
-    </div>
     
-    <!-- Main Content -->
-    <div :class="`${type}-post`">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div :class="`${type}-post__header`">
-              <h1 :class="`${type}-post__title`">
-                {{ post?.title || 'Untitled' }}
-              </h1>
-              <div :class="`${type}-post__meta`">
-                <span :class="`${type}-post__date`">{{ post?.date ? formatDate(post.date) : '' }}</span>
-                <div
-                  v-if="post?.tags?.length"
-                  :class="`${type}-post__tags`"
-                >
-                  <span
-                    v-for="tag in post.tags"
-                    :key="tag"
-                    :class="`${type}-post__tag`"
+      <!-- Main Content -->
+      <div :class="`${type}-post`">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div :class="`${type}-post__header`">
+                <h1 :class="`${type}-post__title`">
+                  {{ post?.title || 'Untitled' }}
+                </h1>
+                <div :class="`${type}-post__meta`">
+                  <span :class="`${type}-post__date`">{{ post?.date ? formatDate(post.date) : '' }}</span>
+                  <div
+                    v-if="post?.tags?.length"
+                    :class="`${type}-post__tags`"
                   >
-                    {{ tag }}
-                  </span>
+                    <span
+                      v-for="tag in post.tags"
+                      :key="tag"
+                      :class="`${type}-post__tag`"
+                    >
+                      {{ tag }}
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
             
-            <div
-              :class="`${type}-post__content`"
-              v-html="renderedContent"
-            />
+              <div
+                :class="`${type}-post__content`"
+                v-html="renderedContent"
+              />
             
-            <div :class="`${type}-post__footer`">
-              <router-link
-                :to="`/${type}-blog`"
-                class="btn btn-outline-primary"
-              >
-                ← Back to {{ type === 'tech' ? 'Tech' : 'Travels' }} Blog
-              </router-link>
+              <div :class="`${type}-post__footer`">
+                <router-link
+                  :to="`/${type}-blog`"
+                  class="btn btn-outline-primary"
+                >
+                  ← Back to {{ type === 'tech' ? 'Tech' : 'Travels' }} Blog
+                </router-link>
+              </div>
             </div>
           </div>
         </div>
@@ -74,7 +75,7 @@
 <script setup lang="ts">
 import { computed, onMounted, watch, ref } from 'vue'
 import { useRoute } from 'vue-router'
-import { getPostBySlug, type MarkdownPost } from '../utils/markdown'
+import { getPostBySlug } from '../utils/markdown'
 import { processGistUrls } from '../utils/gist'
 import { ErrorHandler } from '../utils/errorHandler'
 import PostErrorFallback from '../components/PostErrorFallback.vue'
@@ -191,7 +192,7 @@ onMounted(() => {
   // Add error handling for images
   const images = document.querySelectorAll('img')
   images.forEach(img => {
-    img.addEventListener('error', (_e) => {
+    img.addEventListener('error', () => {
       ErrorHandler.handleImageError(img.src, new Error('Post image failed to load'))
       // You could set a fallback image here if needed
     })

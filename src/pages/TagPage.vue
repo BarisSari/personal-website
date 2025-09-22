@@ -27,7 +27,7 @@
 <script setup lang="ts">
 import { computed, watch } from 'vue'
 import { useRoute } from 'vue-router'
-import { getPostsByTag, type MarkdownPost } from '../utils/markdown'
+import { getPostsByTag } from '../utils/markdown'
 import PostCard from '../components/PostCard.vue'
 
 interface Props {

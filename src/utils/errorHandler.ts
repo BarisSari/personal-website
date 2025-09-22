@@ -7,7 +7,7 @@ export interface AppError {
 
 export class ErrorHandler {
   private static errors: AppError[] = []
-  private static listeners: ((error: AppError) => void)[] = []
+  private static listeners: (() => void)[] = []
 
   static addError(message: string, code?: string, details?: any): AppError {
     const error: AppError = {
@@ -38,7 +38,7 @@ export class ErrorHandler {
     this.errors = []
   }
 
-  static onError(callback: (_error: AppError) => void): () => void {
+  static onError(callback: () => void): () => void {
     this.listeners.push(callback)
     
     // Return unsubscribe function

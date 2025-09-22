@@ -76,6 +76,7 @@
       </div>
     </div>
     <div v-else>
+      <!-- eslint-disable-next-line vue/no-v-html -->
       <h2 v-html="siteDescription" />
     </div>
   </div>

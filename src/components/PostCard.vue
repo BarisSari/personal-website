@@ -157,7 +157,7 @@ const handleImageError = (event: Event) => {
   ErrorHandler.handleImageError(img.src, new Error('Image failed to load'))
 }
 
-const handleImageLoad = (_event: Event) => {
+const handleImageLoad = () => {
   // Handle image load success silently
 }
 </script>

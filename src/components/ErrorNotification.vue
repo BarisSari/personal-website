@@ -42,7 +42,7 @@ let unsubscribe: (() => void) | null = null
 
 onMounted(() => {
   // Subscribe to new errors
-  unsubscribe = ErrorHandler.onError((_error: AppError) => {
+  unsubscribe = ErrorHandler.onError(() => {
     errors.value = ErrorHandler.getErrors()
   })
   

@@ -106,7 +106,6 @@ onMounted(() => {
 const showLogo = computed(() => route.path.includes('/travels'))
 const showTech = computed(() => route.path.includes('/tech'))
 const showMain = computed(() => route.path === '/')
-const isInPost = computed(() => route.path.includes('/blog/'))
 const isInTechPost = computed(() => route.path.includes('/blog/tech/'))
 const isInTravelPost = computed(() => route.path.includes('/blog/travels/'))
 </script>
