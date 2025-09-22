@@ -7,7 +7,8 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    'plugin:vue/vue3-recommended'
+    'plugin:vue/vue3-recommended',
+    '@typescript-eslint/recommended'
   ],
   parser: 'vue-eslint-parser',
   parserOptions: {
@@ -21,10 +22,14 @@ module.exports = {
     'vue/no-unused-vars': 'error',
     'vue/no-multiple-template-root': 'off',
     
+    // TypeScript specific rules
+    '@typescript-eslint/no-unused-vars': 'error',
+    '@typescript-eslint/no-explicit-any': 'warn',
+    
     // General rules
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-unused-vars': 'warn',
+    'no-unused-vars': 'off', // Use TypeScript version instead
     'prefer-const': 'error',
     'no-var': 'error'
   },
