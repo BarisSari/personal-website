@@ -1,4 +1,5 @@
 import type { RouteRecordRaw } from 'vue-router'
+import { ErrorHandler } from './errorHandler'
 
 export interface MarkdownPost {
   title: string
@@ -80,11 +81,8 @@ function loadMarkdownPosts(): MarkdownPost[] {
           ?.toLowerCase()
           ?.replace(/\s+/g, '-') || ''
         
-        console.log(`Generated slug for ${path}: "${slug}"`)
-        
         // Skip unpublished posts
         if (data.published === false) {
-          console.log(`Skipping unpublished post: ${path}`)
           continue
         }
         
@@ -99,12 +97,16 @@ function loadMarkdownPosts(): MarkdownPost[] {
           frontmatter: data
         })
       } catch (error) {
-        console.error(`Error processing markdown file ${path}:`, error)
+        ErrorHandler.handleMarkdownError(path, error)
         // Continue with other files
       }
     }
   } catch (error) {
-    console.error('Error loading markdown posts:', error)
+    ErrorHandler.addError(
+      'Failed to load markdown posts',
+      'MARKDOWN_LOAD_ERROR',
+      { originalError: error }
+    )
     return []
   }
   
@@ -122,12 +124,7 @@ export function getPostsByType(type: 'tech' | 'travels'): MarkdownPost[] {
 
 export function getPostBySlug(slug: string, type: 'tech' | 'travels'): MarkdownPost | undefined {
   const posts = getAllPosts()
-  console.log(`Looking for ${type} post with slug: "${slug}"`)
-  console.log(`Total posts loaded:`, posts.length)
-  console.log(`Available ${type} posts:`, posts.filter(p => p.type === type).map(p => ({ slug: p.slug, title: p.title })))
-  const found = posts.find(post => post.slug === slug && post.type === type)
-  console.log(`Found post:`, found ? found.title : 'Not found')
-  return found
+  return posts.find(post => post.slug === slug && post.type === type)
 }
 
 export function getAllTags(): string[] {
@@ -151,6 +148,5 @@ export function getPostsByTag(tag: string): MarkdownPost[] {
 export function createMarkdownRoutes(): RouteRecordRaw[] {
   // No longer needed - routes are defined statically in routes.ts
   // This function is kept for compatibility but returns empty array
-  console.log('Markdown routes are now handled statically in routes.ts')
   return []
 }

@@ -52,6 +52,8 @@
     <footer class="footer">
       <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
     </footer>
+    
+    <ErrorNotification />
   </div>
 </template>
 
@@ -61,6 +63,8 @@ import { useRoute } from 'vue-router'
 import NavigationLeft from './components/NavigationLeft.vue'
 import MainLeft from './components/MainLeft.vue'
 import ToggleTheme from './components/ToggleTheme.vue'
+import ErrorNotification from './components/ErrorNotification.vue'
+import { ErrorHandler } from './utils/errorHandler'
 
 const route = useRoute()
 const theme = ref(localStorage.getItem('theme') || 'light')
@@ -95,7 +99,7 @@ onMounted(() => {
     document.body.style.backgroundColor = bgColor
     document.documentElement.style.setProperty('--bg-color', bgColor)
   } catch (error) {
-    console.error('Error in App onMounted:', error)
+    ErrorHandler.handleAppInitializationError(error)
   }
 })
 

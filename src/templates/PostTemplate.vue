@@ -1,71 +1,83 @@
 <template>
-  <!-- Cover Image - At the very top of the page -->
-  <div
-    v-if="coverImage"
-    :class="`${type}-post__cover`"
-  >
-    <img
-      :src="coverImage"
-      :alt="post?.title || 'Post image'"
-      :class="`${type}-post__cover-image`"
-    >
-    <div
-      v-if="photoCredit"
-      :class="`${type}-post__photo-credit`"
-      v-html="photoCredit"
-    />
-  </div>
+  <!-- Error Fallback -->
+  <PostErrorFallback
+    v-if="hasError"
+    :type="type"
+    @retry="retry"
+  />
   
-  <!-- Main Content -->
-  <div :class="`${type}-post`">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div :class="`${type}-post__header`">
-            <h1 :class="`${type}-post__title`">
-              {{ post?.title || 'Untitled' }}
-            </h1>
-            <div :class="`${type}-post__meta`">
-              <span :class="`${type}-post__date`">{{ post?.date ? formatDate(post.date) : '' }}</span>
-              <div
-                v-if="post?.tags?.length"
-                :class="`${type}-post__tags`"
-              >
-                <span
-                  v-for="tag in post.tags"
-                  :key="tag"
-                  :class="`${type}-post__tag`"
+  <!-- Normal Post Content -->
+  <template v-else>
+    <!-- Cover Image - At the very top of the page -->
+    <div
+      v-if="coverImage"
+      :class="`${type}-post__cover`"
+    >
+      <img
+        :src="coverImage"
+        :alt="post?.title || 'Post image'"
+        :class="`${type}-post__cover-image`"
+      >
+      <div
+        v-if="photoCredit"
+        :class="`${type}-post__photo-credit`"
+        v-html="photoCredit"
+      />
+    </div>
+    
+    <!-- Main Content -->
+    <div :class="`${type}-post`">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div :class="`${type}-post__header`">
+              <h1 :class="`${type}-post__title`">
+                {{ post?.title || 'Untitled' }}
+              </h1>
+              <div :class="`${type}-post__meta`">
+                <span :class="`${type}-post__date`">{{ post?.date ? formatDate(post.date) : '' }}</span>
+                <div
+                  v-if="post?.tags?.length"
+                  :class="`${type}-post__tags`"
                 >
-                  {{ tag }}
-                </span>
+                  <span
+                    v-for="tag in post.tags"
+                    :key="tag"
+                    :class="`${type}-post__tag`"
+                  >
+                    {{ tag }}
+                  </span>
+                </div>
               </div>
             </div>
-          </div>
-          
-          <div
-            :class="`${type}-post__content`"
-            v-html="renderedContent"
-          />
-          
-          <div :class="`${type}-post__footer`">
-            <router-link
-              :to="`/${type}-blog`"
-              class="btn btn-outline-primary"
-            >
-              ← Back to {{ type === 'tech' ? 'Tech' : 'Travels' }} Blog
-            </router-link>
+            
+            <div
+              :class="`${type}-post__content`"
+              v-html="renderedContent"
+            />
+            
+            <div :class="`${type}-post__footer`">
+              <router-link
+                :to="`/${type}-blog`"
+                class="btn btn-outline-primary"
+              >
+                ← Back to {{ type === 'tech' ? 'Tech' : 'Travels' }} Blog
+              </router-link>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </template>
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted, watch } from 'vue'
+import { computed, onMounted, watch, ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { getPostBySlug, type MarkdownPost } from '../utils/markdown'
 import { processGistUrls } from '../utils/gist'
+import { ErrorHandler } from '../utils/errorHandler'
+import PostErrorFallback from '../components/PostErrorFallback.vue'
 import MarkdownIt from 'markdown-it'
 
 interface Props {
@@ -74,6 +86,7 @@ interface Props {
 
 const props = defineProps<Props>()
 const route = useRoute()
+const hasError = ref(false)
 
 const md = new MarkdownIt({
   html: true,
@@ -84,18 +97,41 @@ const md = new MarkdownIt({
 
 const post = computed(() => {
   const slug = route.params.slug as string
-  console.log('PostTemplate - Route params:', route.params)
-  console.log('PostTemplate - Looking for ' + props.type + ' post with slug:', slug)
-  console.log('PostTemplate - Route path:', route.path)
-  console.log('PostTemplate - Route name:', route.name)
-  return getPostBySlug(slug, props.type) || {
-    title: 'Post Not Found',
-    date: new Date().toISOString(),
-    tags: [],
-    content: 'The requested post could not be found.',
-    slug: ''
+  const foundPost = getPostBySlug(slug, props.type)
+  
+  if (!foundPost) {
+    return {
+      title: 'Post Not Found',
+      date: new Date().toISOString(),
+      tags: [],
+      content: 'The requested post could not be found.',
+      slug: ''
+    }
   }
+  
+  return foundPost
 })
+
+// Watch for post changes and handle errors
+watch(post, (newPost) => {
+  if (newPost && newPost.title) {
+    const blogType = props.type === 'tech' ? 'Tech' : 'Travels'
+    document.title = `${newPost.title} - ${blogType} Blog | Baris Sari`
+    
+    // Check if this is a "not found" post
+    if (newPost.title === 'Post Not Found') {
+      hasError.value = true
+      const slug = route.params.slug as string
+      ErrorHandler.addError(
+        `Post not found: ${slug}`,
+        'POST_NOT_FOUND',
+        { slug, type: props.type }
+      )
+    } else {
+      hasError.value = false
+    }
+  }
+}, { immediate: true })
 
 const coverImage = computed(() => {
   if (post.value?.frontmatter?.cover_image) {
@@ -124,8 +160,6 @@ const photoCredit = computed(() => {
 const renderedContent = computed(() => {
   if (!post.value) return ''
   
-  console.log(props.type + 'Post - Rendering content for:', post.value.title)
-  
   const rendered = md.render(post.value.content)
   
   // Fix Medium CDN URLs to use the redirected format
@@ -136,8 +170,6 @@ const renderedContent = computed(() => {
   
   // Process GitHub Gist URLs
   fixedRendered = processGistUrls(fixedRendered)
-  
-  console.log(props.type + 'Post - Fixed image URLs and processed Gists in rendered content')
   
   return fixedRendered
 })
@@ -151,13 +183,6 @@ const formatDate = (dateString: string) => {
   })
 }
 
-// Watch for post changes and update document title
-watch(post, (newPost) => {
-  if (newPost && newPost.title) {
-    const blogType = props.type === 'tech' ? 'Tech' : 'Travels'
-    document.title = `${newPost.title} - ${blogType} Blog | Baris Sari`
-  }
-}, { immediate: true })
 
 onMounted(() => {
   // Scroll to top when post loads
@@ -166,12 +191,12 @@ onMounted(() => {
   // Add error handling for images
   const images = document.querySelectorAll('img')
   images.forEach(img => {
-    img.addEventListener('error', (e) => {
-      console.error('Image failed to load:', img.src)
+    img.addEventListener('error', (_e) => {
+      ErrorHandler.handleImageError(img.src, new Error('Post image failed to load'))
       // You could set a fallback image here if needed
     })
     img.addEventListener('load', () => {
-      console.log('Image loaded successfully:', img.src)
+      // Image loaded successfully
     })
   })
 
@@ -188,6 +213,13 @@ onMounted(() => {
     }
   })
 })
+
+const retry = () => {
+  hasError.value = false
+  // Force re-computation of the post
+  const slug = route.params.slug as string
+  getPostBySlug(slug, props.type)
+}
 </script>
 
 <style lang="scss" scoped>

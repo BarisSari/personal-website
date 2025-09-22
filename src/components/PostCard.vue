@@ -59,6 +59,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import type { MarkdownPost } from '../utils/markdown'
+import { ErrorHandler } from '../utils/errorHandler'
 
 interface Props {
   post: MarkdownPost
@@ -74,26 +75,20 @@ const postLink = computed(() => {
 })
 
 const postImage = computed(() => {
-  console.log('PostCard - Post:', props.post.title, 'Slug:', props.post.slug, 'Type:', props.type, 'Frontmatter:', props.post.frontmatter)
-  
   // First, check if there's a cover_image in frontmatter
   if (props.post.frontmatter?.cover_image) {
     const coverImage = props.post.frontmatter.cover_image
-    console.log('PostCard - Found cover_image:', coverImage)
     // If it's a relative path, make it absolute
     if (coverImage.startsWith('../')) {
       const absolutePath = coverImage.replace('../', `/content/posts/${props.type}/`)
-      console.log('PostCard - Converted to absolute path:', absolutePath)
       return absolutePath
     }
     // Handle ./images/ format (legacy, should be ../images/)
     if (coverImage.startsWith('./images/')) {
       const absolutePath = coverImage.replace('./images/', `/content/posts/${props.type}/images/`)
-      console.log('PostCard - Converted ./images path:', absolutePath)
       return absolutePath
     }
     // If it's already a full path or URL, use it as is
-    console.log('PostCard - Using cover_image as is:', coverImage)
     return coverImage
   }
   
@@ -125,7 +120,6 @@ const postImage = computed(() => {
     const imageFile = imageMap[props.post.slug.toLowerCase()]
     if (imageFile) {
       const imagePath = `/content/posts/travels/images/${imageFile}`
-      console.log('PostCard - Travel image path:', imagePath)
       return imagePath
     }
   }
@@ -142,7 +136,6 @@ const postImage = computed(() => {
     const imageFile = techImageMap[props.post.slug.toLowerCase()]
     if (imageFile) {
       const imagePath = `/content/posts/tech/images/${imageFile}`
-      console.log('PostCard - Tech image path:', imagePath)
       return imagePath
     }
   }
@@ -161,12 +154,11 @@ const formatDate = (dateString: string) => {
 
 const handleImageError = (event: Event) => {
   const img = event.target as HTMLImageElement
-  console.error('PostCard - Image failed to load:', img.src)
+  ErrorHandler.handleImageError(img.src, new Error('Image failed to load'))
 }
 
-const handleImageLoad = (event: Event) => {
-  const img = event.target as HTMLImageElement
-  console.log('PostCard - Image loaded successfully:', img.src)
+const handleImageLoad = (_event: Event) => {
+  // Handle image load success silently
 }
 </script>
 

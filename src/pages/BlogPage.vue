@@ -45,8 +45,6 @@ watch(() => props.type, (newType) => {
 
 onMounted(() => {
   posts.value = getPostsByType(props.type)
-  console.log(`BlogPage - Loading ${props.type} posts:`, posts.value.length)
-  console.log(`BlogPage - Posts:`, posts.value.map(p => ({ slug: p.slug, title: p.title })))
 })
 </script>
 

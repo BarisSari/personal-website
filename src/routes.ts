@@ -1,5 +1,6 @@
 import type { RouteRecordRaw } from 'vue-router'
 import { createMarkdownRoutes } from './utils/markdown'
+import { ErrorHandler } from './utils/errorHandler'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -58,12 +59,9 @@ const routes: RouteRecordRaw[] = [
 // Add dynamic routes for markdown posts
 try {
   const markdownRoutes = createMarkdownRoutes()
-  console.log('Created markdown routes:', markdownRoutes.length)
-  console.log('Route paths:', markdownRoutes.map(r => r.path))
   routes.push(...markdownRoutes)
-  console.log('Total routes:', routes.length)
 } catch (error) {
-  console.error('Error creating markdown routes:', error)
+  ErrorHandler.handleRouteError(error)
   // Continue without markdown routes if there's an error
 }
 
