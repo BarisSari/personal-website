@@ -53,7 +53,7 @@ watch([tagName, () => props.type], ([newTagName, newType]) => {
 <style lang="scss" scoped>
 .tech-tag-page,
 .travels-tag-page {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 2rem 1rem;
 
@@ -70,7 +70,7 @@ watch([tagName, () => props.type], ([newTagName, newType]) => {
 .posts-container {
   display: flex;
   flex-direction: column;
-  gap: 0;
+  gap: 2rem;
 }
 
 .post-wrapper {
@@ -78,38 +78,16 @@ watch([tagName, () => props.type], ([newTagName, newType]) => {
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -0.5rem;
-}
-
-.col-12 { flex: 0 0 100%; max-width: 100%; }
-.col-md-6 { flex: 0 0 50%; max-width: 50%; }
-.col-lg-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
-
-@media (min-width: 768px) {
-  .col-md-6 { flex: 0 0 50%; max-width: 50%; }
-}
-
-@media (min-width: 992px) {
-  .col-lg-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
-}
-
-.col-12, .col-md-6, .col-lg-4 {
-  padding: 0 0.5rem;
-}
-
-.mb-4 { margin-bottom: 1.5rem; }
 
 .no-posts {
   text-align: center;
-  padding: 2rem;
+  padding: 3rem 2rem;
   color: var(--body-color);
+  font-size: 1.1rem;
+  opacity: 0.8;
 }
 </style>
