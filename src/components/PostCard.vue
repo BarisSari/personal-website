@@ -69,7 +69,7 @@ interface Props {
 const props = defineProps<Props>()
 
 const postLink = computed(() => {
-  return props.type === 'tech' 
+  return props.type === 'tech'
     ? `/blog/tech/${props.post.slug}`
     : `/blog/travels/${props.post.slug}`
 })
@@ -91,13 +91,13 @@ const postImage = computed(() => {
     // If it's already a full path or URL, use it as is
     return coverImage
   }
-  
+
   // Try to find an image in the content
   const imageMatch = props.post.content.match(/!\[.*?\]\((.*?)\)/)
   if (imageMatch) {
     return imageMatch[1]
   }
-  
+
   // Use default images based on type
   if (props.type === 'travels') {
     // Map post slugs to actual image filenames
@@ -114,16 +114,17 @@ const postImage = computed(() => {
       'paris': 'paris-front.jpg',
       'portugal': 'portugal-front.jpg',
       'south-korea-japan-i': 'japan-front-i.jpg',
-      'south-korea-japan-ii': 'japan-front-ii.jpg'
+      'south-korea-japan-ii': 'japan-front-ii.jpg',
+      'thailand': 'thailand-front.jpg'
     }
-    
+
     const imageFile = imageMap[props.post.slug.toLowerCase()]
     if (imageFile) {
       const imagePath = `/content/posts/travels/images/${imageFile}`
       return imagePath
     }
   }
-  
+
   if (props.type === 'tech') {
     // Map tech post slugs to actual image filenames
     const techImageMap: Record<string, string> = {
@@ -132,14 +133,14 @@ const postImage = computed(() => {
       'upwork-guide': 'upwork_guide.jpg',
       'why-freelance': 'why_freelance_front.jpg'
     }
-    
+
     const imageFile = techImageMap[props.post.slug.toLowerCase()]
     if (imageFile) {
       const imagePath = `/content/posts/tech/images/${imageFile}`
       return imagePath
     }
   }
-  
+
   return null
 })
 
