@@ -35,7 +35,7 @@
         </p>
         <div class="post-meta post-card__meta">
           Posted {{ formatDate(post.date) }}.
-          <strong>{{ post.readTime || '5' }} min read.</strong>
+<!--          <strong>{{ post.readTime || '5' }} min read.</strong>-->
         </div>
         <div
           v-if="post.tags.length"
@@ -115,7 +115,8 @@ const postImage = computed(() => {
       'portugal': 'portugal-front.jpg',
       'south-korea-japan-i': 'japan-front-i.jpg',
       'south-korea-japan-ii': 'japan-front-ii.jpg',
-      'thailand': 'thailand-front.jpg'
+      'thailand': 'thailand-front.jpg',
+      'vietnam-i': 'vietnam-i-front.jpg'
     }
 
     const imageFile = imageMap[props.post.slug.toLowerCase()]
