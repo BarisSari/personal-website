@@ -1,5 +1,5 @@
 ---
-title: 🇹🇭 Sabbatical I - Thailand
+title: 🇹🇭 Sabbatical - Thailand
 date: 2025-10-14
 published: true
 tags: ['Thailand', 'Sabbatical', 'Trip', 'Asia']
@@ -15,7 +15,7 @@ After six years of work and never taking a break longer than a month since unive
 
 ![](https://cdn-images-1.medium.com/max/1200/1*bjFEqLhWtcaMRNhmLJdOzw.jpeg)
 
-**TL;DR**
+### TL;DR
 
 *   **Cash is king**: ATM fee is usually **220–250 THB**. 7‑Eleven is quite common but requires a **minimum 200 THB** for a card payment. Some hotels/cafés add a **3–5%** card fee.
 *   **Getting around**: In Bangkok, **Grab/Bolt** work well; on islands, a **scooter** is the most flexible (only if licensed and experienced). For **taxis/tuk‑tuks**, agree on a price or insist on the meter.
