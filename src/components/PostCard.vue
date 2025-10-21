@@ -116,7 +116,9 @@ const postImage = computed(() => {
       'south-korea-japan-i': 'japan-front-i.jpg',
       'south-korea-japan-ii': 'japan-front-ii.jpg',
       'thailand': 'thailand-front.jpg',
-      'vietnam-i': 'vietnam-i-front.jpg'
+      'vietnam-i': 'vietnam-i-front.jpg',
+      'vietnam-ii': 'vietnam-ii-front.jpg',
+      'vietnam-iii': 'vietnam-iii-front.jpg'
     }
 
     const imageFile = imageMap[props.post.slug.toLowerCase()]

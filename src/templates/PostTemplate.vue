@@ -6,7 +6,7 @@
     :type="type"
     @retry="retry"
   />
-  
+
   <!-- Normal Post Content -->
   <template v-else>
     <!-- Cover Image - At the very top of the page -->
@@ -24,7 +24,7 @@
         :class="`${type}-post__photo-credit`"
         v-html="photoCredit"
       />
-    
+
       <!-- Main Content -->
       <div :class="`${type}-post`">
         <div class="container">
@@ -50,7 +50,7 @@
                   </div>
                 </div>
               </div>
-            
+
             <div
               :class="`${type}-post__content`"
               v-html="renderedContent"
@@ -90,7 +90,7 @@ const md = new MarkdownIt({
 const post = computed(() => {
   const slug = route.params.slug as string
   const foundPost = getPostBySlug(slug, props.type)
-  
+
   if (!foundPost) {
     return {
       title: 'Post Not Found',
@@ -100,7 +100,7 @@ const post = computed(() => {
       slug: ''
     }
   }
-  
+
   return foundPost
 })
 
@@ -109,7 +109,7 @@ watch(post, (newPost) => {
   if (newPost && newPost.title) {
     const blogType = props.type === 'tech' ? 'Tech' : 'Travels'
     document.title = `${newPost.title} - ${blogType} Blog | Baris Sari`
-    
+
     // Check if this is a "not found" post
     if (newPost.title === 'Post Not Found') {
       hasError.value = true
@@ -151,18 +151,18 @@ const photoCredit = computed(() => {
 
 const renderedContent = computed(() => {
   if (!post.value) return ''
-  
+
   const rendered = md.render(post.value.content)
-  
+
   // Fix Medium CDN URLs to use the redirected format
   let fixedRendered = rendered.replace(
-    /https:\/\/cdn-images-1\.medium\.com\/max\/\d+\//g,
-    'https://cdn-images-1.medium.com/v2/resize:fit:1600/'
+    /https:\/\/cdn-images-1\.medium\.com\/max\/(\d+)\//g,
+    'https://cdn-images-1.medium.com/v2/resize:fit:$1/'
   )
-  
+
   // Process GitHub Gist URLs
   fixedRendered = processGistUrls(fixedRendered)
-  
+
   return fixedRendered
 })
 
@@ -179,7 +179,7 @@ const formatDate = (dateString: string) => {
 onMounted(() => {
   // Scroll to top when post loads
   window.scrollTo({ top: 40, behavior: 'smooth' })
-  
+
   // Add error handling for images
   const images = document.querySelectorAll('img')
   images.forEach(img => {
@@ -283,8 +283,17 @@ const retry = () => {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
-      margin: 1rem 0;
+      margin: 1rem auto;
       display: block;
+    }
+
+    :deep(img + em) {
+      display: block;
+      text-align: center;
+      font-style: italic;
+      color: #666;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
     }
 
     :deep(code) {
@@ -332,7 +341,7 @@ const retry = () => {
       text-decoration-color: var(--link-color) !important;
       text-underline-offset: 2px;
       transition: opacity 0.2s ease;
-      
+
       &:hover {
         opacity: 0.7 !important;
         text-decoration: underline !important;
@@ -395,7 +404,7 @@ const retry = () => {
     font-size: 0.875rem;
     color: var(--body-color);
     opacity: 0.8;
-    
+
   }
 
   &__tag {
