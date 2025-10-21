@@ -13,9 +13,9 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: |
-          npm ci --prefer-offline --no-audit
+          yarn install --frozen-lockfile
           # Ensure all dependencies are properly installed
-          npm list eslint
+          yarn list --pattern eslint
       - name: Verify ESLint installation
         run: |
           echo "Node version: $(node --version)"
