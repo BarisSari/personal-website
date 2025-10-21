@@ -37,7 +37,7 @@ By the way, this post kicks off a three-part series. I call it **“The Good, th
 
 ![](https://cdn-images-1.medium.com/max/1200/1*UXVeadWL1LmLjr6kGWNtVQ.jpeg)
 
-Getting in was technically easy: the **E-visa** took three business days, cost **$50**, and the official site worked as promised. Landing in Vietnam, however, was far from gentle. At Hanoi airport, I barely made it out before 10 or 15 fake Grab drivers started all shouting, all insisting they’d take me anywhere. Finding my actual, legitimate car that I booked from booking.com took ages and a lot of “no thanks”. For peace of mind on airport transfers in Hanoi and Ho Chi Minh, booking.com worked, but always double-check prices.
+Getting in was technically easy: the **E-visa** took three business days, cost **$50**, and the official site worked as promised. Landing in Vietnam, however, was far from gentle. At Hanoi airport, I barely made it out before 10 or 15 fake Grab drivers started all shouting, all insisting they’d take me anywhere. Finding my actual, legitimate car that I booked from booking.com took ages and a lot of “no, thanks”. For peace of mind on airport transfers in Hanoi and Ho Chi Minh, booking.com worked, but always double-check prices.
 
 When it came time to actually get to my hotel, things got worse. The **arrivals area** was **chaos**, but the **traffic jam** was even **more chaotic**! By the way, **Grab works** in most airports, but half the time, finding the actual pickup point might take some time.
 
@@ -70,7 +70,7 @@ Airport transfers booked with hotels can be three times the Grab rate. Yes, **my
 
 ![](https://cdn-images-1.medium.com/max/800/1*3JBsE9ujbzrPdXA-3bGkGQ.jpeg)
 
-And don’t get me started on magnets: the same one in Old Town cost 30k at one shop, 100k at another. All logic goes out the window. Even buying a damn water in the same market two days in a row was at different prices! Absurd!
+And don’t get me started on magnets: the same one in Old Town cost 30k at one shop, 100k at another. All logic goes out the window. Even buying damn water in the same market two days in a row was at different prices! Absurd!
 
 ### Getting Around
 
