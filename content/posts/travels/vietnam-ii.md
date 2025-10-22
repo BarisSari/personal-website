@@ -93,6 +93,9 @@ I mentioned a few **scams** in different sections so far, but one of the tourist
 
 It’s wild how the **same problems keep popping up** year after year, but Vietnam seems totally content to just let things roll. **Nothing ever really changes** as far as I heard or read, probably because the tourist numbers keep going up and the country’s getting more popular no matter what. I guess when people keep coming, there’s no real push to fix the chaos or step up the infrastructure. If you’re hoping for things to suddenly get better, good luck. I wouldn’t bet on it.
 
+**Safety resource**:
+*   **[Travel advisories & safety](https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Vietnam.html).**
+
 ### Tours & Activities
 
 ![](https://cdn-images-1.medium.com/max/1200/1*eME1zsc_WT1Z1d5nsiiyYQ.jpeg)
