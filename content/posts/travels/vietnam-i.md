@@ -11,6 +11,13 @@ canonical_url: false
 description: "The sabbatical trip between July 15-September 9, 2025. Second country: traveling north to south in Vietnam."
 ---
 
+**This is Part I of my Vietnam travel series:**
+- **Vietnam I - The Ugly** (you're here)
+- [Vietnam II - The Bad](https://barissari.com/blog/travels/vietnam-ii)
+- [Vietnam III - The Good](https://barissari.com/blog/travels/vietnam-iii)
+
+---
+
 **Three weeks in Vietnam** after two months around Asia, and I’m still convinced this is the most chaotic country I’ve ever set foot in. I **crossed** the whole place from **North to South: over 2000 kilometers**, two domestic flights, two sleeper buses, more motorbike taxis than I want to remember, and five tours for good measure. **Six cities later**, I promise: this isn’t a dreamy “sweet and sour” blog post. The country confuses, impresses, exhausts, surprises, and sometimes terrifies you, often in the same morning. This **wasn’t** a **honeymoon trip**. **It was mostly survival mode**, and here’s what actually happened.
 
 By the way, this post kicks off a three-part series. I call it **“The Good, the Bad, and the Ugly”**, but don’t expect the classic movie order. We’re starting with The Ugly, moving on to The Bad, and finally, saving The Good for last.
@@ -107,7 +114,7 @@ _Disclaimer:_ Vietnamese traffic is next level. The number of motorbikes is hone
 
 In summary, **the entire transit experience, every arrival, every street crossing, every booking, and ride was a total mess.** You’re always anxious, always negotiating your way through motorbikes, scams, or taxi hustlers. Of course, it changes insanely of your trip and experience. No filters, that’s exactly how it was! By the end of each day, I was mentally drained. Vietnam demanded all my patience and pushed my limits.
 
-If you think it’s all the mess and done, wait for part II! **It gets weird in new ways.**
+If you think it’s all the mess and done, wait for part II! **[It gets weird in new ways.](https://barissari.com/blog/travels/vietnam-ii)**
 
 ![](https://cdn-images-1.medium.com/max/1200/1*aoAK2ahM851_HMXRBj_55A.jpeg)
 

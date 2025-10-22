@@ -11,6 +11,13 @@ canonical_url: false
 description: "The sabbatical trip between July 15-September 9, 2025. Second country: traveling north to south in Vietnam."
 ---
 
+**This is Part II of my Vietnam travel series:**
+- [Vietnam I - The Ugly](https://barissari.com/blog/travels/vietnam-i)
+- **Vietnam II - The Bad** (you're here)
+- [Vietnam III - The Good](https://barissari.com/blog/travels/vietnam-iii)
+
+---
+
 If you think Vietnam is all cheap beer and scenic hikes or rides, think again. This country hands you curveballs, chaos, and tourist traps on a daily basis. Welcome to round two: **“The Bad.”**
 
 ### Accommodation & Booking
@@ -135,4 +142,4 @@ One tour day, we reach the famous Water Pavilion in Trang An. I’ve taken great
 
 ![](https://cdn-images-1.medium.com/max/1200/1*pADlN5AuZcytKpLMsGfHlw.jpeg)
 
-**Vietnam tested my patience, sense of humor, non-verbal communication, and my digestive system.** But even a place that wears you out eventually gives in and hands you a few wins with epic tours, nature and food. Stay tuned for the final round.
+**Vietnam tested my patience, sense of humor, non-verbal communication, and my digestive system.** But even a place that wears you out eventually gives in and hands you a few wins with epic tours, nature and food. [Stay tuned for the final round.](https://barissari.com/blog/travels/vietnam-iii)

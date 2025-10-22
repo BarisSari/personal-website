@@ -11,6 +11,13 @@ canonical_url: false
 description: "The sabbatical trip between July 15-September 9, 2025. Second country: traveling north to south in Vietnam."
 ---
 
+**This is Part III of my Vietnam travel series:**
+- [Vietnam I - The Ugly](https://barissari.com/blog/travels/vietnam-i)
+- [Vietnam II - The Bad](https://barissari.com/blog/travels/vietnam-ii)
+- **Vietnam III - The Good** (you're here)
+
+---
+
 It’s not all madness, scams, and lost hotel bookings. If you stick around long enough (and survive the total mess), Vietnam gives you real moments: totally unexpected kindness, wild landscapes, ridiculous coincidences, and perfect food. This is where it finally started to feel right.
 
 ![](https://cdn-images-1.medium.com/max/1200/1*IOOrZnwVwKuPIUPqj-mWfw.jpeg)
