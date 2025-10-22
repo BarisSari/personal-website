@@ -6,7 +6,7 @@ tags: ['Vietnam', 'Sabbatical', 'Trip', 'Asia']
 series: true
 cover_image: ../images/vietnam-iii-front.jpg
 photographer: '<a href="https://unsplash.com/@barissari" target="_blank" rel="nofollow noopener noreferrer">me :)</a>'
-image_link: '<a href="https://unsplash.com/photos/h16_8uhhJxc" target="_blank" rel="nofollow noopener noreferrer">Unsplash</a>'
+image_link: '<a href="https://unsplash.com/photos/two-women-walk-along-a-path-by-a-lake-ofH-btBmQ70" target="_blank" rel="nofollow noopener noreferrer">Unsplash</a>'
 canonical_url: false
 description: "The sabbatical trip between July 15-September 9, 2025. Second country: traveling north to south in Vietnam."
 ---
@@ -29,6 +29,9 @@ It’s not all madness, scams, and lost hotel bookings. If you stick around long
 
 ![](https://cdn-images-1.medium.com/max/600/1*KpDJ5voa9srP7_V5rgRmCQ.jpeg)
 _Beef Pho_
+
+![](https://cdn-images-1.medium.com/max/600/1*csCCh9S8zyCzMeRyCJWLAQ.jpeg)
+_Vietnamese pancake_
 
 ![](https://cdn-images-1.medium.com/max/600/1*D4-Jy8moZUXVbLwHImSOSA.jpeg)
 _Clay pot dishes_
