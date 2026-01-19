@@ -20,7 +20,7 @@
     "markdown-it": "^14.0.0",
     "vue": "^3.4.0",
     "vue-gtag": "^2.0.1",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.6.4"
   },
   "devDependencies": {
     "@types/markdown-it": "^14.1.2",
