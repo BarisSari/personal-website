@@ -17,7 +17,7 @@
     "bootstrap-vue-3": "^0.1.0",
     "glob": "^10.3.10",
     "gray-matter": "^4.0.3",
-    "markdown-it": "^14.0.0",
+    "markdown-it": "^14.1.1",
     "vue": "^3.4.0",
     "vue-gtag": "^2.0.1",
     "vue-router": "^4.2.5"
